@@ -1,0 +1,93 @@
+{
+  "scope": "Exploratory, no active controller. Failures remain visible and do not certify G1 skills.",
+  "results": [
+    {
+      "course": "single_bump",
+      "initial_x": 10,
+      "initial_speed": 4,
+      "duration": 2,
+      "payload_mass_kg": 18,
+      "payload_inertia": "binding inertia unchanged; free passive load fixture, not robot body",
+      "min_contact_distance_m": -0.0032448844094569045,
+      "peak_normal_force_N": 10296.126192457987,
+      "final_position": [
+        20.038589914443403,
+        0.6355013145601025,
+        0.27392002115470565
+      ],
+      "airborne_samples": 604,
+      "after_lip_air_x_extent": [],
+      "recontact_samples": 1396,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "penetration_screen_pass": true
+    },
+    {
+      "course": "moguls_regular",
+      "initial_x": 8,
+      "initial_speed": 4,
+      "duration": 5,
+      "payload_mass_kg": 18,
+      "payload_inertia": "binding inertia unchanged; free passive load fixture, not robot body",
+      "min_contact_distance_m": -0.04970369519106651,
+      "peak_normal_force_N": 198068.15355101248,
+      "final_position": [
+        18.640574324022975,
+        2.132284945991331,
+        -1.4869535722048306
+      ],
+      "airborne_samples": 811,
+      "after_lip_air_x_extent": [],
+      "recontact_samples": 4189,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "penetration_screen_pass": false
+    },
+    {
+      "course": "tabletop_small",
+      "initial_x": 18,
+      "initial_speed": 6,
+      "duration": 2,
+      "payload_mass_kg": 18,
+      "payload_inertia": "binding inertia unchanged; free passive load fixture, not robot body",
+      "min_contact_distance_m": -0.005818037569708665,
+      "peak_normal_force_N": 14120.021425184395,
+      "final_position": [
+        20.175068150876893,
+        -0.10988501086883123,
+        0.7020014484898581
+      ],
+      "airborne_samples": 32,
+      "after_lip_air_x_extent": [],
+      "recontact_samples": 1961,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "penetration_screen_pass": true
+    }
+  ],
+  "assessment": "Loaded free-ski moguls exceed the 25 mm penetration screen. The high-slope tabletop fixture does not reach the lip, so it does not validate takeoff. Full M0 / course dynamics are not accepted. Diagnose posture, payload inertia, collision and dt before training."
+}

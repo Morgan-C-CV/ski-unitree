@@ -1,0 +1,37 @@
+{
+  "name": "plane_30",
+  "kind": "plane",
+  "angle": 30,
+  "length": 100,
+  "width": 40,
+  "dx": 0,
+  "dy": 0,
+  "slope_group": "high",
+  "slope_group_range_deg": [
+    20,
+    40
+  ],
+  "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+  "z_origin": 0,
+  "triangles": 0,
+  "gates": [],
+  "material_id": "packed_snow_v1",
+  "spawn_xy": [
+    2,
+    0
+  ],
+  "finish_x": 97,
+  "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+  "region_intervals": [
+    [
+      0,
+      82,
+      "approach"
+    ],
+    [
+      82,
+      100,
+      "runout"
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": "env-v1.1-slope-groups",
+  "seed": 20260908,
+  "units": "m, kg, s, rad; world +X downhill, +Z up; ski +X tip",
+  "physics": {"mujoco": "3.3.7", "timestep": 0.001, "solver": "Newton", "integrator": "implicitfast", "cone": "elliptic", "iterations": 80, "tolerance": 1e-9, "mu_parallel": 0.05, "mu_flat": 0.08, "mu_edge": 0.6, "edge_on_deg": 5, "edge_full_deg": 35, "solref": [0.012, 1], "solimp": [0.9, 0.95, 0.002]},
+  "ski": {"length": 1.4, "segments": 7, "width_tip": 0.112, "width_waist": 0.078, "width_tail": 0.106, "thickness": 0.012, "tip_rise": 0.065, "tail_rise": 0.05, "camber": 0.004, "blade_mass": 1.0, "binding_mass": 0.25, "EI": 65, "hinge_damping": 0.8, "hinge_limit": 0.3, "binding_x": 0.0, "torsion": "locked", "contact_radius": 0.002},
+  "splits": {"train": [20260908, 20260909, 20260910], "validation": [20261001], "test": [20261101]},
+  "acceptance": {"ray_height_error_m": 0.00002, "terrain_height_error_m": 0.004, "terrain_normal_error_deg": 4, "dt_velocity_relative": 0.05, "landing_impulse_relative": 0.1},
+  "provenance": "All ski/snow and course values are explicit engineering starting assumptions, not calibrated snow or certified competition specifications."
+}

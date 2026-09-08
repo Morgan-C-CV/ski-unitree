@@ -1,0 +1,82 @@
+<mujoco model="piste_high">
+  <compiler angle="radian" autolimits="true" />
+  <option timestep="0.001" gravity="0 0 -9.81" integrator="implicitfast" solver="Newton" cone="elliptic" iterations="80" tolerance="1e-09" />
+  <visual>
+    <global offwidth="1400" offheight="1000" />
+    <headlight ambient=".32 .34 .36" diffuse=".38 .38 .38" specular=".05 .05 .05" />
+    <quality shadowsize="2048" />
+  </visual>
+  <asset>
+    <texture name="sky" type="skybox" builtin="gradient" rgb1=".30 .52 .73" rgb2=".86 .92 .97" width="128" height="768" />
+    <material name="snow" rgba=".84 .91 .97 1" specular=".18" shininess=".2" />
+    <material name="ski_blue" rgba=".02 .25 .46 1" specular=".18" shininess=".2" />
+    <material name="ski_orange" rgba="1 .32 .055 1" specular=".18" shininess=".2" />
+    <material name="edge" rgba=".25 .32 .37 1" specular=".18" shininess=".2" />
+    <material name="binding" rgba=".08 .10 .13 1" specular=".18" shininess=".2" />
+    <material name="red" rgba=".95 .09 .12 1" specular=".18" shininess=".2" />
+    <material name="blue" rgba=".04 .3 .85 1" specular=".18" shininess=".2" />
+    <hfield name="terrain" file="../terrain/piste_high.bin" size="50 16 49.39445958 0.5" />
+  </asset>
+  <worldbody>
+    <light directional="true" pos="0 0 30" dir=".2 1 -.45" diffuse=".95 .94 .92" />
+    <geom name="snow_surface" type="hfield" hfield="terrain" pos="50 0 -41.39445958" material="snow" contype="1" conaffinity="6" condim="3" friction=".05 .0 .0" solref="0.012 1" solimp="0.9 0.95 0.002" margin="0" gap="0" />
+    <geom name="gate_0_0" type="cylinder" pos="16 0.5 0.87872022" size=".018 .7" material="red" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="16 0.66 1.29872022" size=".008 .16 .16" material="red" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_0_1" type="cylinder" pos="16 5.5 0.87872022" size=".018 .7" material="red" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="16 5.34 1.29872022" size=".008 .16 .16" material="red" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_1_0" type="cylinder" pos="24 -5.5 -4.065600301" size=".018 .7" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="24 -5.34 -3.645600301" size=".008 .16 .16" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_1_1" type="cylinder" pos="24 -0.5 -4.065600301" size=".018 .7" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="24 -0.66 -3.645600301" size=".008 .16 .16" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_2_0" type="cylinder" pos="32 0.5 -8.607897438" size=".018 .7" material="red" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="32 0.66 -8.187897438" size=".008 .16 .16" material="red" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_2_1" type="cylinder" pos="32 5.5 -8.607897438" size=".018 .7" material="red" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="32 5.34 -8.187897438" size=".008 .16 .16" material="red" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_3_0" type="cylinder" pos="40 -5.5 -12.50072588" size=".018 .7" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="40 -5.34 -12.08072588" size=".008 .16 .16" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_3_1" type="cylinder" pos="40 -0.5 -12.50072588" size=".018 .7" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="40 -0.66 -12.08072588" size=".008 .16 .16" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_4_0" type="cylinder" pos="48 0.5 -16.55372458" size=".018 .7" material="red" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="48 0.66 -16.13372458" size=".008 .16 .16" material="red" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_4_1" type="cylinder" pos="48 5.5 -16.55372458" size=".018 .7" material="red" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="48 5.34 -16.13372458" size=".008 .16 .16" material="red" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_5_0" type="cylinder" pos="56 -5.5 -21.89687305" size=".018 .7" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="56 -5.34 -21.47687305" size=".008 .16 .16" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_5_1" type="cylinder" pos="56 -0.5 -21.89687305" size=".018 .7" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="56 -0.66 -21.47687305" size=".008 .16 .16" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_6_0" type="cylinder" pos="64 0.5 -28.0614037" size=".018 .7" material="red" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="64 0.66 -27.6414037" size=".008 .16 .16" material="red" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_6_1" type="cylinder" pos="64 5.5 -28.0614037" size=".018 .7" material="red" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="64 5.34 -27.6414037" size=".008 .16 .16" material="red" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_7_0" type="cylinder" pos="72 -5.5 -33.47949962" size=".018 .7" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="72 -5.34 -33.05949962" size=".008 .16 .16" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom name="gate_7_1" type="cylinder" pos="72 -0.5 -33.47949962" size=".018 .7" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="box" pos="72 -0.66 -33.05949962" size=".008 .16 .16" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="2 -15.7 7.187751529 2 -15.7 7.837751529" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="2 15.7 7.187751529 2 15.7 7.837751529" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="10 -15.7 3.54565688 10 -15.7 4.19565688" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="10 15.7 3.54565688 10 15.7 4.19565688" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="18 -15.7 -1.043413093 18 -15.7 -0.393413093" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="18 15.7 -1.043413093 18 15.7 -0.393413093" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="26 -15.7 -5.965392071 26 -15.7 -5.315392071" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="26 15.7 -5.965392071 26 15.7 -5.315392071" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="34 -15.7 -10.33010011 34 -15.7 -9.680100112" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="34 15.7 -10.33010011 34 15.7 -9.680100112" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="42 -15.7 -14.13932578 42 -15.7 -13.48932578" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="42 15.7 -14.13932578 42 15.7 -13.48932578" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="50 -15.7 -18.45438615 50 -15.7 -17.80438615" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="50 15.7 -18.45438615 50 15.7 -17.80438615" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="58 -15.7 -24.12007205 58 -15.7 -23.47007205" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="58 15.7 -24.12007205 58 15.7 -23.47007205" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="66 -15.7 -30.23484791 66 -15.7 -29.58484791" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="66 15.7 -30.23484791 66 15.7 -29.58484791" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="74 -15.7 -35.31562447 74 -15.7 -34.66562447" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="74 15.7 -35.31562447 74 15.7 -34.66562447" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="82 -15.7 -39.16831615 82 -15.7 -38.51831615" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="82 15.7 -39.16831615 82 15.7 -38.51831615" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="90 -15.7 -41.36240312 90 -15.7 -40.71240312" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="90 15.7 -41.36240312 90 15.7 -40.71240312" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="98 -15.7 -41.39445958 98 -15.7 -40.74445958" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="98 15.7 -41.39445958 98 15.7 -40.74445958" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+  </worldbody>
+</mujoco>

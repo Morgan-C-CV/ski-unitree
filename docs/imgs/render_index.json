@@ -1,0 +1,620 @@
+{
+  "renderer": "MuJoCo 3.3.7",
+  "source_manifest": "../../assets/env/manifest.json",
+  "note": "Native MuJoCo geometry renders. Shadow mapping disabled only for visualization. All robot poses are initial states; no trained policy or successful skill is implied.",
+  "assets": [
+    {
+      "file": "asset_ski_single.png",
+      "scene": "ski_single",
+      "label": "SINGLE SKI | 7 segments / 6 passive joints",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          0.0,
+          0.0,
+          0.12
+        ],
+        "distance": 1.95,
+        "azimuth": 110,
+        "elevation": -40
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "asset_ski_pair.png",
+      "scene": "ski_pair",
+      "label": "TWIN-TIP SKIS | distributed base and edge contacts",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          0.0,
+          0.0,
+          0.12
+        ],
+        "distance": 2.35,
+        "azimuth": 115,
+        "elevation": -48
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "asset_g1_plane_00.png",
+      "scene": "g1_plane_00",
+      "label": "OFFICIAL G1 + SKIS | 29 actuators / 12 passive joints",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          2.0,
+          0.0,
+          0.65
+        ],
+        "distance": 3.15,
+        "azimuth": 135,
+        "elevation": -20
+      },
+      "render_shadows": false
+    }
+  ],
+  "environments": [
+    {
+      "file": "env_plane_00.png",
+      "scene": "g1_plane_00",
+      "label": "LOW | plane_00 | nominal base 0 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          2.0,
+          0.0,
+          0.5
+        ],
+        "distance": 6,
+        "azimuth": 100,
+        "elevation": -25
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_plane_05.png",
+      "scene": "g1_plane_05",
+      "label": "LOW | plane_05 | nominal base 5 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          2.0,
+          0.0,
+          0.325022672948152
+        ],
+        "distance": 6,
+        "azimuth": 100,
+        "elevation": -25
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_plane_10.png",
+      "scene": "g1_plane_10",
+      "label": "LOW | plane_10 | nominal base 10 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          2.0,
+          0.0,
+          0.14734603858307005
+        ],
+        "distance": 6,
+        "azimuth": 100,
+        "elevation": -25
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_plane_15.png",
+      "scene": "g1_plane_15",
+      "label": "MEDIUM | plane_15 | nominal base 15 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          2.0,
+          0.0,
+          -0.03589838486224539
+        ],
+        "distance": 6,
+        "azimuth": 100,
+        "elevation": -25
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_plane_20.png",
+      "scene": "g1_plane_20",
+      "label": "MEDIUM | plane_20 | nominal base 20 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          2.0,
+          0.0,
+          -0.22794046853240468
+        ],
+        "distance": 6,
+        "azimuth": 100,
+        "elevation": -25
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_plane_25.png",
+      "scene": "g1_plane_25",
+      "label": "HIGH | plane_25 | nominal base 25 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          2.0,
+          0.0,
+          -0.4326153163099973
+        ],
+        "distance": 6,
+        "azimuth": 100,
+        "elevation": -25
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_plane_30.png",
+      "scene": "g1_plane_30",
+      "label": "HIGH | plane_30 | nominal base 30 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          2.0,
+          0.0,
+          -0.6547005383792512
+        ],
+        "distance": 6,
+        "azimuth": 100,
+        "elevation": -25
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_plane_35.png",
+      "scene": "g1_plane_35",
+      "label": "HIGH | plane_35 | nominal base 35 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          2.0,
+          0.0,
+          -0.9004150764194194
+        ],
+        "distance": 6,
+        "azimuth": 100,
+        "elevation": -25
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_plane_40.png",
+      "scene": "g1_plane_40",
+      "label": "HIGH | plane_40 | nominal base 40 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          2.0,
+          0.0,
+          -1.1781992623545599
+        ],
+        "distance": 6,
+        "azimuth": 100,
+        "elevation": -25
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_piste_low.png",
+      "scene": "piste_low",
+      "label": "LOW | piste_low | nominal base 5 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          50.0,
+          0.0,
+          3.3423309890630506
+        ],
+        "distance": 110.00000000000001,
+        "azimuth": 125,
+        "elevation": -54
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_carving_gates.png",
+      "scene": "carving_gates",
+      "label": "MEDIUM | carving_gates | nominal base 15 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          50.0,
+          0.0,
+          -5.454059848243345
+        ],
+        "distance": 110.00000000000001,
+        "azimuth": 125,
+        "elevation": -54
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_piste_high.png",
+      "scene": "piste_high",
+      "label": "HIGH | piste_high | nominal base 28 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          50.0,
+          0.0,
+          -18.45438628789419
+        ],
+        "distance": 110.00000000000001,
+        "azimuth": 125,
+        "elevation": -54
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_cross_slope.png",
+      "scene": "cross_slope",
+      "label": "MEDIUM | cross_slope | nominal base 16 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          30.0,
+          0.0,
+          -0.5963854438614207
+        ],
+        "distance": 66.0,
+        "azimuth": 125,
+        "elevation": -54
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_single_bump.png",
+      "scene": "single_bump",
+      "label": "HIGH | single_bump | nominal base 22 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          14.0,
+          0.0,
+          2.7799425549886863
+        ],
+        "distance": 10,
+        "azimuth": 135,
+        "elevation": -52
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_bump_row.png",
+      "scene": "bump_row",
+      "label": "HIGH | bump_row | nominal base 25 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          20.0,
+          0.0,
+          -0.8358422133294088
+        ],
+        "distance": 31,
+        "azimuth": 135,
+        "elevation": -52
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_moguls_regular.png",
+      "scene": "moguls_regular",
+      "label": "HIGH | moguls_regular | nominal base 28 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          20.0,
+          0.0,
+          -2.0981240802128394
+        ],
+        "distance": 31,
+        "azimuth": 135,
+        "elevation": -52
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_moguls_seeded.png",
+      "scene": "moguls_seeded",
+      "label": "HIGH | moguls_seeded | nominal base 35 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          20.0,
+          0.0,
+          -5.431623576618641
+        ],
+        "distance": 31,
+        "azimuth": 135,
+        "elevation": -52
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_tabletop_small.png",
+      "scene": "tabletop_small",
+      "label": "HIGH | tabletop_small | nominal base 22 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          24.0,
+          0.0,
+          0.7565884137135734
+        ],
+        "distance": 32,
+        "azimuth": 100,
+        "elevation": -42
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_tabletop_medium.png",
+      "scene": "tabletop_medium",
+      "label": "HIGH | tabletop_medium | nominal base 28 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          24.0,
+          0.0,
+          -1.4960420189808268
+        ],
+        "distance": 32,
+        "azimuth": 100,
+        "elevation": -42
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "env_tabletop_steep.png",
+      "scene": "tabletop_steep",
+      "label": "HIGH | tabletop_steep | nominal base 35 deg",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          24.0,
+          0.0,
+          -4.637120212921673
+        ],
+        "distance": 32,
+        "azimuth": 100,
+        "elevation": -42
+      },
+      "render_shadows": false
+    }
+  ],
+  "training_initializations": [
+    {
+      "file": "training_piste_low.png",
+      "scene": "g1_piste_low",
+      "label": "G1 INITIALIZATION | piste_low | static scene, not trained motion",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          9.0,
+          0.0,
+          8.036531135650149
+        ],
+        "distance": 29,
+        "azimuth": 135,
+        "elevation": -47
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "training_carving_gates.png",
+      "scene": "g1_carving_gates",
+      "label": "G1 INITIALIZATION | carving_gates | static scene, not trained motion",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          9.0,
+          0.0,
+          6.428285335900636
+        ],
+        "distance": 29,
+        "azimuth": 135,
+        "elevation": -47
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "training_piste_high.png",
+      "scene": "g1_piste_high",
+      "label": "G1 INITIALIZATION | piste_high | static scene, not trained motion",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          9.0,
+          0.0,
+          4.551835706239949
+        ],
+        "distance": 29,
+        "azimuth": 135,
+        "elevation": -47
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "training_moguls_regular.png",
+      "scene": "g1_moguls_regular",
+      "label": "G1 INITIALIZATION | moguls_regular | static scene, not trained motion",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          9.0,
+          0.0,
+          3.853760574228163
+        ],
+        "distance": 29,
+        "azimuth": 135,
+        "elevation": -47
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "training_tabletop_small.png",
+      "scene": "g1_tabletop_small",
+      "label": "G1 INITIALIZATION | tabletop_small | static scene, not trained motion",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          12.0,
+          0.0,
+          3.9111896344204027
+        ],
+        "distance": 38,
+        "azimuth": 135,
+        "elevation": -47
+      },
+      "render_shadows": false
+    },
+    {
+      "file": "training_tabletop_steep.png",
+      "scene": "g1_tabletop_steep",
+      "label": "G1 INITIALIZATION | tabletop_steep | static scene, not trained motion",
+      "size": [
+        1280,
+        910
+      ],
+      "state": "MJCF initial state / ski_start keyframe; no policy rollout",
+      "camera": {
+        "lookat": [
+          12.0,
+          0.0,
+          0.4257999157483727
+        ],
+        "distance": 38,
+        "azimuth": 135,
+        "elevation": -47
+      },
+      "render_shadows": false
+    }
+  ]
+}

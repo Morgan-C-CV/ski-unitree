@@ -1,0 +1,7631 @@
+{
+  "engine": "3.3.7",
+  "platform": "macOS-15.7.4-arm64-arm-64bit",
+  "checks": [
+    {
+      "name": "plane_00_ray_query",
+      "passed": true,
+      "max_error_m": 0.0
+    },
+    {
+      "name": "plane_00_bounds",
+      "passed": true
+    },
+    {
+      "name": "plane_00_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "plane_00_slope_group",
+      "passed": true
+    },
+    {
+      "name": "plane_05_ray_query",
+      "passed": true,
+      "max_error_m": 2.3261614856551205e-10
+    },
+    {
+      "name": "plane_05_bounds",
+      "passed": true
+    },
+    {
+      "name": "plane_05_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "plane_05_slope_group",
+      "passed": true
+    },
+    {
+      "name": "plane_10_ray_query",
+      "passed": true,
+      "max_error_m": 9.959233437939474e-11
+    },
+    {
+      "name": "plane_10_bounds",
+      "passed": true
+    },
+    {
+      "name": "plane_10_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "plane_10_slope_group",
+      "passed": true
+    },
+    {
+      "name": "plane_15_ray_query",
+      "passed": true,
+      "max_error_m": 1.4843353213223054e-09
+    },
+    {
+      "name": "plane_15_bounds",
+      "passed": true
+    },
+    {
+      "name": "plane_15_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "plane_15_slope_group",
+      "passed": true
+    },
+    {
+      "name": "plane_20_ray_query",
+      "passed": true,
+      "max_error_m": 2.3457484843447673e-09
+    },
+    {
+      "name": "plane_20_bounds",
+      "passed": true
+    },
+    {
+      "name": "plane_20_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "plane_20_slope_group",
+      "passed": true
+    },
+    {
+      "name": "plane_25_ray_query",
+      "passed": true,
+      "max_error_m": 2.3968844686805824e-09
+    },
+    {
+      "name": "plane_25_bounds",
+      "passed": true
+    },
+    {
+      "name": "plane_25_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "plane_25_slope_group",
+      "passed": true
+    },
+    {
+      "name": "plane_30_ray_query",
+      "passed": true,
+      "max_error_m": 4.2077985540345253e-10
+    },
+    {
+      "name": "plane_30_bounds",
+      "passed": true
+    },
+    {
+      "name": "plane_30_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "plane_30_slope_group",
+      "passed": true
+    },
+    {
+      "name": "plane_35_ray_query",
+      "passed": true,
+      "max_error_m": 9.31883903376729e-10
+    },
+    {
+      "name": "plane_35_bounds",
+      "passed": true
+    },
+    {
+      "name": "plane_35_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "plane_35_slope_group",
+      "passed": true
+    },
+    {
+      "name": "plane_40_ray_query",
+      "passed": true,
+      "max_error_m": 2.936872078862507e-09
+    },
+    {
+      "name": "plane_40_bounds",
+      "passed": true
+    },
+    {
+      "name": "plane_40_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "plane_40_slope_group",
+      "passed": true
+    },
+    {
+      "name": "piste_low_ray_query",
+      "passed": true,
+      "max_error_m": 3.290905326025495e-10
+    },
+    {
+      "name": "piste_low_resolution",
+      "passed": true,
+      "height_error_m": 0.00024723453141639595,
+      "normal_error_deg": 0.11177329316278667
+    },
+    {
+      "name": "piste_low_bounds",
+      "passed": true
+    },
+    {
+      "name": "piste_low_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "piste_low_slope_group",
+      "passed": true
+    },
+    {
+      "name": "piste_low_variable_slope",
+      "passed": true
+    },
+    {
+      "name": "piste_low_base_profile_in_group",
+      "passed": true
+    },
+    {
+      "name": "carving_gates_ray_query",
+      "passed": true,
+      "max_error_m": 8.439258181169862e-10
+    },
+    {
+      "name": "carving_gates_resolution",
+      "passed": true,
+      "height_error_m": 0.0008995763639987331,
+      "normal_error_deg": 0.3721829557190756
+    },
+    {
+      "name": "carving_gates_bounds",
+      "passed": true
+    },
+    {
+      "name": "carving_gates_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "carving_gates_slope_group",
+      "passed": true
+    },
+    {
+      "name": "carving_gates_variable_slope",
+      "passed": true
+    },
+    {
+      "name": "carving_gates_base_profile_in_group",
+      "passed": true
+    },
+    {
+      "name": "piste_high_ray_query",
+      "passed": true,
+      "max_error_m": 1.2157244100308162e-09
+    },
+    {
+      "name": "piste_high_resolution",
+      "passed": true,
+      "height_error_m": 0.002053254853301212,
+      "normal_error_deg": 0.903781568832936
+    },
+    {
+      "name": "piste_high_bounds",
+      "passed": true
+    },
+    {
+      "name": "piste_high_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "piste_high_slope_group",
+      "passed": true
+    },
+    {
+      "name": "piste_high_variable_slope",
+      "passed": true
+    },
+    {
+      "name": "piste_high_base_profile_in_group",
+      "passed": true
+    },
+    {
+      "name": "cross_slope_ray_query",
+      "passed": true,
+      "max_error_m": 1.9965424868928494e-09
+    },
+    {
+      "name": "cross_slope_resolution",
+      "passed": true,
+      "height_error_m": 0.0004029663469635736,
+      "normal_error_deg": 0.4199737211252311
+    },
+    {
+      "name": "cross_slope_bounds",
+      "passed": true
+    },
+    {
+      "name": "cross_slope_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "cross_slope_slope_group",
+      "passed": true
+    },
+    {
+      "name": "cross_slope_variable_slope",
+      "passed": true
+    },
+    {
+      "name": "cross_slope_base_profile_in_group",
+      "passed": true
+    },
+    {
+      "name": "single_bump_ray_query",
+      "passed": true,
+      "max_error_m": 3.990508368190149e-09
+    },
+    {
+      "name": "single_bump_resolution",
+      "passed": true,
+      "height_error_m": 0.0012910901087566096,
+      "normal_error_deg": 1.1946777370884156
+    },
+    {
+      "name": "single_bump_bounds",
+      "passed": true
+    },
+    {
+      "name": "single_bump_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "single_bump_slope_group",
+      "passed": true
+    },
+    {
+      "name": "single_bump_high_group_only",
+      "passed": true
+    },
+    {
+      "name": "single_bump_variable_slope",
+      "passed": true
+    },
+    {
+      "name": "single_bump_base_profile_in_group",
+      "passed": true
+    },
+    {
+      "name": "bump_row_ray_query",
+      "passed": true,
+      "max_error_m": 9.9117691831907e-10
+    },
+    {
+      "name": "bump_row_resolution",
+      "passed": true,
+      "height_error_m": 0.001413770056770458,
+      "normal_error_deg": 1.9510980228228443
+    },
+    {
+      "name": "bump_row_bounds",
+      "passed": true
+    },
+    {
+      "name": "bump_row_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "bump_row_slope_group",
+      "passed": true
+    },
+    {
+      "name": "bump_row_high_group_only",
+      "passed": true
+    },
+    {
+      "name": "bump_row_variable_slope",
+      "passed": true
+    },
+    {
+      "name": "bump_row_base_profile_in_group",
+      "passed": true
+    },
+    {
+      "name": "moguls_regular_ray_query",
+      "passed": true,
+      "max_error_m": 1.4212684362746586e-09
+    },
+    {
+      "name": "moguls_regular_resolution",
+      "passed": true,
+      "height_error_m": 0.0025502092781777286,
+      "normal_error_deg": 2.9961813742592964
+    },
+    {
+      "name": "moguls_regular_bounds",
+      "passed": true
+    },
+    {
+      "name": "moguls_regular_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "moguls_regular_slope_group",
+      "passed": true
+    },
+    {
+      "name": "moguls_regular_high_group_only",
+      "passed": true
+    },
+    {
+      "name": "moguls_regular_variable_slope",
+      "passed": true
+    },
+    {
+      "name": "moguls_regular_base_profile_in_group",
+      "passed": true
+    },
+    {
+      "name": "moguls_seeded_ray_query",
+      "passed": true,
+      "max_error_m": 3.2929499127476447e-09
+    },
+    {
+      "name": "moguls_seeded_resolution",
+      "passed": true,
+      "height_error_m": 0.0026999511208818383,
+      "normal_error_deg": 2.5046916285713863
+    },
+    {
+      "name": "moguls_seeded_bounds",
+      "passed": true
+    },
+    {
+      "name": "moguls_seeded_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "moguls_seeded_slope_group",
+      "passed": true
+    },
+    {
+      "name": "moguls_seeded_high_group_only",
+      "passed": true
+    },
+    {
+      "name": "moguls_seeded_variable_slope",
+      "passed": true
+    },
+    {
+      "name": "moguls_seeded_base_profile_in_group",
+      "passed": true
+    },
+    {
+      "name": "tabletop_small_ray_query",
+      "passed": true,
+      "max_error_m": 2.986814351402245e-09
+    },
+    {
+      "name": "tabletop_small_resolution",
+      "passed": true,
+      "height_error_m": 0.0004129697907206964,
+      "normal_error_deg": 0.8276949583425981
+    },
+    {
+      "name": "tabletop_small_bounds",
+      "passed": true
+    },
+    {
+      "name": "tabletop_small_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "tabletop_small_slope_group",
+      "passed": true
+    },
+    {
+      "name": "tabletop_small_high_group_only",
+      "passed": true
+    },
+    {
+      "name": "tabletop_small_variable_slope",
+      "passed": true
+    },
+    {
+      "name": "tabletop_small_base_profile_in_group",
+      "passed": true
+    },
+    {
+      "name": "tabletop_medium_ray_query",
+      "passed": true,
+      "max_error_m": 9.970069214659816e-10
+    },
+    {
+      "name": "tabletop_medium_resolution",
+      "passed": true,
+      "height_error_m": 0.0005108247994607407,
+      "normal_error_deg": 1.047102794936443
+    },
+    {
+      "name": "tabletop_medium_bounds",
+      "passed": true
+    },
+    {
+      "name": "tabletop_medium_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "tabletop_medium_slope_group",
+      "passed": true
+    },
+    {
+      "name": "tabletop_medium_high_group_only",
+      "passed": true
+    },
+    {
+      "name": "tabletop_medium_variable_slope",
+      "passed": true
+    },
+    {
+      "name": "tabletop_medium_base_profile_in_group",
+      "passed": true
+    },
+    {
+      "name": "tabletop_steep_ray_query",
+      "passed": true,
+      "max_error_m": 6.595897161787434e-10
+    },
+    {
+      "name": "tabletop_steep_resolution",
+      "passed": true,
+      "height_error_m": 0.0006041750474201635,
+      "normal_error_deg": 0.996002436640661
+    },
+    {
+      "name": "tabletop_steep_bounds",
+      "passed": true
+    },
+    {
+      "name": "tabletop_steep_no_duplicate_support",
+      "passed": true
+    },
+    {
+      "name": "tabletop_steep_slope_group",
+      "passed": true
+    },
+    {
+      "name": "tabletop_steep_high_group_only",
+      "passed": true
+    },
+    {
+      "name": "tabletop_steep_variable_slope",
+      "passed": true
+    },
+    {
+      "name": "tabletop_steep_base_profile_in_group",
+      "passed": true
+    },
+    {
+      "name": "gates_direction_and_opening",
+      "passed": true
+    },
+    {
+      "name": "ballistic_lands_on_landing",
+      "passed": true
+    },
+    {
+      "name": "slide_0.000_along",
+      "passed": true,
+      "speed_after_half_second": 1.7574156758529802
+    },
+    {
+      "name": "slide_0.000_across",
+      "passed": true,
+      "speed_after_half_second": 1.5873738169166471
+    },
+    {
+      "name": "slide_1.571_along",
+      "passed": true,
+      "speed_after_half_second": 1.7574156758529744
+    },
+    {
+      "name": "slide_1.571_across",
+      "passed": true,
+      "speed_after_half_second": 1.5873738169166427
+    },
+    {
+      "name": "90_degree_covariance",
+      "passed": true
+    },
+    {
+      "name": "finite_anisotropic_drag",
+      "passed": true
+    },
+    {
+      "name": "flight_zero_contacts_0.001",
+      "passed": true
+    },
+    {
+      "name": "loaded_drop_0.001",
+      "passed": true,
+      "min_contact_distance": -0.010689238603272824,
+      "peak_normal_force": 8038.567150630208,
+      "normal_impulse": 283.26374722930564,
+      "max_contacts": 78,
+      "steps_per_second": 1430,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dt": 0.001,
+      "final_z": 0.0020155561736943926,
+      "final_speed": 1.7532720487553232e-15,
+      "flex": [
+        -0.0037725617387360352,
+        -0.002102393852964788,
+        0.00043022836133133904,
+        0.003801870199293282,
+        0.002116955970973251,
+        -0.0004304096728005162
+      ]
+    },
+    {
+      "name": "flight_zero_contacts_0.0005",
+      "passed": true
+    },
+    {
+      "name": "loaded_drop_0.0005",
+      "passed": true,
+      "min_contact_distance": -0.010106892647500844,
+      "peak_normal_force": 8171.885116459041,
+      "normal_impulse": 283.2637489805097,
+      "max_contacts": 78,
+      "steps_per_second": 1402,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dt": 0.0005,
+      "final_z": 0.0020155561736943887,
+      "final_speed": 1.4427154801358252e-15,
+      "flex": [
+        -0.003772561738736037,
+        -0.002102393852964799,
+        0.00043022836133133703,
+        0.0038018701992932886,
+        0.0021169559709732556,
+        -0.00043040967280051634
+      ]
+    },
+    {
+      "name": "drop_dt_impulse_convergence",
+      "passed": true,
+      "relative_difference": 6.182238594258623e-09
+    },
+    {
+      "name": "slope_acceleration_0.001",
+      "passed": true,
+      "measured": 1.2209816808863532,
+      "expected": 1.2204404200600987
+    },
+    {
+      "name": "slope_acceleration_0.0005",
+      "passed": true,
+      "measured": 1.2177584742283996,
+      "expected": 1.2204404200600987
+    },
+    {
+      "name": "slide_dt_convergence",
+      "passed": true
+    },
+    {
+      "name": "static_load_compliance",
+      "passed": true,
+      "measurements": [
+        {
+          "load_kg": 0,
+          "center_z": 0.0020826346698487688,
+          "flex": [
+            -0.0036393729827114705,
+            -0.00203584854303681,
+            0.00043026646042506776,
+            0.0036483497637253537,
+            0.0020402486772762452,
+            -0.0004304422045467052
+          ]
+        },
+        {
+          "load_kg": 9,
+          "center_z": 0.00204366884357297,
+          "flex": [
+            -0.0037160856709458805,
+            -0.0020741784915975377,
+            0.00043024444145111404,
+            0.003745686447396893,
+            0.0020888889660091955,
+            -0.00043042282624061664
+          ]
+        },
+        {
+          "load_kg": 18,
+          "center_z": 0.0020155561736943913,
+          "flex": [
+            -0.003772561738736064,
+            -0.0021023938529648057,
+            0.0004302283613313392,
+            0.0038018701992932292,
+            0.002116955970973225,
+            -0.00043040967280051564
+          ]
+        }
+      ]
+    },
+    {
+      "name": "unforced_energy_dissipation",
+      "passed": true,
+      "initial": 2.7181239863934823,
+      "final": 1.641520202049779,
+      "max": 2.71636934266084
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "contact_frame_orthonormal",
+      "passed": true
+    },
+    {
+      "name": "edge_left_right_symmetry",
+      "passed": true,
+      "coefficients": [
+        0.6,
+        0.5993375457965505,
+        0.580553822284595,
+        0.5399336261939706,
+        0.4829106960459831,
+        0.4149187703619376,
+        0.3413915876631399,
+        0.26776288647089524,
+        0.19946640530650925,
+        0.1419358826912872,
+        0.1006050571465346,
+        0.08090766719355694,
+        0.08,
+        0.08,
+        0.08,
+        0.08090766719355694,
+        0.1006050571465346,
+        0.14193588269128726,
+        0.19946640530650925,
+        0.26776288647089536,
+        0.3413915876631399,
+        0.4149187703619376,
+        0.4829106960459832,
+        0.5399336261939708,
+        0.5805538222845951,
+        0.5993375457965505,
+        0.6
+      ]
+    },
+    {
+      "name": "edge_finite_activation",
+      "passed": true
+    },
+    {
+      "name": "official_g1_files_unchanged",
+      "passed": true
+    },
+    {
+      "name": "g1_bump_row_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_bump_row_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_bump_row_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_bump_row_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_bump_row_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_bump_row_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_carving_gates_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_carving_gates_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_carving_gates_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_carving_gates_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_carving_gates_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_carving_gates_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_cross_slope_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_cross_slope_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_cross_slope_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_cross_slope_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_cross_slope_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_cross_slope_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_moguls_regular_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_moguls_regular_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_moguls_regular_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_moguls_regular_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_moguls_regular_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_moguls_regular_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_moguls_seeded_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_moguls_seeded_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_moguls_seeded_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_moguls_seeded_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_moguls_seeded_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_moguls_seeded_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_piste_high_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_piste_high_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_piste_high_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_piste_high_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_piste_high_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_piste_high_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_piste_low_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_piste_low_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_piste_low_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_piste_low_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_piste_low_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_piste_low_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_00_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_00_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_00_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_plane_00_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_00_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_00_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_05_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_05_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_05_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_plane_05_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_05_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_05_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_10_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_10_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_10_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_plane_10_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_10_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_10_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_15_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_15_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_15_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_plane_15_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_15_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_15_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_20_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_20_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_20_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_plane_20_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_20_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_20_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_25_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_25_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_25_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_plane_25_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_25_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_25_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_30_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_30_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_30_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_plane_30_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_30_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_30_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_35_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_35_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_35_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_plane_35_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_35_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_35_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_40_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_40_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_40_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_plane_40_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_40_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_plane_40_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_single_bump_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_single_bump_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_single_bump_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_single_bump_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_single_bump_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_single_bump_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_medium_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_medium_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_medium_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_tabletop_medium_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_medium_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_medium_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_small_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_small_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_small_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_tabletop_small_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_small_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_small_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_steep_structure",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_steep_inertia",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_steep_initial_no_penetration",
+      "passed": true,
+      "ncon": 0
+    },
+    {
+      "name": "g1_tabletop_steep_passive_unactuated",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_steep_official_mass_inertia_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_tabletop_steep_official_actuators_preserved",
+      "passed": true
+    },
+    {
+      "name": "g1_smoke_no_solver_warning",
+      "passed": true
+    }
+  ],
+  "terrain": {
+    "plane_00": {
+      "triangles": 0,
+      "ray_height_error_m": 0.0
+    },
+    "plane_05": {
+      "triangles": 0,
+      "ray_height_error_m": 2.3261614856551205e-10
+    },
+    "plane_10": {
+      "triangles": 0,
+      "ray_height_error_m": 9.959233437939474e-11
+    },
+    "plane_15": {
+      "triangles": 0,
+      "ray_height_error_m": 1.4843353213223054e-09
+    },
+    "plane_20": {
+      "triangles": 0,
+      "ray_height_error_m": 2.3457484843447673e-09
+    },
+    "plane_25": {
+      "triangles": 0,
+      "ray_height_error_m": 2.3968844686805824e-09
+    },
+    "plane_30": {
+      "triangles": 0,
+      "ray_height_error_m": 4.2077985540345253e-10
+    },
+    "plane_35": {
+      "triangles": 0,
+      "ray_height_error_m": 9.31883903376729e-10
+    },
+    "plane_40": {
+      "triangles": 0,
+      "ray_height_error_m": 2.936872078862507e-09
+    },
+    "piste_low": {
+      "triangles": 6400,
+      "ray_height_error_m": 3.290905326025495e-10,
+      "height_error_m": 0.00024723453141639595,
+      "normal_error_deg": 0.11177329316278667,
+      "max_sampled_slope_deg": 7.9975791153521305
+    },
+    "carving_gates": {
+      "triangles": 6400,
+      "ray_height_error_m": 8.439258181169862e-10,
+      "height_error_m": 0.0008995763639987331,
+      "normal_error_deg": 0.3721829557190756,
+      "max_sampled_slope_deg": 18.996400153032937
+    },
+    "piste_high": {
+      "triangles": 6400,
+      "ray_height_error_m": 1.2157244100308162e-09,
+      "height_error_m": 0.002053254853301212,
+      "normal_error_deg": 0.903781568832936,
+      "max_sampled_slope_deg": 37.993945383269875
+    },
+    "cross_slope": {
+      "triangles": 23040,
+      "ray_height_error_m": 1.9965424868928494e-09,
+      "height_error_m": 0.0004029663469635736,
+      "normal_error_deg": 0.4199737211252311,
+      "max_sampled_slope_deg": 23.044046429180664
+    },
+    "single_bump": {
+      "triangles": 98304,
+      "ray_height_error_m": 3.990508368190149e-09,
+      "height_error_m": 0.0012910901087566096,
+      "normal_error_deg": 1.1946777370884156,
+      "max_sampled_slope_deg": 27.030224190128415
+    },
+    "bump_row": {
+      "triangles": 98304,
+      "ray_height_error_m": 9.9117691831907e-10,
+      "height_error_m": 0.001413770056770458,
+      "normal_error_deg": 1.9510980228228443,
+      "max_sampled_slope_deg": 34.849230670585065
+    },
+    "moguls_regular": {
+      "triangles": 98304,
+      "ray_height_error_m": 1.4212684362746586e-09,
+      "height_error_m": 0.0025502092781777286,
+      "normal_error_deg": 2.9961813742592964,
+      "max_sampled_slope_deg": 38.831044944680656
+    },
+    "moguls_seeded": {
+      "triangles": 98304,
+      "ray_height_error_m": 3.2929499127476447e-09,
+      "height_error_m": 0.0026999511208818383,
+      "normal_error_deg": 2.5046916285713863,
+      "max_sampled_slope_deg": 45.3385271441146
+    },
+    "tabletop_small": {
+      "triangles": 10240,
+      "ray_height_error_m": 2.986814351402245e-09,
+      "height_error_m": 0.0004129697907206964,
+      "normal_error_deg": 0.8276949583425981,
+      "max_sampled_slope_deg": 25.00013659910033
+    },
+    "tabletop_medium": {
+      "triangles": 10240,
+      "ray_height_error_m": 9.970069214659816e-10,
+      "height_error_m": 0.0005108247994607407,
+      "normal_error_deg": 1.047102794936443,
+      "max_sampled_slope_deg": 30.00008263692887
+    },
+    "tabletop_steep": {
+      "triangles": 10240,
+      "ray_height_error_m": 6.595897161787434e-10,
+      "height_error_m": 0.0006041750474201635,
+      "normal_error_deg": 0.996002436640661,
+      "max_sampled_slope_deg": 36.99958613363379
+    }
+  },
+  "dynamics": {
+    "slides": {
+      "0.000_along": 1.7574156758529802,
+      "0.000_across": 1.5873738169166471,
+      "1.571_along": 1.7574156758529744,
+      "1.571_across": 1.5873738169166427
+    },
+    "loaded_drop": [
+      {
+        "min_contact_distance": -0.010689238603272824,
+        "peak_normal_force": 8038.567150630208,
+        "normal_impulse": 283.26374722930564,
+        "max_contacts": 78,
+        "steps_per_second": 1430,
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "dt": 0.001,
+        "final_z": 0.0020155561736943926,
+        "final_speed": 1.7532720487553232e-15,
+        "flex": [
+          -0.0037725617387360352,
+          -0.002102393852964788,
+          0.00043022836133133904,
+          0.003801870199293282,
+          0.002116955970973251,
+          -0.0004304096728005162
+        ]
+      },
+      {
+        "min_contact_distance": -0.010106892647500844,
+        "peak_normal_force": 8171.885116459041,
+        "normal_impulse": 283.2637489805097,
+        "max_contacts": 78,
+        "steps_per_second": 1402,
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "dt": 0.0005,
+        "final_z": 0.0020155561736943887,
+        "final_speed": 1.4427154801358252e-15,
+        "flex": [
+          -0.003772561738736037,
+          -0.002102393852964799,
+          0.00043022836133133703,
+          0.0038018701992932886,
+          0.0021169559709732556,
+          -0.00043040967280051634
+        ]
+      }
+    ],
+    "static_load": [
+      {
+        "load_kg": 0,
+        "center_z": 0.0020826346698487688,
+        "flex": [
+          -0.0036393729827114705,
+          -0.00203584854303681,
+          0.00043026646042506776,
+          0.0036483497637253537,
+          0.0020402486772762452,
+          -0.0004304422045467052
+        ]
+      },
+      {
+        "load_kg": 9,
+        "center_z": 0.00204366884357297,
+        "flex": [
+          -0.0037160856709458805,
+          -0.0020741784915975377,
+          0.00043024444145111404,
+          0.003745686447396893,
+          0.0020888889660091955,
+          -0.00043042282624061664
+        ]
+      },
+      {
+        "load_kg": 18,
+        "center_z": 0.0020155561736943913,
+        "flex": [
+          -0.003772561738736064,
+          -0.0021023938529648057,
+          0.0004302283613313392,
+          0.0038018701992932292,
+          0.002116955970973225,
+          -0.00043040967280051564
+        ]
+      }
+    ],
+    "energy": {
+      "initial": 2.7181239863934823,
+      "final": 1.641520202049779,
+      "maximum": 2.71636934266084,
+      "applied_work": 0
+    },
+    "g1_250ms_smoke": {
+      "min_contact_distance": -0.0018529241867382008,
+      "peak_normal_force": 2955.629128456456,
+      "normal_impulse": 87.9007053339939,
+      "max_contacts": 156,
+      "steps_per_second": 389,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "ballistic": [
+    {
+      "course": "tabletop_small",
+      "lip_speed": 4,
+      "landing_x": 22.790251702199527,
+      "flight_time": 0.2019765988299415,
+      "region": "landing",
+      "normal_approach_speed": 0.9762535402669771,
+      "tangent_mismatch_deg": 13.850765328772649
+    },
+    {
+      "course": "tabletop_small",
+      "lip_speed": 5,
+      "landing_x": 23.314070064424985,
+      "flight_time": 0.2686854342717136,
+      "region": "landing",
+      "normal_approach_speed": 0.8925725617416584,
+      "tangent_mismatch_deg": 9.991125434374881
+    },
+    {
+      "course": "tabletop_small",
+      "lip_speed": 6,
+      "landing_x": 25.165784711834284,
+      "flight_time": 0.5394183709185459,
+      "region": "landing",
+      "normal_approach_speed": 1.184996782207222,
+      "tangent_mismatch_deg": 9.57042471037847
+    },
+    {
+      "course": "tabletop_medium",
+      "lip_speed": 4,
+      "landing_x": 23.001405991575485,
+      "flight_time": 0.26044052202610135,
+      "region": "landing",
+      "normal_approach_speed": 1.0966998154162062,
+      "tangent_mismatch_deg": 15.475348709007113
+    },
+    {
+      "course": "tabletop_medium",
+      "lip_speed": 5,
+      "landing_x": 24.081775408919174,
+      "flight_time": 0.43313395669783494,
+      "region": "landing",
+      "normal_approach_speed": 0.6280483890523743,
+      "tangent_mismatch_deg": 6.441167912162099
+    },
+    {
+      "course": "tabletop_medium",
+      "lip_speed": 6,
+      "landing_x": 26.50660093537169,
+      "flight_time": 0.7813690684534228,
+      "region": "landing",
+      "normal_approach_speed": 2.322234051006292,
+      "tangent_mismatch_deg": 16.185826243288904
+    },
+    {
+      "course": "tabletop_steep",
+      "lip_speed": 4,
+      "landing_x": 23.118517790605562,
+      "flight_time": 0.29401980099004954,
+      "region": "landing",
+      "normal_approach_speed": 1.1100678534685906,
+      "tangent_mismatch_deg": 15.53026782834749
+    },
+    {
+      "course": "tabletop_steep",
+      "lip_speed": 5,
+      "landing_x": 25.09117192952916,
+      "flight_time": 0.6500501025051253,
+      "region": "landing",
+      "normal_approach_speed": 1.2305394936418548,
+      "tangent_mismatch_deg": 10.457843090644198
+    },
+    {
+      "course": "tabletop_steep",
+      "lip_speed": 6,
+      "landing_x": 27.476710237372696,
+      "flight_time": 0.9597589879493975,
+      "region": "landing",
+      "normal_approach_speed": 2.920684884569843,
+      "tangent_mismatch_deg": 17.958305525767074
+    }
+  ],
+  "asset_checks_passed": true,
+  "not_yet_certified": [
+    "carving mechanism with free yaw and controlled roll/load",
+    "dynamic edge transfer and release under full G1 loads",
+    "full G1 straight glide/turn policy",
+    "full G1 mogul and jump/landing/recovery sequences",
+    "ski segment/contact resolution convergence",
+    "MJX/batched backend compatibility",
+    "physical snow material and ski EI calibration",
+    "RL policy training and success-rate evaluation"
+  ],
+  "training_ready": false,
+  "summary": "Asset and CPU probe checks only; full M0 physics gate remains open.",
+  "files_sha256": {
+    "scenes/bump_row.xml": "a431c4747c4497fa07dd9c5a38d7631482af4eb18b979943c6011db729d8d5c7",
+    "scenes/carving_gates.xml": "a5de5af471ab416d3186a89701209c1bcccb77f5b5f7ad3d09c914d71d8ce0f7",
+    "scenes/cross_slope.xml": "837f60432e78d7196cb4139808b391851cdd9de0d2116dd9b1dcfc2cfc4282cd",
+    "scenes/g1_bump_row.xml": "ffff4a62eb61b8455441d6d18231fe75278b5388b2b769b87fd86ddbbbb8ee07",
+    "scenes/g1_carving_gates.xml": "1da82ea353a1d38820626548f4b110bdcd7d685e661f0272a02b7915b580455c",
+    "scenes/g1_cross_slope.xml": "811f9af2ab28dd7c4862d8ea0c9c0ac7b3052cd2dde7093cc3f890e6d7f4d71e",
+    "scenes/g1_moguls_regular.xml": "d73c23994afc900fd0cfbc3df6bf37d524ee2a76e2bc3e6bf493fb72c538871c",
+    "scenes/g1_moguls_seeded.xml": "e8af62d8bac52dbf859ec3e4cab0b19ca44f76bb4d758774c06d9b4d57190b9a",
+    "scenes/g1_piste_high.xml": "528619a3f6c9efa2c534fa48f07bff89a5da7093964bdab33a72b6bce754c819",
+    "scenes/g1_piste_low.xml": "5d58c11b3e9c9e63ff107f46d3048842303f8bf4049bf03b52bbcba633b950f2",
+    "scenes/g1_plane_00.xml": "d892ba41766624760bff2804cdc62e2c759f8f0ab98e1255b6ee33ecc1f2a507",
+    "scenes/g1_plane_05.xml": "9a646ca8cb5a5fab0b7a92618d43a1fab787097759b86f4bc557ce7c077f7fe6",
+    "scenes/g1_plane_10.xml": "719870ef9576053c3fee03ac5277c048827861cfafa857fc89943031f1d84ae0",
+    "scenes/g1_plane_15.xml": "52bc4e12813c5e383180f99a805033816de534091c5f88b5d61d3c880f1d338b",
+    "scenes/g1_plane_20.xml": "5eb24a02c1089e6eeff0d60b5a2238da13b2a34feb65a7f0b428d51e702e3cfe",
+    "scenes/g1_plane_25.xml": "76efad64e44761e6f0d6e5f932e81ae291613e2b639c5caa84714420cef95e11",
+    "scenes/g1_plane_30.xml": "fc01e9c61efcb00eefeb328399d992dcc841f589730a86722ada4478d8b076e2",
+    "scenes/g1_plane_35.xml": "5270e80e17ee60dc4987876fe7ee49728c02d7837edf9fc7a6413be534f64bf2",
+    "scenes/g1_plane_40.xml": "4e1bcf79653b2c26cd13b12677e280f3b732da1893e061374a3bd55ae4fcea36",
+    "scenes/g1_single_bump.xml": "91e5af6731623c7d77905a89aa6ed589f394caabd9522be8f8f04ba392ec3ada",
+    "scenes/g1_tabletop_medium.xml": "80282f66dc3e06ec90912f31d5ccfec8829b2843753df748175d8dc568215e52",
+    "scenes/g1_tabletop_small.xml": "e798c8939fcfdaef22211e76e9fd74e730c4e00635a6ae5a31af84a1feddbaed",
+    "scenes/g1_tabletop_steep.xml": "403eec9201b7848e4d0dcea8401b887d4205de70560a39037e48be5776cf3eaf",
+    "scenes/moguls_regular.xml": "6b7b232837dbec010e191cc3cf26d85fea228a2ceba3bb5721a56b4aaf24ccae",
+    "scenes/moguls_seeded.xml": "f532955958e3b5cf14f839218fedfc0adb6fa8a146d65ac4a277799fe709679f",
+    "scenes/piste_high.xml": "f89b61a8b8f25416774cfdb47299cbdc7bbeeeb4428e5c06b73bdb2bfa1e4431",
+    "scenes/piste_low.xml": "0b8ad3765851089d970a83088778a35474319b8006a5e007089ae33bc13ed637",
+    "scenes/plane_00.xml": "f7d695291ce8aff4da79ad8147c2bc8aff2e74a7b698e2da3f0ba70f38b7f670",
+    "scenes/plane_05.xml": "1139b78d6c7aeef9673a95d6dad1ba78ddce2e1dbf8be4d9693976d814fb0d2f",
+    "scenes/plane_10.xml": "dcd81c69ddf26626e29cb7aac2863fc0a818aea155de2015640c9dd8f00dbd12",
+    "scenes/plane_15.xml": "2980a530374b1207a8ab43f6023af56b85ef4aa04f2aaa804259d1d6e0c06a54",
+    "scenes/plane_20.xml": "fb154db27001d76d250cb739a1cf6f5b15628d8bd0ecd91fb6da7654c6bcf60c",
+    "scenes/plane_25.xml": "421d6a49ea1a4fa7d6fb220fa417891ec70a17f461f83bff4574a23b10da953b",
+    "scenes/plane_30.xml": "451166b4277440420762efa58bd1265cfea8ed574de2833bd3edd2db8800438c",
+    "scenes/plane_35.xml": "c1f1bb1e4e3216dc9302e8355ae52b15c82c62ece187d8fb257950f125f5b108",
+    "scenes/plane_40.xml": "0a1f9f09f45864cd86c87a40cc0756879220411a6b3fa3f6c9eb465e9880b046",
+    "scenes/single_bump.xml": "b6226a018d33902edae17c69045acbe7c30cd39c19ce7f7247e8a36843d527c1",
+    "scenes/ski_pair.xml": "322a852c1a6901d5dc68becc6c0ffc01a2abeae9bbf95e2530ea848d2b181289",
+    "scenes/ski_single.xml": "40e208dbaa0b6a55e9b8542c90897738357a70be014626f91334c8bfc6e2c478",
+    "scenes/tabletop_medium.xml": "bf70a29786f99417f9d2b088dba6637210b91e89ddddf14f518d8e7ed06867dd",
+    "scenes/tabletop_small.xml": "2405ac2d74c8fa9685bb9e4038e17a684353de25defdc3e7e6a9a0aadef4df22",
+    "scenes/tabletop_steep.xml": "8499690430c2a6d2850073f0f8056d806df88cb76098dafa788e056e907cf0bc",
+    "meshes/ski_base_0_0.obj": "bf7aa3f646ad9049c0eed8c41498e7e239aa87d013af0b9cd2cdd64911738ab6",
+    "meshes/ski_base_0_1.obj": "c096bdcc22fc01b7fb10115db66577f759ff49a1afc660317f9eeae38a3370f4",
+    "meshes/ski_base_1_0.obj": "e512a3e6e30b48f1cf54d361a1c520e0b8b71d8b1143e339747bb1cd0d023698",
+    "meshes/ski_base_1_1.obj": "1bf799de83db58b08fa77969afb8e19b7363492ed172b24532c0bc51c78a7bd9",
+    "meshes/ski_base_2_0.obj": "4225abb4ba82dea73d0430ed75d21bcc5d3913dcb45ccd55e28e669b01578840",
+    "meshes/ski_base_2_1.obj": "c4f20994812af780ce57d9936d4c3e33025a36ca91bc864715ae717e0ab6cf3f",
+    "meshes/ski_base_3_0.obj": "3c563b7ef594e012e34ac5bd06f7dac528386d295af5f69deff1cb92665c8c63",
+    "meshes/ski_base_3_1.obj": "f7b9628bd9f0df80fcc1248d8b83e0bdbf04aeb4a7a7391d264c5407da2bccdc",
+    "meshes/ski_base_4_0.obj": "cfac9fe3e3da8f7e220c2159beb38c0bc51bfdadf58b04f4795f3bda2ebc432a",
+    "meshes/ski_base_4_1.obj": "1e12e1da4b495dee57dfd0f3375928b8e3ed133e7e6adf73188efc35137ca12b",
+    "meshes/ski_base_5_0.obj": "64728aea0f82df341c350518e1ca09502d513a0dfa88af11f5ca284bed0b89aa",
+    "meshes/ski_base_5_1.obj": "d7400851791d95bb4ab9c05ca45fac8e307bf0fffeb91c16f6d40d95a51efeda",
+    "meshes/ski_base_6_0.obj": "0cbd388f1d2c5ef183414e5d650a12bce0037d6122cc2c59c77cde3685b2d87a",
+    "meshes/ski_base_6_1.obj": "ec8fce2e07f4ecdced503cc75617cf9e9788d9d07a0034ac7c3b9e81845d0665",
+    "meshes/ski_complete_rest.obj": "fc3fc10e9483388dfb714ec8ac27ea7ae005a716c576cbdbe8711b32a26da046",
+    "meshes/ski_visual_0.obj": "c4fe81cb9e7f095200ebbde97a2d119da5ca5915ba43c83e1c752821c4a1f419",
+    "meshes/ski_visual_1.obj": "3c858a35641b38e5446373a909d01dee7ea2d75c80c4542baca032f518b2b37a",
+    "meshes/ski_visual_2.obj": "8156150f50d69cf8f1ceac52a37f592f9f68e82f2f8a5dcd2b8a4981b75a6e20",
+    "meshes/ski_visual_3.obj": "6fc5bd22f04bea91142ddbfc2b7f20bb27bb81ddc14627ed6da069512fd382da",
+    "meshes/ski_visual_4.obj": "ec0e751dd6b92fb682266629ccbe892b53e1421a781e5cac483c8fa36423d367",
+    "meshes/ski_visual_5.obj": "7c4d86f8be86e4271fe5b5ad501f2405f1cc0bb88aca09cd859c3d58d694fee4",
+    "meshes/ski_visual_6.obj": "0a00ff4fd1e35c32fcb9a14ff31248080f081c80e573df90079b976cd57390a4",
+    "terrain/bump_row.bin": "7918508f1316b76d274d8ed12a573dfe30dba39ec825ebcbd6773d9053d2c8d3",
+    "terrain/bump_row.json": "b499221c3b07c09ab85abcbff3e0cbf45558bd3c1d58f2019608ef2ce2054dc7",
+    "terrain/bump_row.npz": "6dfdb9e16724efe90577183cd0954783d22f9cd7a805bb4819b9b570d9e13f61",
+    "terrain/carving_gates.bin": "ce66fba9652f6d543f158a97e1337b4c10cbabd19be0dec4fa098558562cbe00",
+    "terrain/carving_gates.json": "ff70c74c90a7d63bafb4121885f455928fe7429b041068cc83f26c3eb02bca49",
+    "terrain/carving_gates.npz": "5ae445185e3f82978b253fa5bafbfa9b5ec9001a732104986151fb5491436b5c",
+    "terrain/cross_slope.bin": "344a9f0e004187eb2d71489d900c1aa7bddeed844e3cac1a5319c6dde76c9f79",
+    "terrain/cross_slope.json": "a732ba83d0f444dcd092fcfe924ec2edbbd7cfd6bc6cf42ecb3c55f8c2224513",
+    "terrain/cross_slope.npz": "ea27d31d78d319cb73992e52aa8aa4cc27f1d757fe2c1b5aec387ffd01d9831a",
+    "terrain/moguls_regular.bin": "3bef527d6967a8d4194e4fe988a9d916c497d09081ebd781bd8050989af55860",
+    "terrain/moguls_regular.json": "3a7b79b1347e79f87bf8d4de10a97bc87bd828ca72cfddd878c1877e9f7bb349",
+    "terrain/moguls_regular.npz": "714e869dcea6733db9f6d9e5b7fee000ec91d5d7f6e0f496af1a1c0e40bc55d8",
+    "terrain/moguls_seeded.bin": "76d9364cb797941427dd73dd654c0889bba895ef948fb6f88133001d6e34cf37",
+    "terrain/moguls_seeded.json": "252d3d8602cb99c112a1f462858f54e8069ac13f6b5241d6a97d80773d5b8387",
+    "terrain/moguls_seeded.npz": "6c6efe4cb5fd46616d29288b948032dcabb12234d5175c013f31a0129c216752",
+    "terrain/piste_high.bin": "cb2e84ae005ac1ae78aeb4410c6897342bdfd252c75b3589731df60043b108ac",
+    "terrain/piste_high.json": "afdb59b675ac63e6ffe18b671c89a446cae306cb5bab301df76d0d17210bd7a6",
+    "terrain/piste_high.npz": "9ef55ed7ec0d716e4983e8f1e6cc167be26374be7b4baeeff1aaa20a4ccb3c33",
+    "terrain/piste_low.bin": "8fd7e366a20bb3dc6107714b36e341188dfaad499fbef33156280150c1aa5b3d",
+    "terrain/piste_low.json": "cf7629553cec75da2d77e94cedf3faad939477f63732d4aa2417a604fb459f6c",
+    "terrain/piste_low.npz": "2acfb00d838a7eccfd0fea8fc718aa8186788231e9c26454dd78bb220ea35cf0",
+    "terrain/plane_00.json": "aca7cad130a2c1a6cdd687d315e3a254e0a1c8e412dafcfab9a249957140c654",
+    "terrain/plane_05.json": "aa981bf700cc22727d038745decd18a31458a00eace7a9d66dc70fec736665b5",
+    "terrain/plane_10.json": "9f4b31e39667fdd50003a717e6208681df3109bbc74fe9705070c045aa98a8a5",
+    "terrain/plane_15.json": "dfc256c6dbd1acae45b301df20db2a977fde06cecadb725cf9d7ca8da3e75260",
+    "terrain/plane_20.json": "bac69420fb698987cc668a74d6bcf912de25fcc3c6d5764ca977be0f84d9aaba",
+    "terrain/plane_25.json": "6fcceccad50e53956201c443ac5f10ed0e279a8c1f3d1cc8d044ea79d1f9fd23",
+    "terrain/plane_30.json": "d22236e4022bf45bc344548eed29cd7f75942fa7428dd4941f0975c73b428b22",
+    "terrain/plane_35.json": "ae60b34ff0fbdb522fab2460c02893e978b614c3521b896a6c71d10a43a21679",
+    "terrain/plane_40.json": "6b0cc7c5ed0028af83aacdff112002c1ab5fd42e39c3879b4223a1553dd4d81a",
+    "terrain/single_bump.bin": "4dd5b86948e1fab4f0f812826c70242f942706873bd94115d6399bd686596c02",
+    "terrain/single_bump.json": "abc8dd37b38e7dcb0b840bdce3b3093567e5c6c5233e85e4678da12f5420d4b3",
+    "terrain/single_bump.npz": "d2d45e891e2db23e8b3974bbe8ec799ccf06b955a17a1686cb9f241dc2aae366",
+    "terrain/tabletop_medium.bin": "d14a15df173ed4e09545c2f05a29460da5077b99e8c6cbba5f0a962b755de9ce",
+    "terrain/tabletop_medium.json": "41f410b1c94d04f11da70e910ba96cc7882a2afbaeec5c73170cef6811b2308f",
+    "terrain/tabletop_medium.npz": "fb86455ae39a21a878b97a9cdd3cdc8ca9c7727ee0edee482eb68020f9da6868",
+    "terrain/tabletop_small.bin": "691870ad4599a4bbc961f75b14111132c8d9e7d5acb830897d8421fdbcd44863",
+    "terrain/tabletop_small.json": "326546e039e7ca41ff3de1027ef3acf47af5f6f4512d930cd8e5b44d8406230f",
+    "terrain/tabletop_small.npz": "e32eb1873fa78fc470966a2b9692cc38454bed44508f99d2afb4100d5f48b63b",
+    "terrain/tabletop_steep.bin": "86c6d515fab8a15ba3445a0be42fc9ebc9e1132071f08274766d08ca0eec42ee",
+    "terrain/tabletop_steep.json": "b9fa1c8f39068483805be0d6ebd28dbcd8a0dc5413ddfe839ade5ee3c59df5df",
+    "terrain/tabletop_steep.npz": "0c95aa6ec75577c527b6d91ef23bad4724677b0f2bda49b85e26f35d0e3cf6f6",
+    "configs/curriculum.json": "601ea9ffb6f95053cd058cd6871d75561c5de9085089aee36029902fc8530076",
+    "configs/design.json": "2faa6e40c4e4b49e13e143b33763b43e7bc0e277e8ebb016dfd009534e1fe7c5",
+    "configs/g1_contacts.json": "445ba30f73eac45b914ebc41cedcf88319abacf1342eb8183a78aa786978547c",
+    "configs/ski_pair_contacts.json": "5a2bad72222549cb45ef8110f727422cceb37ed532328184b5cd0bc0e9611b41",
+    "configs/ski_single_contacts.json": "49aadeabeaf1ca5cf16a0d7145a839a83862076f0cc73d41e8dcb4fdfcd2396c",
+    "tools/attach_g1.py": "4b5d51affe1a8195e4fa7b6032ea787a6aee4e7eb62e7047b9c4aa7d77dc8fa1",
+    "tools/build_assets.py": "e2fdd6fba9a817dd29c02feefb921a657e76f42fddbb7939aa6848dc8ffd6486",
+    "tools/demo.py": "99ca3f8a4772139ceaa30910e135370bb11f5445c43236fc73fa1da343265070",
+    "tools/fetch_g1.py": "da13d2fb6faeb73bc16e8dc2883f3849e25e38765369089ac2124984cdf1c52c",
+    "tools/finalize_manifest.py": "3f294b0a54be492684f750a9340bdf58c2de36dd88ee974b4c4eca39f8ed2892",
+    "tools/probe_courses.py": "5be1710fc641d986fbbbe5c3bb31f4121979bd6b1f528d0443af745af19c4b57",
+    "tools/render_assets.py": "730459f119e04f3e91c036bf52963a5f17c923b77b96c1ca3e387f5a77ce7571",
+    "tools/runtime.py": "f5e75aa0b4a9a1b1c38719ef91e86630b9a40340b5138a7e7e5a43697b64951f",
+    "tools/validate_assets.py": "ba4e71b699324370e524d7a3a33d5ef9045c3175f37313cecfdb5fd82f4a4b25"
+  }
+}

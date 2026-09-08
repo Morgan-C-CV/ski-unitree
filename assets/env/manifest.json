@@ -1,0 +1,1776 @@
+{
+  "version": "env-v1.1-slope-groups",
+  "courses": [
+    {
+      "name": "plane_00",
+      "kind": "plane",
+      "angle": 0,
+      "length": 100,
+      "width": 40,
+      "dx": 0,
+      "dy": 0,
+      "slope_group": "low",
+      "slope_group_range_deg": [
+        0,
+        10
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": 0,
+      "triangles": 0,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "plane_05",
+      "kind": "plane",
+      "angle": 5,
+      "length": 100,
+      "width": 40,
+      "dx": 0,
+      "dy": 0,
+      "slope_group": "low",
+      "slope_group_range_deg": [
+        0,
+        10
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": 0,
+      "triangles": 0,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "plane_10",
+      "kind": "plane",
+      "angle": 10,
+      "length": 100,
+      "width": 40,
+      "dx": 0,
+      "dy": 0,
+      "slope_group": "low",
+      "slope_group_range_deg": [
+        0,
+        10
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": 0,
+      "triangles": 0,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "plane_15",
+      "kind": "plane",
+      "angle": 15,
+      "length": 100,
+      "width": 40,
+      "dx": 0,
+      "dy": 0,
+      "slope_group": "medium",
+      "slope_group_range_deg": [
+        10,
+        20
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": 0,
+      "triangles": 0,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "plane_20",
+      "kind": "plane",
+      "angle": 20,
+      "length": 100,
+      "width": 40,
+      "dx": 0,
+      "dy": 0,
+      "slope_group": "medium",
+      "slope_group_range_deg": [
+        10,
+        20
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": 0,
+      "triangles": 0,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "plane_25",
+      "kind": "plane",
+      "angle": 25,
+      "length": 100,
+      "width": 40,
+      "dx": 0,
+      "dy": 0,
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": 0,
+      "triangles": 0,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "plane_30",
+      "kind": "plane",
+      "angle": 30,
+      "length": 100,
+      "width": 40,
+      "dx": 0,
+      "dy": 0,
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": 0,
+      "triangles": 0,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "plane_35",
+      "kind": "plane",
+      "angle": 35,
+      "length": 100,
+      "width": 40,
+      "dx": 0,
+      "dy": 0,
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": 0,
+      "triangles": 0,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "plane_40",
+      "kind": "plane",
+      "angle": 40,
+      "length": 100,
+      "width": 40,
+      "dx": 0,
+      "dy": 0,
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": 0,
+      "triangles": 0,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "piste_low",
+      "kind": "piste",
+      "angle": 5,
+      "length": 100,
+      "width": 32,
+      "dx": 0.5,
+      "dy": 2,
+      "slope_profile": [
+        [
+          0,
+          2
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          40,
+          4
+        ],
+        [
+          60,
+          7
+        ],
+        [
+          82,
+          3
+        ],
+        [
+          92,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "slope_group": "low",
+      "slope_group_range_deg": [
+        0,
+        10
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": 0.024439124674830115,
+      "height_scale": 7.97556087532517,
+      "rows": 17,
+      "columns": 201,
+      "triangles": 6400,
+      "gates": [
+        {
+          "id": 0,
+          "center": [
+            16,
+            3,
+            6.792338007477841
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 1,
+          "center": [
+            24,
+            -3,
+            5.693389038526322
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 2,
+          "center": [
+            32,
+            3,
+            4.772430746452767
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 3,
+          "center": [
+            40,
+            -3,
+            4.14070749159959
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 4,
+          "center": [
+            48,
+            3,
+            3.5271666611170875
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 5,
+          "center": [
+            56,
+            -3,
+            2.6971204908969058
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 6,
+          "center": [
+            64,
+            3,
+            1.7309155383511532
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 7,
+          "center": [
+            72,
+            -3,
+            0.9229154389709439
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "carving_gates",
+      "kind": "piste",
+      "angle": 15,
+      "length": 100,
+      "width": 32,
+      "dx": 0.5,
+      "dy": 2,
+      "slope_profile": [
+        [
+          0,
+          12
+        ],
+        [
+          20,
+          18
+        ],
+        [
+          40,
+          13
+        ],
+        [
+          60,
+          19
+        ],
+        [
+          82,
+          11
+        ],
+        [
+          92,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "slope_group": "medium",
+      "slope_group_range_deg": [
+        10,
+        20
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": -15.582288189156074,
+      "height_scale": 23.582288189156074,
+      "rows": 17,
+      "columns": 201,
+      "triangles": 6400,
+      "gates": [
+        {
+          "id": 0,
+          "center": [
+            16,
+            3,
+            3.9087359145252867
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 1,
+          "center": [
+            24,
+            -3,
+            1.3391020527745485
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 2,
+          "center": [
+            32,
+            3,
+            -0.989387182379553
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 3,
+          "center": [
+            40,
+            -3,
+            -2.9326414526139777
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 4,
+          "center": [
+            48,
+            3,
+            -4.895769429914523
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 5,
+          "center": [
+            56,
+            -3,
+            -7.3236272003992315
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 6,
+          "center": [
+            64,
+            3,
+            -10.043884729290577
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 7,
+          "center": [
+            72,
+            -3,
+            -12.427186090540419
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "piste_high",
+      "kind": "piste",
+      "angle": 28,
+      "length": 100,
+      "width": 32,
+      "dx": 0.5,
+      "dy": 2,
+      "slope_profile": [
+        [
+          0,
+          22
+        ],
+        [
+          20,
+          32
+        ],
+        [
+          40,
+          25
+        ],
+        [
+          60,
+          38
+        ],
+        [
+          82,
+          24
+        ],
+        [
+          92,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": -41.39445958121573,
+      "height_scale": 49.39445958121573,
+      "rows": 17,
+      "columns": 201,
+      "triangles": 6400,
+      "gates": [
+        {
+          "id": 0,
+          "center": [
+            16,
+            3,
+            0.17872022003778826
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 1,
+          "center": [
+            24,
+            -3,
+            -4.765600301181527
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 2,
+          "center": [
+            32,
+            3,
+            -9.30789743844368
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 3,
+          "center": [
+            40,
+            -3,
+            -13.200725878088102
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 4,
+          "center": [
+            48,
+            3,
+            -17.253724582920253
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 5,
+          "center": [
+            56,
+            -3,
+            -22.596873046121043
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 6,
+          "center": [
+            64,
+            3,
+            -28.761403702113267
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 7,
+          "center": [
+            72,
+            -3,
+            -34.1794996246184
+          ],
+          "width": 5,
+          "pass_direction": [
+            1,
+            0
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 97,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          82,
+          "approach"
+        ],
+        [
+          82,
+          100,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "cross_slope",
+      "kind": "cross",
+      "angle": 16,
+      "length": 60,
+      "width": 24,
+      "dx": 0.25,
+      "dy": 0.5,
+      "slope_profile": [
+        [
+          0,
+          13
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          30,
+          15
+        ],
+        [
+          42,
+          12
+        ],
+        [
+          52,
+          0
+        ],
+        [
+          60,
+          0
+        ]
+      ],
+      "slope_group": "medium",
+      "slope_group_range_deg": [
+        10,
+        20
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": -4.5422026524729375,
+      "height_scale": 12.542202652472938,
+      "rows": 49,
+      "columns": 241,
+      "triangles": 23040,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 57,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          42,
+          "approach"
+        ],
+        [
+          42,
+          60,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "single_bump",
+      "kind": "single",
+      "angle": 22,
+      "length": 48,
+      "width": 16,
+      "dx": 0.125,
+      "dy": 0.125,
+      "amplitude": 0.12,
+      "rx": 1.4,
+      "ry": 1.15,
+      "row_spacing": 3.5,
+      "column_spacing": 3.2,
+      "stagger": 1.6,
+      "seed": 20260908,
+      "slope_profile": [
+        [
+          0,
+          22
+        ],
+        [
+          12,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          30,
+          21
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          48,
+          0
+        ]
+      ],
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": -5.869770614265521,
+      "height_scale": 13.869770614265521,
+      "rows": 129,
+      "columns": 385,
+      "triangles": 98304,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 45,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          6,
+          "approach"
+        ],
+        [
+          6,
+          32,
+          "moguls"
+        ],
+        [
+          32,
+          48,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "bump_row",
+      "kind": "row",
+      "angle": 25,
+      "length": 48,
+      "width": 16,
+      "dx": 0.125,
+      "dy": 0.125,
+      "amplitude": 0.16,
+      "rx": 1.4,
+      "ry": 1.15,
+      "row_spacing": 3.5,
+      "column_spacing": 3.2,
+      "stagger": 1.6,
+      "seed": 20260908,
+      "slope_profile": [
+        [
+          0,
+          25
+        ],
+        [
+          12,
+          23
+        ],
+        [
+          24,
+          27
+        ],
+        [
+          30,
+          24
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          48,
+          0
+        ]
+      ],
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": -8.039102271363397,
+      "height_scale": 16.039102271363397,
+      "rows": 129,
+      "columns": 385,
+      "triangles": 98304,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 45,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          6,
+          "approach"
+        ],
+        [
+          6,
+          32,
+          "moguls"
+        ],
+        [
+          32,
+          48,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "moguls_regular",
+      "kind": "moguls",
+      "angle": 28,
+      "length": 48,
+      "width": 16,
+      "dx": 0.125,
+      "dy": 0.125,
+      "amplitude": 0.2,
+      "rx": 1.4,
+      "ry": 1.15,
+      "row_spacing": 3.5,
+      "column_spacing": 3.2,
+      "stagger": 1.6,
+      "seed": 20260908,
+      "slope_profile": [
+        [
+          0,
+          28
+        ],
+        [
+          12,
+          26
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          30,
+          27
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          48,
+          0
+        ]
+      ],
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": -10.31540367142127,
+      "height_scale": 18.315403671421272,
+      "rows": 129,
+      "columns": 385,
+      "triangles": 98304,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 45,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          6,
+          "approach"
+        ],
+        [
+          6,
+          32,
+          "moguls"
+        ],
+        [
+          32,
+          48,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "moguls_seeded",
+      "kind": "random",
+      "angle": 35,
+      "length": 48,
+      "width": 16,
+      "dx": 0.125,
+      "dy": 0.125,
+      "amplitude": 0.2,
+      "rx": 1.4,
+      "ry": 1.15,
+      "row_spacing": 3.5,
+      "column_spacing": 3.2,
+      "stagger": 1.6,
+      "seed": 20260908,
+      "slope_profile": [
+        [
+          0,
+          35
+        ],
+        [
+          12,
+          33
+        ],
+        [
+          24,
+          37
+        ],
+        [
+          30,
+          34
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          48,
+          0
+        ]
+      ],
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": -16.172190933292946,
+      "height_scale": 24.172190933292946,
+      "rows": 129,
+      "columns": 385,
+      "triangles": 98304,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 45,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          6,
+          "approach"
+        ],
+        [
+          6,
+          32,
+          "moguls"
+        ],
+        [
+          32,
+          48,
+          "runout"
+        ]
+      ]
+    },
+    {
+      "name": "tabletop_small",
+      "kind": "jump",
+      "angle": 22,
+      "length": 64,
+      "width": 16,
+      "dx": 0.1,
+      "dy": 2,
+      "lip_x": 22,
+      "lip_angle_deg": 12,
+      "table_end": 22.6,
+      "landing_angle_deg": 25,
+      "landing_end": 34,
+      "runout_start": 42,
+      "speed_envelope": [
+        4,
+        5,
+        6
+      ],
+      "slope_profile": [
+        [
+          0,
+          22
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          16,
+          24
+        ]
+      ],
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": -5.745628167051912,
+      "height_scale": 13.745628167051912,
+      "rows": 9,
+      "columns": 641,
+      "triangles": 10240,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 61,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          16,
+          "approach"
+        ],
+        [
+          16,
+          22,
+          "takeoff"
+        ],
+        [
+          22,
+          22.6,
+          "flight_gap"
+        ],
+        [
+          22.6,
+          34,
+          "landing"
+        ],
+        [
+          34,
+          64,
+          "runout"
+        ]
+      ],
+      "flight_gap_semantics": "filled tabletop; collision remains present; region is spatial, never an airborne flag"
+    },
+    {
+      "name": "tabletop_medium",
+      "kind": "jump",
+      "angle": 28,
+      "length": 64,
+      "width": 16,
+      "dx": 0.1,
+      "dy": 2,
+      "lip_x": 22,
+      "lip_angle_deg": 16,
+      "table_end": 22.6,
+      "landing_angle_deg": 30,
+      "landing_end": 34,
+      "runout_start": 42,
+      "speed_envelope": [
+        4,
+        5,
+        6
+      ],
+      "slope_profile": [
+        [
+          0,
+          28
+        ],
+        [
+          8,
+          26
+        ],
+        [
+          16,
+          30
+        ]
+      ],
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": -9.54775803855437,
+      "height_scale": 17.54775803855437,
+      "rows": 9,
+      "columns": 641,
+      "triangles": 10240,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 61,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          16,
+          "approach"
+        ],
+        [
+          16,
+          22,
+          "takeoff"
+        ],
+        [
+          22,
+          22.6,
+          "flight_gap"
+        ],
+        [
+          22.6,
+          34,
+          "landing"
+        ],
+        [
+          34,
+          64,
+          "runout"
+        ]
+      ],
+      "flight_gap_semantics": "filled tabletop; collision remains present; region is spatial, never an airborne flag"
+    },
+    {
+      "name": "tabletop_steep",
+      "kind": "jump",
+      "angle": 35,
+      "length": 64,
+      "width": 16,
+      "dx": 0.1,
+      "dy": 2,
+      "lip_x": 22,
+      "lip_angle_deg": 18,
+      "table_end": 22.6,
+      "landing_angle_deg": 35,
+      "landing_end": 34,
+      "runout_start": 42,
+      "speed_envelope": [
+        4,
+        5,
+        6
+      ],
+      "slope_profile": [
+        [
+          0,
+          35
+        ],
+        [
+          8,
+          33
+        ],
+        [
+          16,
+          37
+        ]
+      ],
+      "slope_group": "high",
+      "slope_group_range_deg": [
+        20,
+        40
+      ],
+      "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+      "z_origin": -14.40319871065958,
+      "height_scale": 22.40319871065958,
+      "rows": 9,
+      "columns": 641,
+      "triangles": 10240,
+      "gates": [],
+      "material_id": "packed_snow_v1",
+      "spawn_xy": [
+        2,
+        0
+      ],
+      "finish_x": 61,
+      "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+      "region_intervals": [
+        [
+          0,
+          16,
+          "approach"
+        ],
+        [
+          16,
+          22,
+          "takeoff"
+        ],
+        [
+          22,
+          22.6,
+          "flight_gap"
+        ],
+        [
+          22.6,
+          34,
+          "landing"
+        ],
+        [
+          34,
+          64,
+          "runout"
+        ]
+      ],
+      "flight_gap_semantics": "filled tabletop; collision remains present; region is spatial, never an airborne flag"
+    }
+  ],
+  "ski": {
+    "length": 1.4,
+    "segments": 7,
+    "width_tip": 0.112,
+    "width_waist": 0.078,
+    "width_tail": 0.106,
+    "thickness": 0.012,
+    "tip_rise": 0.065,
+    "tail_rise": 0.05,
+    "camber": 0.004,
+    "blade_mass": 1.0,
+    "binding_mass": 0.25,
+    "EI": 65,
+    "hinge_damping": 0.8,
+    "hinge_limit": 0.3,
+    "binding_x": 0.0,
+    "torsion": "locked",
+    "contact_radius": 0.002
+  },
+  "ski_visual_triangles_per_blade": 476,
+  "contact_geoms_per_blade": 42,
+  "passive_joints_per_blade": 6,
+  "physics": {
+    "mujoco": "3.3.7",
+    "timestep": 0.001,
+    "solver": "Newton",
+    "integrator": "implicitfast",
+    "cone": "elliptic",
+    "iterations": 80,
+    "tolerance": 1e-09,
+    "mu_parallel": 0.05,
+    "mu_flat": 0.08,
+    "mu_edge": 0.6,
+    "edge_on_deg": 5,
+    "edge_full_deg": 35,
+    "solref": [
+      0.012,
+      1
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.002
+    ]
+  },
+  "files": {
+    "scenes/bump_row.xml": "a431c4747c4497fa07dd9c5a38d7631482af4eb18b979943c6011db729d8d5c7",
+    "scenes/carving_gates.xml": "a5de5af471ab416d3186a89701209c1bcccb77f5b5f7ad3d09c914d71d8ce0f7",
+    "scenes/cross_slope.xml": "837f60432e78d7196cb4139808b391851cdd9de0d2116dd9b1dcfc2cfc4282cd",
+    "scenes/g1_bump_row.xml": "ffff4a62eb61b8455441d6d18231fe75278b5388b2b769b87fd86ddbbbb8ee07",
+    "scenes/g1_carving_gates.xml": "1da82ea353a1d38820626548f4b110bdcd7d685e661f0272a02b7915b580455c",
+    "scenes/g1_cross_slope.xml": "811f9af2ab28dd7c4862d8ea0c9c0ac7b3052cd2dde7093cc3f890e6d7f4d71e",
+    "scenes/g1_moguls_regular.xml": "d73c23994afc900fd0cfbc3df6bf37d524ee2a76e2bc3e6bf493fb72c538871c",
+    "scenes/g1_moguls_seeded.xml": "e8af62d8bac52dbf859ec3e4cab0b19ca44f76bb4d758774c06d9b4d57190b9a",
+    "scenes/g1_piste_high.xml": "528619a3f6c9efa2c534fa48f07bff89a5da7093964bdab33a72b6bce754c819",
+    "scenes/g1_piste_low.xml": "5d58c11b3e9c9e63ff107f46d3048842303f8bf4049bf03b52bbcba633b950f2",
+    "scenes/g1_plane_00.xml": "d892ba41766624760bff2804cdc62e2c759f8f0ab98e1255b6ee33ecc1f2a507",
+    "scenes/g1_plane_05.xml": "9a646ca8cb5a5fab0b7a92618d43a1fab787097759b86f4bc557ce7c077f7fe6",
+    "scenes/g1_plane_10.xml": "719870ef9576053c3fee03ac5277c048827861cfafa857fc89943031f1d84ae0",
+    "scenes/g1_plane_15.xml": "52bc4e12813c5e383180f99a805033816de534091c5f88b5d61d3c880f1d338b",
+    "scenes/g1_plane_20.xml": "5eb24a02c1089e6eeff0d60b5a2238da13b2a34feb65a7f0b428d51e702e3cfe",
+    "scenes/g1_plane_25.xml": "76efad64e44761e6f0d6e5f932e81ae291613e2b639c5caa84714420cef95e11",
+    "scenes/g1_plane_30.xml": "fc01e9c61efcb00eefeb328399d992dcc841f589730a86722ada4478d8b076e2",
+    "scenes/g1_plane_35.xml": "5270e80e17ee60dc4987876fe7ee49728c02d7837edf9fc7a6413be534f64bf2",
+    "scenes/g1_plane_40.xml": "4e1bcf79653b2c26cd13b12677e280f3b732da1893e061374a3bd55ae4fcea36",
+    "scenes/g1_single_bump.xml": "91e5af6731623c7d77905a89aa6ed589f394caabd9522be8f8f04ba392ec3ada",
+    "scenes/g1_tabletop_medium.xml": "80282f66dc3e06ec90912f31d5ccfec8829b2843753df748175d8dc568215e52",
+    "scenes/g1_tabletop_small.xml": "e798c8939fcfdaef22211e76e9fd74e730c4e00635a6ae5a31af84a1feddbaed",
+    "scenes/g1_tabletop_steep.xml": "403eec9201b7848e4d0dcea8401b887d4205de70560a39037e48be5776cf3eaf",
+    "scenes/moguls_regular.xml": "6b7b232837dbec010e191cc3cf26d85fea228a2ceba3bb5721a56b4aaf24ccae",
+    "scenes/moguls_seeded.xml": "f532955958e3b5cf14f839218fedfc0adb6fa8a146d65ac4a277799fe709679f",
+    "scenes/piste_high.xml": "f89b61a8b8f25416774cfdb47299cbdc7bbeeeb4428e5c06b73bdb2bfa1e4431",
+    "scenes/piste_low.xml": "0b8ad3765851089d970a83088778a35474319b8006a5e007089ae33bc13ed637",
+    "scenes/plane_00.xml": "f7d695291ce8aff4da79ad8147c2bc8aff2e74a7b698e2da3f0ba70f38b7f670",
+    "scenes/plane_05.xml": "1139b78d6c7aeef9673a95d6dad1ba78ddce2e1dbf8be4d9693976d814fb0d2f",
+    "scenes/plane_10.xml": "dcd81c69ddf26626e29cb7aac2863fc0a818aea155de2015640c9dd8f00dbd12",
+    "scenes/plane_15.xml": "2980a530374b1207a8ab43f6023af56b85ef4aa04f2aaa804259d1d6e0c06a54",
+    "scenes/plane_20.xml": "fb154db27001d76d250cb739a1cf6f5b15628d8bd0ecd91fb6da7654c6bcf60c",
+    "scenes/plane_25.xml": "421d6a49ea1a4fa7d6fb220fa417891ec70a17f461f83bff4574a23b10da953b",
+    "scenes/plane_30.xml": "451166b4277440420762efa58bd1265cfea8ed574de2833bd3edd2db8800438c",
+    "scenes/plane_35.xml": "c1f1bb1e4e3216dc9302e8355ae52b15c82c62ece187d8fb257950f125f5b108",
+    "scenes/plane_40.xml": "0a1f9f09f45864cd86c87a40cc0756879220411a6b3fa3f6c9eb465e9880b046",
+    "scenes/single_bump.xml": "b6226a018d33902edae17c69045acbe7c30cd39c19ce7f7247e8a36843d527c1",
+    "scenes/ski_pair.xml": "322a852c1a6901d5dc68becc6c0ffc01a2abeae9bbf95e2530ea848d2b181289",
+    "scenes/ski_single.xml": "40e208dbaa0b6a55e9b8542c90897738357a70be014626f91334c8bfc6e2c478",
+    "scenes/tabletop_medium.xml": "bf70a29786f99417f9d2b088dba6637210b91e89ddddf14f518d8e7ed06867dd",
+    "scenes/tabletop_small.xml": "2405ac2d74c8fa9685bb9e4038e17a684353de25defdc3e7e6a9a0aadef4df22",
+    "scenes/tabletop_steep.xml": "8499690430c2a6d2850073f0f8056d806df88cb76098dafa788e056e907cf0bc",
+    "meshes/ski_base_0_0.obj": "bf7aa3f646ad9049c0eed8c41498e7e239aa87d013af0b9cd2cdd64911738ab6",
+    "meshes/ski_base_0_1.obj": "c096bdcc22fc01b7fb10115db66577f759ff49a1afc660317f9eeae38a3370f4",
+    "meshes/ski_base_1_0.obj": "e512a3e6e30b48f1cf54d361a1c520e0b8b71d8b1143e339747bb1cd0d023698",
+    "meshes/ski_base_1_1.obj": "1bf799de83db58b08fa77969afb8e19b7363492ed172b24532c0bc51c78a7bd9",
+    "meshes/ski_base_2_0.obj": "4225abb4ba82dea73d0430ed75d21bcc5d3913dcb45ccd55e28e669b01578840",
+    "meshes/ski_base_2_1.obj": "c4f20994812af780ce57d9936d4c3e33025a36ca91bc864715ae717e0ab6cf3f",
+    "meshes/ski_base_3_0.obj": "3c563b7ef594e012e34ac5bd06f7dac528386d295af5f69deff1cb92665c8c63",
+    "meshes/ski_base_3_1.obj": "f7b9628bd9f0df80fcc1248d8b83e0bdbf04aeb4a7a7391d264c5407da2bccdc",
+    "meshes/ski_base_4_0.obj": "cfac9fe3e3da8f7e220c2159beb38c0bc51bfdadf58b04f4795f3bda2ebc432a",
+    "meshes/ski_base_4_1.obj": "1e12e1da4b495dee57dfd0f3375928b8e3ed133e7e6adf73188efc35137ca12b",
+    "meshes/ski_base_5_0.obj": "64728aea0f82df341c350518e1ca09502d513a0dfa88af11f5ca284bed0b89aa",
+    "meshes/ski_base_5_1.obj": "d7400851791d95bb4ab9c05ca45fac8e307bf0fffeb91c16f6d40d95a51efeda",
+    "meshes/ski_base_6_0.obj": "0cbd388f1d2c5ef183414e5d650a12bce0037d6122cc2c59c77cde3685b2d87a",
+    "meshes/ski_base_6_1.obj": "ec8fce2e07f4ecdced503cc75617cf9e9788d9d07a0034ac7c3b9e81845d0665",
+    "meshes/ski_complete_rest.obj": "fc3fc10e9483388dfb714ec8ac27ea7ae005a716c576cbdbe8711b32a26da046",
+    "meshes/ski_visual_0.obj": "c4fe81cb9e7f095200ebbde97a2d119da5ca5915ba43c83e1c752821c4a1f419",
+    "meshes/ski_visual_1.obj": "3c858a35641b38e5446373a909d01dee7ea2d75c80c4542baca032f518b2b37a",
+    "meshes/ski_visual_2.obj": "8156150f50d69cf8f1ceac52a37f592f9f68e82f2f8a5dcd2b8a4981b75a6e20",
+    "meshes/ski_visual_3.obj": "6fc5bd22f04bea91142ddbfc2b7f20bb27bb81ddc14627ed6da069512fd382da",
+    "meshes/ski_visual_4.obj": "ec0e751dd6b92fb682266629ccbe892b53e1421a781e5cac483c8fa36423d367",
+    "meshes/ski_visual_5.obj": "7c4d86f8be86e4271fe5b5ad501f2405f1cc0bb88aca09cd859c3d58d694fee4",
+    "meshes/ski_visual_6.obj": "0a00ff4fd1e35c32fcb9a14ff31248080f081c80e573df90079b976cd57390a4",
+    "terrain/bump_row.bin": "7918508f1316b76d274d8ed12a573dfe30dba39ec825ebcbd6773d9053d2c8d3",
+    "terrain/bump_row.json": "b499221c3b07c09ab85abcbff3e0cbf45558bd3c1d58f2019608ef2ce2054dc7",
+    "terrain/bump_row.npz": "6dfdb9e16724efe90577183cd0954783d22f9cd7a805bb4819b9b570d9e13f61",
+    "terrain/carving_gates.bin": "ce66fba9652f6d543f158a97e1337b4c10cbabd19be0dec4fa098558562cbe00",
+    "terrain/carving_gates.json": "ff70c74c90a7d63bafb4121885f455928fe7429b041068cc83f26c3eb02bca49",
+    "terrain/carving_gates.npz": "5ae445185e3f82978b253fa5bafbfa9b5ec9001a732104986151fb5491436b5c",
+    "terrain/cross_slope.bin": "344a9f0e004187eb2d71489d900c1aa7bddeed844e3cac1a5319c6dde76c9f79",
+    "terrain/cross_slope.json": "a732ba83d0f444dcd092fcfe924ec2edbbd7cfd6bc6cf42ecb3c55f8c2224513",
+    "terrain/cross_slope.npz": "ea27d31d78d319cb73992e52aa8aa4cc27f1d757fe2c1b5aec387ffd01d9831a",
+    "terrain/moguls_regular.bin": "3bef527d6967a8d4194e4fe988a9d916c497d09081ebd781bd8050989af55860",
+    "terrain/moguls_regular.json": "3a7b79b1347e79f87bf8d4de10a97bc87bd828ca72cfddd878c1877e9f7bb349",
+    "terrain/moguls_regular.npz": "714e869dcea6733db9f6d9e5b7fee000ec91d5d7f6e0f496af1a1c0e40bc55d8",
+    "terrain/moguls_seeded.bin": "76d9364cb797941427dd73dd654c0889bba895ef948fb6f88133001d6e34cf37",
+    "terrain/moguls_seeded.json": "252d3d8602cb99c112a1f462858f54e8069ac13f6b5241d6a97d80773d5b8387",
+    "terrain/moguls_seeded.npz": "6c6efe4cb5fd46616d29288b948032dcabb12234d5175c013f31a0129c216752",
+    "terrain/piste_high.bin": "cb2e84ae005ac1ae78aeb4410c6897342bdfd252c75b3589731df60043b108ac",
+    "terrain/piste_high.json": "afdb59b675ac63e6ffe18b671c89a446cae306cb5bab301df76d0d17210bd7a6",
+    "terrain/piste_high.npz": "9ef55ed7ec0d716e4983e8f1e6cc167be26374be7b4baeeff1aaa20a4ccb3c33",
+    "terrain/piste_low.bin": "8fd7e366a20bb3dc6107714b36e341188dfaad499fbef33156280150c1aa5b3d",
+    "terrain/piste_low.json": "cf7629553cec75da2d77e94cedf3faad939477f63732d4aa2417a604fb459f6c",
+    "terrain/piste_low.npz": "2acfb00d838a7eccfd0fea8fc718aa8186788231e9c26454dd78bb220ea35cf0",
+    "terrain/plane_00.json": "aca7cad130a2c1a6cdd687d315e3a254e0a1c8e412dafcfab9a249957140c654",
+    "terrain/plane_05.json": "aa981bf700cc22727d038745decd18a31458a00eace7a9d66dc70fec736665b5",
+    "terrain/plane_10.json": "9f4b31e39667fdd50003a717e6208681df3109bbc74fe9705070c045aa98a8a5",
+    "terrain/plane_15.json": "dfc256c6dbd1acae45b301df20db2a977fde06cecadb725cf9d7ca8da3e75260",
+    "terrain/plane_20.json": "bac69420fb698987cc668a74d6bcf912de25fcc3c6d5764ca977be0f84d9aaba",
+    "terrain/plane_25.json": "6fcceccad50e53956201c443ac5f10ed0e279a8c1f3d1cc8d044ea79d1f9fd23",
+    "terrain/plane_30.json": "d22236e4022bf45bc344548eed29cd7f75942fa7428dd4941f0975c73b428b22",
+    "terrain/plane_35.json": "ae60b34ff0fbdb522fab2460c02893e978b614c3521b896a6c71d10a43a21679",
+    "terrain/plane_40.json": "6b0cc7c5ed0028af83aacdff112002c1ab5fd42e39c3879b4223a1553dd4d81a",
+    "terrain/single_bump.bin": "4dd5b86948e1fab4f0f812826c70242f942706873bd94115d6399bd686596c02",
+    "terrain/single_bump.json": "abc8dd37b38e7dcb0b840bdce3b3093567e5c6c5233e85e4678da12f5420d4b3",
+    "terrain/single_bump.npz": "d2d45e891e2db23e8b3974bbe8ec799ccf06b955a17a1686cb9f241dc2aae366",
+    "terrain/tabletop_medium.bin": "d14a15df173ed4e09545c2f05a29460da5077b99e8c6cbba5f0a962b755de9ce",
+    "terrain/tabletop_medium.json": "41f410b1c94d04f11da70e910ba96cc7882a2afbaeec5c73170cef6811b2308f",
+    "terrain/tabletop_medium.npz": "fb86455ae39a21a878b97a9cdd3cdc8ca9c7727ee0edee482eb68020f9da6868",
+    "terrain/tabletop_small.bin": "691870ad4599a4bbc961f75b14111132c8d9e7d5acb830897d8421fdbcd44863",
+    "terrain/tabletop_small.json": "326546e039e7ca41ff3de1027ef3acf47af5f6f4512d930cd8e5b44d8406230f",
+    "terrain/tabletop_small.npz": "e32eb1873fa78fc470966a2b9692cc38454bed44508f99d2afb4100d5f48b63b",
+    "terrain/tabletop_steep.bin": "86c6d515fab8a15ba3445a0be42fc9ebc9e1132071f08274766d08ca0eec42ee",
+    "terrain/tabletop_steep.json": "b9fa1c8f39068483805be0d6ebd28dbcd8a0dc5413ddfe839ade5ee3c59df5df",
+    "terrain/tabletop_steep.npz": "0c95aa6ec75577c527b6d91ef23bad4724677b0f2bda49b85e26f35d0e3cf6f6",
+    "configs/curriculum.json": "601ea9ffb6f95053cd058cd6871d75561c5de9085089aee36029902fc8530076",
+    "configs/design.json": "2faa6e40c4e4b49e13e143b33763b43e7bc0e277e8ebb016dfd009534e1fe7c5",
+    "configs/g1_contacts.json": "445ba30f73eac45b914ebc41cedcf88319abacf1342eb8183a78aa786978547c",
+    "configs/ski_pair_contacts.json": "5a2bad72222549cb45ef8110f727422cceb37ed532328184b5cd0bc0e9611b41",
+    "configs/ski_single_contacts.json": "49aadeabeaf1ca5cf16a0d7145a839a83862076f0cc73d41e8dcb4fdfcd2396c",
+    "tools/attach_g1.py": "4b5d51affe1a8195e4fa7b6032ea787a6aee4e7eb62e7047b9c4aa7d77dc8fa1",
+    "tools/build_assets.py": "e2fdd6fba9a817dd29c02feefb921a657e76f42fddbb7939aa6848dc8ffd6486",
+    "tools/demo.py": "99ca3f8a4772139ceaa30910e135370bb11f5445c43236fc73fa1da343265070",
+    "tools/fetch_g1.py": "da13d2fb6faeb73bc16e8dc2883f3849e25e38765369089ac2124984cdf1c52c",
+    "tools/finalize_manifest.py": "3f294b0a54be492684f750a9340bdf58c2de36dd88ee974b4c4eca39f8ed2892",
+    "tools/probe_courses.py": "5be1710fc641d986fbbbe5c3bb31f4121979bd6b1f528d0443af745af19c4b57",
+    "tools/render_assets.py": "730459f119e04f3e91c036bf52963a5f17c923b77b96c1ca3e387f5a77ce7571",
+    "tools/render_docs.py": "ba7f7552577079958fa3d7e76111af8c45b87a1e9b55f3093a0c5917e45acf57",
+    "tools/runtime.py": "f5e75aa0b4a9a1b1c38719ef91e86630b9a40340b5138a7e7e5a43697b64951f",
+    "tools/validate_assets.py": "ba4e71b699324370e524d7a3a33d5ef9045c3175f37313cecfdb5fd82f4a4b25"
+  },
+  "official_robot_source": "robots/unitree_g1/source.json",
+  "validation_report": "reports/validation.json",
+  "exploratory_course_report": "reports/course_probes.json",
+  "training_ready": false
+}

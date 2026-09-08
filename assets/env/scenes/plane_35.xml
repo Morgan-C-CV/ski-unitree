@@ -1,0 +1,23 @@
+<mujoco model="plane_35">
+  <compiler angle="radian" autolimits="true" />
+  <option timestep="0.001" gravity="0 0 -9.81" integrator="implicitfast" solver="Newton" cone="elliptic" iterations="80" tolerance="1e-09" />
+  <visual>
+    <global offwidth="1400" offheight="1000" />
+    <headlight ambient=".32 .34 .36" diffuse=".38 .38 .38" specular=".05 .05 .05" />
+    <quality shadowsize="2048" />
+  </visual>
+  <asset>
+    <texture name="sky" type="skybox" builtin="gradient" rgb1=".30 .52 .73" rgb2=".86 .92 .97" width="128" height="768" />
+    <material name="snow" rgba=".84 .91 .97 1" specular=".18" shininess=".2" />
+    <material name="ski_blue" rgba=".02 .25 .46 1" specular=".18" shininess=".2" />
+    <material name="ski_orange" rgba="1 .32 .055 1" specular=".18" shininess=".2" />
+    <material name="edge" rgba=".25 .32 .37 1" specular=".18" shininess=".2" />
+    <material name="binding" rgba=".08 .10 .13 1" specular=".18" shininess=".2" />
+    <material name="red" rgba=".95 .09 .12 1" specular=".18" shininess=".2" />
+    <material name="blue" rgba=".04 .3 .85 1" specular=".18" shininess=".2" />
+  </asset>
+  <worldbody>
+    <light directional="true" pos="0 0 30" dir=".2 1 -.45" diffuse=".95 .94 .92" />
+    <geom name="snow_surface" type="plane" size="50 20 .1" quat="0.9537169507 0 0.3007057995 0" material="snow" contype="1" conaffinity="6" condim="3" friction=".05 .0 .0" solref="0.012 1" solimp="0.9 0.95 0.002" margin="0" gap="0" />
+  </worldbody>
+</mujoco>

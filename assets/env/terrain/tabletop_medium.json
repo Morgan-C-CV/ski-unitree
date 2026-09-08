@@ -1,0 +1,81 @@
+{
+  "name": "tabletop_medium",
+  "kind": "jump",
+  "angle": 28,
+  "length": 64,
+  "width": 16,
+  "dx": 0.1,
+  "dy": 2,
+  "lip_x": 22,
+  "lip_angle_deg": 16,
+  "table_end": 22.6,
+  "landing_angle_deg": 30,
+  "landing_end": 34,
+  "runout_start": 42,
+  "speed_envelope": [
+    4,
+    5,
+    6
+  ],
+  "slope_profile": [
+    [
+      0,
+      28
+    ],
+    [
+      8,
+      26
+    ],
+    [
+      16,
+      30
+    ]
+  ],
+  "slope_group": "high",
+  "slope_group_range_deg": [
+    20,
+    40
+  ],
+  "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+  "z_origin": -9.54775803855437,
+  "height_scale": 17.54775803855437,
+  "rows": 9,
+  "columns": 641,
+  "triangles": 10240,
+  "gates": [],
+  "material_id": "packed_snow_v1",
+  "spawn_xy": [
+    2,
+    0
+  ],
+  "finish_x": 61,
+  "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+  "region_intervals": [
+    [
+      0,
+      16,
+      "approach"
+    ],
+    [
+      16,
+      22,
+      "takeoff"
+    ],
+    [
+      22,
+      22.6,
+      "flight_gap"
+    ],
+    [
+      22.6,
+      34,
+      "landing"
+    ],
+    [
+      34,
+      64,
+      "runout"
+    ]
+  ],
+  "flight_gap_semantics": "filled tabletop; collision remains present; region is spatial, never an airborne flag"
+}

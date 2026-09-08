@@ -1,0 +1,41 @@
+{
+  "version": "env-v1.1-slope-groups",
+  "group_boundary_ownership": "10 degrees belongs to low, 20 degrees belongs to medium; no duplicate sampling at boundaries",
+  "groups": {
+    "low": [
+      "plane_00",
+      "plane_05",
+      "plane_10",
+      "piste_low"
+    ],
+    "medium": [
+      "plane_15",
+      "plane_20",
+      "carving_gates",
+      "cross_slope"
+    ],
+    "high": [
+      "plane_25",
+      "plane_30",
+      "plane_35",
+      "plane_40",
+      "piste_high",
+      "single_bump",
+      "bump_row",
+      "moguls_regular",
+      "moguls_seeded",
+      "tabletop_small",
+      "tabletop_medium",
+      "tabletop_steep"
+    ]
+  },
+  "special_terrain_rule": "single bump, bump row, moguls and tabletop scenes occur only in high group",
+  "control_rates_hz": {
+    "physics": 1000,
+    "LLC": 100,
+    "HLC": 10
+  },
+  "phase_rule": "region(x,y) is spatial only. Airborne/landing/recovery phases require contact/state estimation.",
+  "promotion_rule": "Do not sample high terrain for policy training before physical validation and skill readiness.",
+  "training_ready": false
+}

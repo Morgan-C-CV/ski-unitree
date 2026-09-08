@@ -1,0 +1,2316 @@
+{
+  "engine": "3.3.7",
+  "platform": "macOS-15.7.4-arm64-arm-64bit",
+  "scope": "Frozen production assets; independent no-work orientation fixture and explicitly labelled free-body probes. No production physics retuning.",
+  "thresholds": {
+    "static_force_relative": 0.03,
+    "static_sink_m": 0.005,
+    "drop_sink_m": 0.025,
+    "velocity_dt_relative": 0.05,
+    "impact_impulse_dt_relative": 0.1,
+    "energy_gain_fraction": 0.02
+  },
+  "results": {
+    "scene_structure": [
+      {
+        "scene": "bump_row.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "carving_gates.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "cross_slope.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_bump_row.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_carving_gates.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_cross_slope.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_moguls_regular.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_moguls_seeded.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_piste_high.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_piste_low.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_plane_00.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_plane_05.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_plane_10.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_plane_15.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_plane_20.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_plane_25.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_plane_30.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_plane_35.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_plane_40.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_single_bump.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_tabletop_medium.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_tabletop_small.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "g1_tabletop_steep.xml",
+        "nq": 48,
+        "nv": 47,
+        "nu": 29,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "moguls_regular.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "moguls_seeded.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "piste_high.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "piste_low.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "plane_00.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "plane_05.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "plane_10.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "plane_15.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "plane_20.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "plane_25.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "plane_30.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "plane_35.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "plane_40.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "single_bump.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "ski_pair.xml",
+        "nq": 26,
+        "nv": 24,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "ski_single.xml",
+        "nq": 13,
+        "nv": 12,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "tabletop_medium.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "tabletop_small.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      },
+      {
+        "scene": "tabletop_steep.xml",
+        "nq": 0,
+        "nv": 0,
+        "nu": 0,
+        "initial_min_contact_distance": 0,
+        "equality_constraints": 0,
+        "positive_mass_inertia": true
+      }
+    ],
+    "static_roll_load_distribution": [
+      {
+        "roll_deg": 0,
+        "weight_N": 188.85231000000002,
+        "support_N": 188.85230999999987,
+        "force_relative_error": 7.524850882259265e-16,
+        "loads": {
+          "base": 94.42115557211508,
+          "edge_L": 47.2155772139396,
+          "edge_R": 47.215577213945195
+        },
+        "minimum_distance_m": -2.8049090008407454e-05,
+        "active_point_count": 32,
+        "mu_lateral_effective_capacity": 0.08,
+        "longitudinal_support_span_m": 1.0000365218040796,
+        "flex_qpos": [
+          -0.0036807765376161896,
+          -0.0020565332773200035,
+          0.00043026158208388194,
+          0.0037111597822728367,
+          0.0020716363557158972,
+          -0.0004304369098032959
+        ]
+      },
+      {
+        "roll_deg": 5,
+        "weight_N": 188.85231000000002,
+        "support_N": 188.85230999999996,
+        "force_relative_error": 3.0099403529037063e-16,
+        "loads": {
+          "base": 0.0,
+          "edge_L": 0.0,
+          "edge_R": 188.85230999999996
+        },
+        "minimum_distance_m": -0.00013188910788307882,
+        "active_point_count": 8,
+        "mu_lateral_effective_capacity": 0.08000000000280774,
+        "longitudinal_support_span_m": 1.0000137393285844,
+        "flex_qpos": [
+          -0.005039974989220429,
+          -0.0027354894989169327,
+          0.0004282900213341878,
+          0.004811120340261857,
+          0.0026209051449800017,
+          -0.00042859402050971965
+        ]
+      },
+      {
+        "roll_deg": 10,
+        "weight_N": 188.85231000000002,
+        "support_N": 188.85231000000002,
+        "force_relative_error": 0.0,
+        "loads": {
+          "base": 0.0,
+          "edge_L": 0.0,
+          "edge_R": 188.85231000000002
+        },
+        "minimum_distance_m": -0.0001539764457185993,
+        "active_point_count": 8,
+        "mu_lateral_effective_capacity": 0.11851919105206365,
+        "longitudinal_support_span_m": 1.0000119406935037,
+        "flex_qpos": [
+          -0.006477637245709855,
+          -0.0034520806229842915,
+          0.00042299369087937344,
+          0.005985185351291161,
+          0.0032056280972614084,
+          -0.00042342932372178247
+        ]
+      },
+      {
+        "roll_deg": 20,
+        "weight_N": 188.85231000000002,
+        "support_N": 188.85230848805182,
+        "force_relative_error": 8.005982021826006e-09,
+        "loads": {
+          "base": 0.0,
+          "edge_L": 0.0,
+          "edge_R": 188.85230848805182
+        },
+        "minimum_distance_m": -0.00020454181882995255,
+        "active_point_count": 8,
+        "mu_lateral_effective_capacity": 0.34000592542048513,
+        "longitudinal_support_span_m": 1.0000009450195513,
+        "flex_qpos": [
+          -0.009497517432111833,
+          -0.004952700248111521,
+          0.0004027784325225529,
+          0.008450669266084058,
+          0.004428918934449446,
+          -0.00040347670834796774
+        ]
+      },
+      {
+        "roll_deg": 35,
+        "weight_N": 188.85231000000002,
+        "support_N": 188.8523054643452,
+        "force_relative_error": 2.4016941196891198e-08,
+        "loads": {
+          "base": 0.0,
+          "edge_L": 0.0,
+          "edge_R": 188.8523054643452
+        },
+        "minimum_distance_m": -0.0002608806523874182,
+        "active_point_count": 8,
+        "mu_lateral_effective_capacity": 0.6,
+        "longitudinal_support_span_m": 0.9999570061300158,
+        "flex_qpos": [
+          -0.01494313831228799,
+          -0.007648524159750031,
+          0.00035378393363959585,
+          0.01290992024438145,
+          0.006631630876158714,
+          -0.0003539918253838566
+        ]
+      },
+      {
+        "roll_deg": -20,
+        "weight_N": 188.85231000000002,
+        "support_N": 188.85230848805188,
+        "force_relative_error": 8.00598172083197e-09,
+        "loads": {
+          "base": 0.0,
+          "edge_L": 188.85230848805188,
+          "edge_R": 0.0
+        },
+        "minimum_distance_m": -0.00020454181882995255,
+        "active_point_count": 8,
+        "mu_lateral_effective_capacity": 0.3400059254204852,
+        "longitudinal_support_span_m": 1.0000009450195513,
+        "flex_qpos": [
+          -0.009497517432111828,
+          -0.004952700248111519,
+          0.0004027784325225531,
+          0.008450669266084052,
+          0.004428918934449444,
+          -0.0004034767083479682
+        ]
+      },
+      {
+        "roll_deg": -35,
+        "weight_N": 188.85231000000002,
+        "support_N": 188.8523054643452,
+        "force_relative_error": 2.4016941196891198e-08,
+        "loads": {
+          "base": 0.0,
+          "edge_L": 188.8523054643452,
+          "edge_R": 0.0
+        },
+        "minimum_distance_m": -0.00026088065238741125,
+        "active_point_count": 8,
+        "mu_lateral_effective_capacity": 0.6,
+        "longitudinal_support_span_m": 0.9999570061300158,
+        "flex_qpos": [
+          -0.014943138312288027,
+          -0.007648524159750047,
+          0.00035378393363959433,
+          0.012909920244381451,
+          0.006631630876158715,
+          -0.0003539918253838579
+        ]
+      }
+    ],
+    "static_friction_and_breakaway": [
+      {
+        "roll_deg": 0,
+        "lateral_external_force_N": 5,
+        "lateral_displacement_m": 2.937568770193449e-06,
+        "final_lateral_velocity": 7.4317769334701895e-06,
+        "external_work_J": 1.4687843850967264e-05,
+        "max_force_N": 188.91848769333356
+      },
+      {
+        "roll_deg": 0,
+        "lateral_external_force_N": 25,
+        "lateral_displacement_m": 0.04120968712509882,
+        "final_lateral_velocity": 0.205979333205667,
+        "external_work_J": 1.0302421781274707,
+        "max_force_N": 273.5402214000474
+      },
+      {
+        "roll_deg": 35,
+        "lateral_external_force_N": 25,
+        "lateral_displacement_m": 6.82775862831885e-07,
+        "final_lateral_velocity": 1.846414765734733e-06,
+        "external_work_J": 1.706939657080596e-05,
+        "max_force_N": 190.4998843339111
+      },
+      {
+        "roll_deg": 35,
+        "lateral_external_force_N": 100,
+        "lateral_displacement_m": 1.0673666410246103e-05,
+        "final_lateral_velocity": 1.4866131994275554e-05,
+        "external_work_J": 0.001067366641024594,
+        "max_force_N": 213.7060327109945
+      },
+      {
+        "roll_deg": 35,
+        "lateral_external_force_N": 150,
+        "lateral_displacement_m": 0.2273749701175476,
+        "final_lateral_velocity": 1.1513208793954612,
+        "external_work_J": 34.10624551763211,
+        "max_force_N": 1813.4312056339895
+      },
+      {
+        "roll_deg": -35,
+        "lateral_external_force_N": 25,
+        "lateral_displacement_m": 1.500639428008788e-06,
+        "final_lateral_velocity": 3.6530560196136254e-06,
+        "external_work_J": 3.751598570022319e-05,
+        "max_force_N": 190.49988842475994
+      }
+    ],
+    "free_yaw_carving_probe": [
+      {
+        "peak_force_N": 1059.7325479976812,
+        "minimum_contact_distance_m": -0.00018083433163328913,
+        "impulse_world_Ns": [
+          -18.908195650064897,
+          0.0013537400914877336,
+          378.1525027876539
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 159.0051703079042,
+        "final_energy_J": 92.76353920771437,
+        "maximum_energy_J": 159.0051703079042,
+        "no_contact_steps": 237,
+        "peak_state": {
+          "time": 0.9780000000000008,
+          "force": [
+            -52.921013586211316,
+            8.079996400266881e-05,
+            1058.4103361204761
+          ],
+          "position": [
+            0.7041878675607262,
+            1.8910318351557687e-09,
+            0.0020063993217565544
+          ],
+          "distance": -0.0001129212328786957,
+          "loads": {
+            "base": 528.8796441491072,
+            "edge_L": 264.76440255130086,
+            "edge_R": 264.7662894200677
+          },
+          "qvel_norm": 3.9993851991596285
+        },
+        "final_qpos": [
+          7.018477838579076,
+          4.23130739794375e-05,
+          0.0021016777211270926,
+          0.00012695542092243958,
+          -0.003348914835799688,
+          -0.0021882641932892345,
+          -0.00016424764997056534,
+          0.00333157772485545,
+          0.002334891698225693,
+          -0.0007458019463131078
+        ],
+        "final_qvel": [
+          3.017859105608224,
+          7.032712946498256e-05,
+          0.024675750478873843,
+          5.153503687643609e-05,
+          0.3193953941512421,
+          -0.3435350643996336,
+          -0.013911330207883562,
+          -0.08131134962539831,
+          0.16166373266060827,
+          -0.32918515135922544
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 2711,
+        "roll_deg": 0,
+        "dt": 0.001,
+        "heading_change_deg": 0.0013352007373028517,
+        "yaw_change_deg": 0.00727487165368132,
+        "sideslip_deg": -0.005938809067859805,
+        "estimated_radius_m": 301175.0778103721,
+        "external_yaw_torque": 0,
+        "fixture": "fixed roll/pitch, XYZ and yaw free, no work by fixed orientation constraints"
+      },
+      {
+        "peak_force_N": 1940.1545192822634,
+        "minimum_contact_distance_m": -0.0006784792945580907,
+        "impulse_world_Ns": [
+          -81.05478508415388,
+          -17.568755430139245,
+          378.7420183949092
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 161.1705804776149,
+        "final_energy_J": 15.820385616549206,
+        "maximum_energy_J": 161.1705804776149,
+        "no_contact_steps": 277,
+        "peak_state": {
+          "time": 2.3659999999998504,
+          "force": [
+            -563.7860529655451,
+            252.92951673857226,
+            1839.12248225487
+          ],
+          "position": [
+            4.383459010862366,
+            -1.8958075645119594,
+            0.014824419875782644
+          ],
+          "distance": -6.775695209748937e-05,
+          "loads": {
+            "base": 0.0,
+            "edge_L": 0.0,
+            "edge_R": 1839.12248225487
+          },
+          "qvel_norm": 3.367974961256388
+        },
+        "final_qpos": [
+          4.483792309079529,
+          -2.5407027967362326,
+          0.014871863580957781,
+          -2.597824273554561,
+          -0.00883296108336563,
+          -0.005448923936830991,
+          0.001316392039354561,
+          0.007578104754927161,
+          0.005666428432663716,
+          0.0010856201766279497
+        ],
+        "final_qvel": [
+          -0.21384835698273008,
+          -0.9134594965244004,
+          0.056714591016657843,
+          -0.4062106284032895,
+          -0.00046739995016393756,
+          -0.0072704314844539335,
+          0.5653717188725081,
+          -0.5072471450327208,
+          0.3349797987568282,
+          -0.3011412496565801
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 11453,
+        "roll_deg": 20,
+        "dt": 0.001,
+        "heading_change_deg": -103.17611923743276,
+        "yaw_change_deg": -148.85941394526262,
+        "sideslip_deg": 45.668247553882615,
+        "estimated_radius_m": 2.86194102396864,
+        "external_yaw_torque": 0,
+        "fixture": "fixed roll/pitch, XYZ and yaw free, no work by fixed orientation constraints"
+      },
+      {
+        "peak_force_N": 1940.1545192822637,
+        "minimum_contact_distance_m": -0.0006784792945580733,
+        "impulse_world_Ns": [
+          -81.05478508415393,
+          17.56875543013932,
+          378.7420183949093
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 161.1705804776149,
+        "final_energy_J": 15.820385616549293,
+        "maximum_energy_J": 161.1705804776149,
+        "no_contact_steps": 277,
+        "peak_state": {
+          "time": 2.3659999999998504,
+          "force": [
+            -563.7860529655452,
+            -252.92951673857146,
+            1839.1224822548702
+          ],
+          "position": [
+            4.383459010862367,
+            1.8958075645119599,
+            0.014824419875782648
+          ],
+          "distance": -6.775695209747115e-05,
+          "loads": {
+            "base": 0.0,
+            "edge_L": 1839.1224822548702,
+            "edge_R": 0.0
+          },
+          "qvel_norm": 3.367974961256396
+        },
+        "final_qpos": [
+          4.483792309079531,
+          2.540702796736235,
+          0.014871863580957802,
+          2.59782427355456,
+          -0.008832961083365592,
+          -0.005448923936830969,
+          0.00131639203935456,
+          0.0075781047549271655,
+          0.005666428432663725,
+          0.0010856201766279553
+        ],
+        "final_qvel": [
+          -0.21384835698273,
+          0.9134594965244052,
+          0.056714591016658066,
+          0.406210628403294,
+          -0.0004673999501605963,
+          -0.007270431484453868,
+          0.5653717188725017,
+          -0.5072471450327215,
+          0.3349797987568293,
+          -0.3011412496565781
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 11352,
+        "roll_deg": -20,
+        "dt": 0.001,
+        "heading_change_deg": 103.17611923743269,
+        "yaw_change_deg": 148.8594139452626,
+        "sideslip_deg": -45.66824755388265,
+        "estimated_radius_m": 2.8619410239686434,
+        "external_yaw_torque": 0,
+        "fixture": "fixed roll/pitch, XYZ and yaw free, no work by fixed orientation constraints"
+      },
+      {
+        "peak_force_N": 4224.692621542541,
+        "minimum_contact_distance_m": -0.0006285875217782889,
+        "impulse_world_Ns": [
+          -80.12651453792623,
+          -2.6439889864904895,
+          377.67710208656524
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 162.30353432717587,
+        "final_energy_J": 8.74967459529749,
+        "maximum_energy_J": 162.30353432717587,
+        "no_contact_steps": 198,
+        "peak_state": {
+          "time": 1.3389999999999633,
+          "force": [
+            -2064.536438228922,
+            -645.6983745452304,
+            3628.882837851158
+          ],
+          "position": [
+            1.955770215552174,
+            -0.32740104387551294,
+            0.023398520084970866
+          ],
+          "distance": -9.386960511669753e-05,
+          "loads": {
+            "base": 0.0,
+            "edge_L": 0.0,
+            "edge_R": 3628.882837851158
+          },
+          "qvel_norm": 4.442548501445142
+        },
+        "final_qpos": [
+          2.3177113638002713,
+          -1.385957224169415,
+          0.023478168750426857,
+          -2.459993358188929,
+          -0.015364070088169961,
+          -0.007929018530798668,
+          0.000204592303553362,
+          0.012186651796422006,
+          0.006698152646791659,
+          0.0008050522376037098
+        ],
+        "final_qvel": [
+          -0.16337533193674586,
+          -0.1368807669708115,
+          1.0879750983308545e-05,
+          -0.03688193369223499,
+          -0.0009498680211172248,
+          -0.008618468730894701,
+          0.027404841730806123,
+          -0.25223183491450035,
+          0.008303873634380829,
+          -0.15041793125340516
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 8910,
+        "roll_deg": 35,
+        "dt": 0.001,
+        "heading_change_deg": -140.0427123266084,
+        "yaw_change_deg": -141.04832116813165,
+        "sideslip_deg": 0.9045247278314114,
+        "estimated_radius_m": 1.1050395018932961,
+        "external_yaw_torque": 0,
+        "fixture": "fixed roll/pitch, XYZ and yaw free, no work by fixed orientation constraints"
+      },
+      {
+        "peak_force_N": 4637.101436909512,
+        "minimum_contact_distance_m": -0.0006583598600893217,
+        "impulse_world_Ns": [
+          -60.86425695506909,
+          9.086224174662947,
+          377.6074743609058
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 162.30350174643542,
+        "final_energy_J": 17.233811716652017,
+        "maximum_energy_J": 162.30350174643542,
+        "no_contact_steps": 268,
+        "peak_state": {
+          "time": 1.4534999999998954,
+          "force": [
+            -1917.7035286511093,
+            1418.2899027959663,
+            3976.6288064155992
+          ],
+          "position": [
+            2.2621683735623592,
+            -0.46870193003396754,
+            0.023438977143880588
+          ],
+          "distance": -0.0004850747734910007,
+          "loads": {
+            "base": 0.0,
+            "edge_L": 0.0,
+            "edge_R": 3976.6288064155992
+          },
+          "qvel_norm": 5.600064228635462
+        },
+        "final_qpos": [
+          4.050316070403432,
+          -0.15619490263485353,
+          0.02348863426405515,
+          -2.6114926650689574,
+          -0.015254737128770316,
+          -0.007803432304520794,
+          0.0007858967781645324,
+          0.013356913723668524,
+          0.006413893984594738,
+          -0.001326755401899515
+        ],
+        "final_qvel": [
+          0.8413507557001142,
+          0.4728416060223007,
+          -0.0063482318272629,
+          0.19936252128725368,
+          -0.1297253436082127,
+          0.08529497524883156,
+          0.1959336594316449,
+          0.1649039242337515,
+          0.004481725643751981,
+          0.010317379453868089
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 9146,
+        "roll_deg": 35,
+        "dt": 0.0005,
+        "heading_change_deg": 29.336115115359597,
+        "yaw_change_deg": -149.72880076806683,
+        "sideslip_deg": 178.96362305318232,
+        "estimated_radius_m": 7.916569317074358,
+        "external_yaw_torque": 0,
+        "fixture": "fixed roll/pitch, XYZ and yaw free, no work by fixed orientation constraints"
+      },
+      {
+        "peak_force_N": 4224.692621542533,
+        "minimum_contact_distance_m": -0.0006285875217782889,
+        "impulse_world_Ns": [
+          -80.12651453792634,
+          2.6439889864904376,
+          377.67710208656524
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 162.30353432717587,
+        "final_energy_J": 8.74967459529749,
+        "maximum_energy_J": 162.30353432717587,
+        "no_contact_steps": 198,
+        "peak_state": {
+          "time": 1.3389999999999633,
+          "force": [
+            -2064.536438228918,
+            645.6983745452281,
+            3628.8828378511516
+          ],
+          "position": [
+            1.9557702155521743,
+            0.32740104387551305,
+            0.023398520084970943
+          ],
+          "distance": -9.38696051166238e-05,
+          "loads": {
+            "base": 0.0,
+            "edge_L": 3628.8828378511516,
+            "edge_R": 0.0
+          },
+          "qvel_norm": 4.4425485014451365
+        },
+        "final_qpos": [
+          2.3177113638002727,
+          1.3859572241694131,
+          0.023478168750426857,
+          2.4599933581889295,
+          -0.015364070088169965,
+          -0.007929018530798668,
+          0.0002045923035533621,
+          0.012186651796422006,
+          0.006698152646791661,
+          0.0008050522376037032
+        ],
+        "final_qvel": [
+          -0.1633753319367453,
+          0.1368807669708109,
+          1.087975098325418e-05,
+          0.03688193369223462,
+          -0.0009498680211166981,
+          -0.008618468730895496,
+          0.02740484173080489,
+          -0.2522318349144996,
+          0.00830387363438095,
+          -0.15041793125340555
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 9118,
+        "roll_deg": -35,
+        "dt": 0.001,
+        "heading_change_deg": 140.04271232660844,
+        "yaw_change_deg": 141.04832116813168,
+        "sideslip_deg": -0.9045247278314114,
+        "estimated_radius_m": 1.1050395018932961,
+        "external_yaw_torque": 0,
+        "fixture": "fixed roll/pitch, XYZ and yaw free, no work by fixed orientation constraints"
+      },
+      {
+        "peak_force_N": 4637.101436909512,
+        "minimum_contact_distance_m": -0.0006583598600893217,
+        "impulse_world_Ns": [
+          -60.86425695506909,
+          -9.086224174662947,
+          377.6074743609058
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 162.30350174643542,
+        "final_energy_J": 17.233811716652017,
+        "maximum_energy_J": 162.30350174643542,
+        "no_contact_steps": 268,
+        "peak_state": {
+          "time": 1.4534999999998954,
+          "force": [
+            -1917.7035286511093,
+            -1418.2899027959663,
+            3976.6288064155992
+          ],
+          "position": [
+            2.2621683735623592,
+            0.46870193003396754,
+            0.023438977143880588
+          ],
+          "distance": -0.0004850747734910007,
+          "loads": {
+            "base": 0.0,
+            "edge_L": 3976.6288064155992,
+            "edge_R": 0.0
+          },
+          "qvel_norm": 5.600064228635462
+        },
+        "final_qpos": [
+          4.050316070403432,
+          0.15619490263485353,
+          0.02348863426405515,
+          2.6114926650689574,
+          -0.015254737128770316,
+          -0.007803432304520794,
+          0.0007858967781645324,
+          0.013356913723668524,
+          0.006413893984594738,
+          -0.001326755401899515
+        ],
+        "final_qvel": [
+          0.8413507557001142,
+          -0.4728416060223007,
+          -0.0063482318272629,
+          -0.19936252128725368,
+          -0.1297253436082127,
+          0.08529497524883156,
+          0.1959336594316449,
+          0.1649039242337515,
+          0.004481725643751981,
+          0.010317379453868089
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 9160,
+        "roll_deg": -35,
+        "dt": 0.0005,
+        "heading_change_deg": -29.336115115359597,
+        "yaw_change_deg": 149.72880076806683,
+        "sideslip_deg": -178.96362305318232,
+        "estimated_radius_m": 7.916569317074358,
+        "external_yaw_torque": 0,
+        "fixture": "fixed roll/pitch, XYZ and yaw free, no work by fixed orientation constraints"
+      }
+    ],
+    "plane_vs_flat_heightfield": [
+      {
+        "peak_force_N": 1059.7325479976812,
+        "minimum_contact_distance_m": -0.00017464962804002344,
+        "impulse_world_Ns": [
+          -9.486019192388088,
+          0.0002486017152380573,
+          189.71466151906176
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 159.0051703079042,
+        "final_energy_J": 123.52657493417962,
+        "maximum_energy_J": 159.0051703079042,
+        "no_contact_steps": 153,
+        "peak_state": {
+          "time": 0.9780000000000008,
+          "force": [
+            -52.921013586211316,
+            8.079996400266881e-05,
+            1058.4103361204761
+          ],
+          "position": [
+            0.7041878675607262,
+            1.8910318351557687e-09,
+            0.0020063993217565544
+          ],
+          "distance": -0.0001129212328786957,
+          "loads": {
+            "base": 528.8796441491072,
+            "edge_L": 264.76440255130086,
+            "edge_R": 264.7662894200677
+          },
+          "qvel_norm": 3.9993851991596285
+        },
+        "final_qpos": [
+          3.7544944080465763,
+          3.126836544960879e-06,
+          0.002118954191851395,
+          5.769430922775975e-05,
+          -0.0032737311641597346,
+          -0.0023570328146862367,
+          2.903330181981434e-05,
+          0.0034320460451748303,
+          0.0025648236374077615,
+          -0.0012366503280915135
+        ],
+        "final_qvel": [
+          3.507276036022627,
+          1.2915515855666349e-05,
+          0.04587225108309969,
+          9.943776601410271e-05,
+          0.3087569503824334,
+          -0.2796516019256568,
+          -0.09058165730446605,
+          -0.03360795821811056,
+          0.17676256056428324,
+          -0.2865241392604115
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 2811,
+        "surface": "plane",
+        "roll_deg": 0
+      },
+      {
+        "peak_force_N": 4224.692621542541,
+        "minimum_contact_distance_m": -0.0006165621673877315,
+        "impulse_world_Ns": [
+          -72.59978150016957,
+          -21.00633148759934,
+          188.3954019983273
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 162.30353432717587,
+        "final_energy_J": 20.58740839186926,
+        "maximum_energy_J": 162.30353432717587,
+        "no_contact_steps": 181,
+        "peak_state": {
+          "time": 1.3389999999999633,
+          "force": [
+            -2064.536438228922,
+            -645.6983745452304,
+            3628.882837851158
+          ],
+          "position": [
+            1.955770215552174,
+            -0.32740104387551294,
+            0.023398520084970866
+          ],
+          "distance": -9.386960511669753e-05,
+          "loads": {
+            "base": 0.0,
+            "edge_L": 0.0,
+            "edge_R": 3628.882837851158
+          },
+          "qvel_norm": 4.442548501445142
+        },
+        "final_qpos": [
+          2.592519275813043,
+          -0.9945657638841165,
+          0.023511240464415564,
+          -2.1416112603866395,
+          -0.01604571296208852,
+          -0.006767686388827583,
+          -0.00014556032500950912,
+          0.013104755264188549,
+          0.0068204389941444316,
+          -0.0006393048137174854
+        ],
+        "final_qvel": [
+          0.2150264416905432,
+          -1.1137189110742838,
+          -0.024651897933234655,
+          -1.8504663758673896,
+          0.20902453683910643,
+          -0.39486294657024684,
+          -1.3275645906728328,
+          0.20054626334446227,
+          -0.42349437703998477,
+          0.3865689963265008
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 12987,
+        "surface": "plane",
+        "roll_deg": 35
+      },
+      {
+        "peak_force_N": 2643.348517814099,
+        "minimum_contact_distance_m": -0.00052263636593744,
+        "impulse_world_Ns": [
+          -14.418507205335844,
+          0.3355006405214458,
+          189.53355461987425
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 159.00569866925602,
+        "final_energy_J": 106.90012013611349,
+        "maximum_energy_J": 159.00569866925602,
+        "no_contact_steps": 145,
+        "peak_state": {
+          "time": 1.7339999999999198,
+          "force": [
+            -2641.3613020812313,
+            -11.508256142871996,
+            101.83034193347072
+          ],
+          "position": [
+            3.5033443309744787,
+            0.0019576028871794797,
+            0.0021646087157544984
+          ],
+          "distance": -2.3097310459374923e-05,
+          "loads": {
+            "base": 2749.1364617901963,
+            "edge_L": 33.21911999541036,
+            "edge_R": 60.045818165793605
+          },
+          "qvel_norm": 4.190163001949915
+        },
+        "final_qpos": [
+          3.7195011163437055,
+          0.0028102897325284434,
+          0.0020949743968598123,
+          -0.03862954615986446,
+          -0.0033717220314678294,
+          -0.002344623734317767,
+          0.00042562203963285343,
+          0.003147877491245914,
+          0.0029642564182330335,
+          0.00112514601989632
+        ],
+        "final_qvel": [
+          3.2509757867353115,
+          0.01742966974536872,
+          0.037097914213171324,
+          -0.7812104523235962,
+          0.15466856443599933,
+          -0.2257310113515696,
+          0.1683859214283498,
+          -0.34988036896608865,
+          0.33145251947112786,
+          0.17577101589009025
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 1958,
+        "surface": "flat_hfield",
+        "roll_deg": 0
+      },
+      {
+        "peak_force_N": 3467.240979327127,
+        "minimum_contact_distance_m": -0.0007165402603416336,
+        "impulse_world_Ns": [
+          -60.370453204779956,
+          -37.74577080366901,
+          189.29696374554578
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 162.30960263557296,
+        "final_energy_J": 53.20851966730679,
+        "maximum_energy_J": 162.30960263557296,
+        "no_contact_steps": 190,
+        "peak_state": {
+          "time": 1.495999999999946,
+          "force": [
+            -1631.5114529355144,
+            -662.2767980298585,
+            2986.857852402237
+          ],
+          "position": [
+            2.482736531971079,
+            -0.5666160000812278,
+            0.02338345102954281
+          ],
+          "distance": -0.0002144180312120636,
+          "loads": {
+            "base": 0.0,
+            "edge_L": 0.0,
+            "edge_R": 2986.0893141661245
+          },
+          "qvel_norm": 4.233162968202491
+        },
+        "final_qpos": [
+          3.0036277458129157,
+          -1.1709671961729735,
+          0.02351521844859224,
+          -1.7305495639204975,
+          -0.0140883201178802,
+          -0.006875651755052044,
+          0.00301161915118234,
+          0.013914745745183517,
+          0.006395210337206703,
+          -0.001352587359597317
+        ],
+        "final_qvel": [
+          0.8583296071102077,
+          -2.000383311514692,
+          0.022234429412866675,
+          -2.877439587069051,
+          -0.40043241298677573,
+          0.3009974235773027,
+          1.1251580085253192,
+          0.19752167521036487,
+          -0.6756278731574692,
+          1.0650326025086827
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 9450,
+        "surface": "flat_hfield",
+        "roll_deg": 35
+      }
+    ],
+    "impact_window_dt_convergence": [
+      {
+        "surface": "plane",
+        "dt": 0.001,
+        "first_contact_time": 0.2470000000000002,
+        "impact_window_s": 0.08,
+        "impact_impulse_Ns": [
+          3.823510942977511e-05,
+          -9.272781967853816e-10,
+          62.01144175621135
+        ],
+        "peak_force_N": 8209.274841666384,
+        "min_distance_m": -0.01069760711185176,
+        "velocity_before": [
+          -2.4412972041685528e-20,
+          0.0,
+          -2.4132600000000033
+        ],
+        "velocity_after": [
+          1.644034495015144e-07,
+          -4.819402061790357e-11,
+          0.013698650634519761
+        ]
+      },
+      {
+        "surface": "plane",
+        "dt": 0.0005,
+        "first_contact_time": 0.2460000000000002,
+        "impact_window_s": 0.08,
+        "impact_impulse_Ns": [
+          -1.27899203411371e-06,
+          -3.62400112585115e-10,
+          61.88060405438124
+        ],
+        "peak_force_N": 8322.673884965723,
+        "min_distance_m": -0.009988631407507225,
+        "velocity_before": [
+          3.440129805168937e-19,
+          0.0,
+          -2.4083549999999865
+        ],
+        "velocity_after": [
+          -1.922650745620804e-07,
+          -1.8833322923672394e-11,
+          0.016432570186610047
+        ]
+      },
+      {
+        "surface": "plane",
+        "dt": 0.00025,
+        "first_contact_time": 0.2460000000000002,
+        "impact_window_s": 0.08,
+        "impact_impulse_Ns": [
+          1.1969388309642426e-05,
+          -3.6952282709558174e-10,
+          61.92324186556423
+        ],
+        "peak_force_N": 8259.303448091772,
+        "min_distance_m": -0.010165998599483202,
+        "velocity_before": [
+          -5.382567197006986e-20,
+          0.0,
+          -2.410807499999978
+        ],
+        "velocity_after": [
+          -3.823500264752249e-08,
+          -1.9217174971196282e-11,
+          0.016195610354989197
+        ]
+      },
+      {
+        "surface": "flat_hfield",
+        "dt": 0.001,
+        "first_contact_time": 0.2470000000000002,
+        "impact_window_s": 0.08,
+        "impact_impulse_Ns": [
+          0.02352279202967213,
+          -0.01705408878354669,
+          61.708296751173926
+        ],
+        "peak_force_N": 8236.009016976948,
+        "min_distance_m": -0.01961751151308442,
+        "velocity_before": [
+          -2.4412972041685528e-20,
+          0.0,
+          -2.4132600000000033
+        ],
+        "velocity_after": [
+          0.0015819266554672152,
+          -0.000888175219324566,
+          0.00019070196961434751
+        ]
+      },
+      {
+        "surface": "flat_hfield",
+        "dt": 0.0005,
+        "first_contact_time": 0.2460000000000002,
+        "impact_window_s": 0.08,
+        "impact_impulse_Ns": [
+          -0.005141809073200522,
+          0.0002542755714017647,
+          61.53913210017633
+        ],
+        "peak_force_N": 8340.672299054846,
+        "min_distance_m": -0.02025414631657205,
+        "velocity_before": [
+          3.440129805168937e-19,
+          0.0,
+          -2.4083549999999865
+        ],
+        "velocity_after": [
+          -1.7853094825245942e-05,
+          1.2500625995578683e-05,
+          -0.0003249152250623828
+        ]
+      },
+      {
+        "surface": "flat_hfield",
+        "dt": 0.00025,
+        "first_contact_time": 0.2460000000000002,
+        "impact_window_s": 0.08,
+        "impact_impulse_Ns": [
+          -0.0067611192807165744,
+          0.00015921720238253387,
+          61.56337187150794
+        ],
+        "peak_force_N": 8279.656046500484,
+        "min_distance_m": -0.02112296400009561,
+        "velocity_before": [
+          -5.382567197006986e-20,
+          0.0,
+          -2.410807499999978
+        ],
+        "velocity_after": [
+          -1.8623155643651035e-05,
+          7.214044688816722e-06,
+          -0.0002855137077075531
+        ]
+      }
+    ],
+    "high_terrain_failure_isolation": [
+      {
+        "peak_force_N": 15314.389580937188,
+        "minimum_contact_distance_m": -0.06664738387918102,
+        "impulse_world_Ns": [
+          -69.50732394396321,
+          -0.5032487732151864,
+          980.2393214867232
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 888.7029569943473,
+        "final_energy_J": 172.58350746455895,
+        "maximum_energy_J": 888.7029569943473,
+        "no_contact_steps": 528,
+        "peak_state": {
+          "time": 1.341999999999963,
+          "force": [
+            -8200.740538442958,
+            -2079.846582102069,
+            12765.289697173901
+          ],
+          "position": [
+            14.84729087569351,
+            0.6350167757333914,
+            0.48123155240195953
+          ],
+          "distance": -0.011561036814817155,
+          "loads": {
+            "base": 26145.287694499337,
+            "edge_L": 0.0,
+            "edge_R": 18068.577557542227
+          },
+          "qvel_norm": 49.387598079003695
+        },
+        "final_qpos": [
+          14.848237698500952,
+          0.6549803667034224,
+          0.47528098601167923,
+          0.3913151772315895,
+          0.5392147870674747,
+          0.544745606869509,
+          0.5092858424032215,
+          0.20964135831428574,
+          0.08348403255980423,
+          0.0695169436637605,
+          0.3823209351270721,
+          -0.5429427907153801,
+          -0.13164213340368347
+        ],
+        "final_qvel": [
+          0.007398843159773222,
+          -0.017002609699387626,
+          -0.0014559273655341569,
+          -0.2113125923290973,
+          -0.2707027932880023,
+          0.09342654613190489,
+          0.8738574000505275,
+          -0.7683136884159371,
+          0.08911859516116609,
+          0.09517683864896977,
+          0.30369634491855607,
+          1.23668355050196
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 873,
+        "course": "moguls_regular",
+        "dt": 0.001,
+        "payload_inertia": "legacy 18 kg mass with unchanged binding inertia",
+        "payload_is_g1": false
+      },
+      {
+        "peak_force_N": 12305.920784791037,
+        "minimum_contact_distance_m": -0.03718188167100162,
+        "impulse_world_Ns": [
+          -70.50216264445702,
+          0.9225085611372082,
+          980.092419269376
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 888.7029569943473,
+        "final_energy_J": 169.37422357594093,
+        "maximum_energy_J": 888.7029569943473,
+        "no_contact_steps": 874,
+        "peak_state": {
+          "time": 1.339999999999908,
+          "force": [
+            -12155.84317272698,
+            -214.53688522610076,
+            1903.9792662989748
+          ],
+          "position": [
+            15.004316978884725,
+            0.6373924925199932,
+            0.41506294858366294
+          ],
+          "distance": -0.014878094879442295,
+          "loads": {
+            "base": 20435.419373662207,
+            "edge_L": 26605.463883964192,
+            "edge_R": 0.0
+          },
+          "qvel_norm": 29.60100178844239
+        },
+        "final_qpos": [
+          15.03706352137869,
+          0.6200892261586385,
+          0.4142901643744036,
+          0.7648067620317593,
+          -0.2653695395487549,
+          0.14923788776486066,
+          0.5677831250448202,
+          -0.5026716479462985,
+          -0.09864026075488042,
+          -0.019812971801877945,
+          -0.39458906561536905,
+          -0.3173501012545842,
+          -0.13263255092544793
+        ],
+        "final_qvel": [
+          -0.02065567394396659,
+          0.04379235389856104,
+          0.0851842202031091,
+          -2.584210254111174,
+          -0.409642935893175,
+          -1.211919024637494,
+          0.8582740159126003,
+          -0.6684776910314404,
+          -2.1641790538213264,
+          0.09686368681509189,
+          0.7752873706062623,
+          -0.6053092612603004
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 789,
+        "course": "moguls_regular",
+        "dt": 0.0005,
+        "payload_inertia": "legacy 18 kg mass with unchanged binding inertia",
+        "payload_is_g1": false
+      },
+      {
+        "peak_force_N": 15785.239971323026,
+        "minimum_contact_distance_m": -0.05614107896070906,
+        "impulse_world_Ns": [
+          -68.9910286229203,
+          0.04589585590309578,
+          978.9534119934386
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 888.7029569943473,
+        "final_energy_J": -68.52071082131367,
+        "maximum_energy_J": 888.7029569943473,
+        "no_contact_steps": 694,
+        "peak_state": {
+          "time": 1.3849999999999583,
+          "force": [
+            -7447.060427918118,
+            10092.358099680083,
+            9584.330958549586
+          ],
+          "position": [
+            15.385799507943931,
+            0.5173259015381446,
+            0.22455864748799212
+          ],
+          "distance": -0.01292925223386142,
+          "loads": {
+            "base": 7720.344634975704,
+            "edge_L": 0.0,
+            "edge_R": 31995.947209752634
+          },
+          "qvel_norm": 17.46919157388473
+        },
+        "final_qpos": [
+          16.788067685117614,
+          0.706597648523253,
+          -0.4519689117754737,
+          -0.14185294074348367,
+          -0.5049008861460356,
+          -0.6746659472073354,
+          -0.5194022507173047,
+          -0.20968763454642264,
+          0.08050644469379817,
+          -0.0693131653883863,
+          0.11636890797004135,
+          0.12710669153548357,
+          -0.1777934120440108
+        ],
+        "final_qvel": [
+          -0.00043289531691686486,
+          -0.00019167821995653517,
+          0.0022537919804468103,
+          -0.019289329959250142,
+          0.002985924367277884,
+          -0.008695573231467031,
+          0.021627066589315392,
+          -0.09669725458871177,
+          0.10258721008424422,
+          0.01177358073970432,
+          0.00534663412645536,
+          -0.13691369201729486
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 697,
+        "course": "moguls_regular",
+        "dt": 0.001,
+        "payload_inertia": "18 kg uniform 0.30x0.20x0.10 m box added at binding COM",
+        "payload_is_g1": false
+      },
+      {
+        "peak_force_N": 14663.54001545338,
+        "minimum_contact_distance_m": -0.04944156639743491,
+        "impulse_world_Ns": [
+          -68.60524548440935,
+          -0.49801062150035424,
+          978.6019234144088
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 888.7029569943473,
+        "final_energy_J": 99.27321473477807,
+        "maximum_energy_J": 888.7029569943473,
+        "no_contact_steps": 928,
+        "peak_state": {
+          "time": 1.3774999999999038,
+          "force": [
+            -12040.420628008436,
+            3747.064727517254,
+            7483.794680055532
+          ],
+          "position": [
+            15.327022228895217,
+            0.539761270629604,
+            0.24870557267312424
+          ],
+          "distance": -0.011918030421842791,
+          "loads": {
+            "base": 21682.835817765033,
+            "edge_L": 74609.38835867892,
+            "edge_R": 0.0
+          },
+          "qvel_norm": 18.83558235377253
+        },
+        "final_qpos": [
+          15.53167120872258,
+          0.47986104206259816,
+          0.1704043732673837,
+          0.7656212901651416,
+          0.4595269147698901,
+          0.35962056285379096,
+          0.2707990129610033,
+          0.30058850290543654,
+          -0.3568791613069438,
+          0.23057710709280235,
+          -0.25175411395790015,
+          0.1862248147293284,
+          -0.1889894642200096
+        ],
+        "final_qvel": [
+          0.017392115169083636,
+          -0.021184895079618637,
+          0.004498238421010472,
+          0.36320152673004363,
+          -0.11663161616098999,
+          -0.020172269478508146,
+          0.21654247852138234,
+          -0.1734010174917145,
+          0.295137385948746,
+          -0.007891832334005014,
+          0.016986290016825122,
+          0.6046372000150718
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 701,
+        "course": "moguls_regular",
+        "dt": 0.0005,
+        "payload_inertia": "18 kg uniform 0.30x0.20x0.10 m box added at binding COM",
+        "payload_is_g1": false
+      },
+      {
+        "peak_force_N": 13680.29690014042,
+        "minimum_contact_distance_m": -0.005818037569708665,
+        "impulse_world_Ns": [
+          -111.58829529206052,
+          0.00016368845346021902,
+          407.5345435610615
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 528.5817044853624,
+        "final_energy_J": 135.1088438032328,
+        "maximum_energy_J": 528.5817044853624,
+        "no_contact_steps": 40,
+        "peak_state": {
+          "time": 0.05600000000000004,
+          "force": [
+            -12220.656169625183,
+            344.24232025279446,
+            6139.021362134237
+          ],
+          "position": [
+            18.307231186595665,
+            0.0001624129915716368,
+            0.8474755379064185
+          ],
+          "distance": -0.0017019832730782928,
+          "loads": {
+            "base": 12377.503734019925,
+            "edge_L": 1927.4285582532684,
+            "edge_R": 1979.8439617959891
+          },
+          "qvel_norm": 9.630911928396031
+        },
+        "final_qpos": [
+          19.730869787150322,
+          0.08737176891511905,
+          0.6869567486930933,
+          0.9999991540012427,
+          8.00252490244331e-05,
+          -0.0006817818468837465,
+          0.0011048829225557837,
+          -0.03920681762369437,
+          -0.01980602096672883,
+          0.00042278088341587695,
+          0.04129551766086563,
+          0.0208713626720336,
+          -0.0004249769870514392
+        ],
+        "final_qvel": [
+          -9.859858304840685e-06,
+          2.923483302923102e-08,
+          -4.261343112656156e-08,
+          1.3764515391820761e-08,
+          1.5146773358287295e-06,
+          -5.5245342656218944e-06,
+          -6.95180118252839e-08,
+          -3.753872515472464e-08,
+          4.537139627594829e-10,
+          5.10677675598453e-08,
+          2.5518733701168592e-08,
+          4.846519256517207e-10
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 1536,
+        "course": "tabletop_small",
+        "dt": 0.001,
+        "payload_inertia": "legacy 18 kg mass with unchanged binding inertia",
+        "payload_is_g1": false
+      },
+      {
+        "peak_force_N": 16119.746820849432,
+        "minimum_contact_distance_m": -0.09972765542579368,
+        "impulse_world_Ns": [
+          -127.0792755851896,
+          0.5800227615249238,
+          377.9401894431008
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 528.5817044853624,
+        "final_energy_J": 266.34528386357164,
+        "maximum_energy_J": 528.5817044853624,
+        "no_contact_steps": 66,
+        "peak_state": {
+          "time": 0.05400000000000004,
+          "force": [
+            -14079.104886769257,
+            900.8722770455132,
+            7798.2993207548925
+          ],
+          "position": [
+            18.304586830134767,
+            6.876644116938584e-05,
+            0.8477412851570155
+          ],
+          "distance": -0.0012446761251992504,
+          "loads": {
+            "base": 9217.529115191197,
+            "edge_L": 2998.6305412444176,
+            "edge_R": 5210.563239605392
+          },
+          "qvel_norm": 7.259201822599281
+        },
+        "final_qpos": [
+          22.09501823475304,
+          0.1451092779807054,
+          1.0378058233037897,
+          0.9839816146834438,
+          0.008519961785958662,
+          0.17705501981266544,
+          -0.01895025528229505,
+          0.087999889667517,
+          -0.3595620147306616,
+          0.2568904439674492,
+          -0.05205351719582543,
+          -0.027694394718997702,
+          -0.008648734382155136
+        ],
+        "final_qvel": [
+          -0.6639637496112628,
+          0.026050761179165268,
+          -1.5522629250861686,
+          0.05818753181601132,
+          -5.895696414423456,
+          -0.07796626505398277,
+          0.4631638504832183,
+          5.0374894002056925,
+          0.7397685833629832,
+          -2.0168989147173826,
+          -1.0117461691767786,
+          -0.2791301623387078
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 1371,
+        "course": "tabletop_small",
+        "dt": 0.0005,
+        "payload_inertia": "legacy 18 kg mass with unchanged binding inertia",
+        "payload_is_g1": false
+      },
+      {
+        "peak_force_N": 7905.317574695981,
+        "minimum_contact_distance_m": -0.005818037569708665,
+        "impulse_world_Ns": [
+          -77.19060963978261,
+          0.057987456492744,
+          398.00329607369963
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 528.5817044853624,
+        "final_energy_J": 198.98695287255669,
+        "maximum_energy_J": 528.5817044853624,
+        "no_contact_steps": 489,
+        "peak_state": {
+          "time": 0.1320000000000001,
+          "force": [
+            -7536.236167120975,
+            -34.74261210340419,
+            2387.0448971645155
+          ],
+          "position": [
+            18.708081709856486,
+            0.0008276236134589566,
+            0.7693347306092013
+          ],
+          "distance": -0.0017899638615203827,
+          "loads": {
+            "base": 8376.47286251397,
+            "edge_L": 30.334358086651225,
+            "edge_R": 277.243145351517
+          },
+          "qvel_norm": 6.529996179231163
+        },
+        "final_qpos": [
+          23.760781116996856,
+          0.08221058865666687,
+          0.8324482798845168,
+          -0.7570360007739918,
+          -0.08547102408314719,
+          -0.09989216712003231,
+          -0.6400099628305516,
+          -0.0024476197955006617,
+          -1.7245926046335177e-05,
+          0.003606467020530763,
+          0.005854907431805793,
+          0.0038032506001475547,
+          0.0013346883139431225
+        ],
+        "final_qvel": [
+          1.7886682211490368,
+          0.0009433119802513607,
+          -0.49972277637528767,
+          -0.1356535022544012,
+          0.06847436928261615,
+          4.844181376594349,
+          -0.4170437144835094,
+          -0.093620718452367,
+          -0.07559893049988119,
+          0.12578440429106588,
+          0.008414045149937559,
+          -0.014667211807380556
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 3762,
+        "course": "tabletop_small",
+        "dt": 0.001,
+        "payload_inertia": "18 kg uniform 0.30x0.20x0.10 m box added at binding COM",
+        "payload_is_g1": false
+      },
+      {
+        "peak_force_N": 18190.967610081505,
+        "minimum_contact_distance_m": -0.038683596793394,
+        "impulse_world_Ns": [
+          -111.63347434764432,
+          0.018015148791850955,
+          407.38979953452485
+        ],
+        "applied_work_J": 0.0,
+        "initial_energy_J": 528.5817044853624,
+        "final_energy_J": 170.21094092100208,
+        "maximum_energy_J": 528.5817044853624,
+        "no_contact_steps": 9,
+        "peak_state": {
+          "time": 0.05600000000000004,
+          "force": [
+            -17114.273769141677,
+            -19.06428961016562,
+            6165.4336829427675
+          ],
+          "position": [
+            18.305754352046147,
+            0.0004342219596603397,
+            0.848330337472809
+          ],
+          "distance": -0.0005367805802252014,
+          "loads": {
+            "base": 19156.141548422434,
+            "edge_L": 1655.257114743071,
+            "edge_R": 975.782431451339
+          },
+          "qvel_norm": 9.036207305687151
+        },
+        "final_qpos": [
+          18.41559275416718,
+          -0.007992038315330723,
+          0.840254869400813,
+          0.9924394784225329,
+          0.06333337359067137,
+          0.10501525848487495,
+          -0.004955899856833795,
+          -0.014148661290026749,
+          0.014379124889250618,
+          0.0008052791764772673,
+          -0.018073539149463108,
+          -0.09646699091914714,
+          0.18365052495913234
+        ],
+        "final_qvel": [
+          -0.0027106493593346327,
+          -0.001101819652850363,
+          -0.007946795031390827,
+          -0.08623071769820619,
+          0.01021959345103858,
+          0.005228536890692712,
+          -0.045911316313716526,
+          0.05275008203516857,
+          0.011831041489826492,
+          0.014054809845220348,
+          0.013381677695529727,
+          -0.06473612336868266
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "steps_per_second_including_diagnostics": 826,
+        "course": "tabletop_small",
+        "dt": 0.0005,
+        "payload_inertia": "18 kg uniform 0.30x0.20x0.10 m box added at binding COM",
+        "payload_is_g1": false
+      }
+    ]
+  },
+  "source_hashes": {
+    "scenes/bump_row.xml": "a431c4747c4497fa07dd9c5a38d7631482af4eb18b979943c6011db729d8d5c7",
+    "scenes/carving_gates.xml": "a5de5af471ab416d3186a89701209c1bcccb77f5b5f7ad3d09c914d71d8ce0f7",
+    "scenes/cross_slope.xml": "837f60432e78d7196cb4139808b391851cdd9de0d2116dd9b1dcfc2cfc4282cd",
+    "scenes/g1_bump_row.xml": "ffff4a62eb61b8455441d6d18231fe75278b5388b2b769b87fd86ddbbbb8ee07",
+    "scenes/g1_carving_gates.xml": "1da82ea353a1d38820626548f4b110bdcd7d685e661f0272a02b7915b580455c",
+    "scenes/g1_cross_slope.xml": "811f9af2ab28dd7c4862d8ea0c9c0ac7b3052cd2dde7093cc3f890e6d7f4d71e",
+    "scenes/g1_moguls_regular.xml": "d73c23994afc900fd0cfbc3df6bf37d524ee2a76e2bc3e6bf493fb72c538871c",
+    "scenes/g1_moguls_seeded.xml": "e8af62d8bac52dbf859ec3e4cab0b19ca44f76bb4d758774c06d9b4d57190b9a",
+    "scenes/g1_piste_high.xml": "528619a3f6c9efa2c534fa48f07bff89a5da7093964bdab33a72b6bce754c819",
+    "scenes/g1_piste_low.xml": "5d58c11b3e9c9e63ff107f46d3048842303f8bf4049bf03b52bbcba633b950f2",
+    "scenes/g1_plane_00.xml": "d892ba41766624760bff2804cdc62e2c759f8f0ab98e1255b6ee33ecc1f2a507",
+    "scenes/g1_plane_05.xml": "9a646ca8cb5a5fab0b7a92618d43a1fab787097759b86f4bc557ce7c077f7fe6",
+    "scenes/g1_plane_10.xml": "719870ef9576053c3fee03ac5277c048827861cfafa857fc89943031f1d84ae0",
+    "scenes/g1_plane_15.xml": "52bc4e12813c5e383180f99a805033816de534091c5f88b5d61d3c880f1d338b",
+    "scenes/g1_plane_20.xml": "5eb24a02c1089e6eeff0d60b5a2238da13b2a34feb65a7f0b428d51e702e3cfe",
+    "scenes/g1_plane_25.xml": "76efad64e44761e6f0d6e5f932e81ae291613e2b639c5caa84714420cef95e11",
+    "scenes/g1_plane_30.xml": "fc01e9c61efcb00eefeb328399d992dcc841f589730a86722ada4478d8b076e2",
+    "scenes/g1_plane_35.xml": "5270e80e17ee60dc4987876fe7ee49728c02d7837edf9fc7a6413be534f64bf2",
+    "scenes/g1_plane_40.xml": "4e1bcf79653b2c26cd13b12677e280f3b732da1893e061374a3bd55ae4fcea36",
+    "scenes/g1_single_bump.xml": "91e5af6731623c7d77905a89aa6ed589f394caabd9522be8f8f04ba392ec3ada",
+    "scenes/g1_tabletop_medium.xml": "80282f66dc3e06ec90912f31d5ccfec8829b2843753df748175d8dc568215e52",
+    "scenes/g1_tabletop_small.xml": "e798c8939fcfdaef22211e76e9fd74e730c4e00635a6ae5a31af84a1feddbaed",
+    "scenes/g1_tabletop_steep.xml": "403eec9201b7848e4d0dcea8401b887d4205de70560a39037e48be5776cf3eaf",
+    "scenes/moguls_regular.xml": "6b7b232837dbec010e191cc3cf26d85fea228a2ceba3bb5721a56b4aaf24ccae",
+    "scenes/moguls_seeded.xml": "f532955958e3b5cf14f839218fedfc0adb6fa8a146d65ac4a277799fe709679f",
+    "scenes/piste_high.xml": "f89b61a8b8f25416774cfdb47299cbdc7bbeeeb4428e5c06b73bdb2bfa1e4431",
+    "scenes/piste_low.xml": "0b8ad3765851089d970a83088778a35474319b8006a5e007089ae33bc13ed637",
+    "scenes/plane_00.xml": "f7d695291ce8aff4da79ad8147c2bc8aff2e74a7b698e2da3f0ba70f38b7f670",
+    "scenes/plane_05.xml": "1139b78d6c7aeef9673a95d6dad1ba78ddce2e1dbf8be4d9693976d814fb0d2f",
+    "scenes/plane_10.xml": "dcd81c69ddf26626e29cb7aac2863fc0a818aea155de2015640c9dd8f00dbd12",
+    "scenes/plane_15.xml": "2980a530374b1207a8ab43f6023af56b85ef4aa04f2aaa804259d1d6e0c06a54",
+    "scenes/plane_20.xml": "fb154db27001d76d250cb739a1cf6f5b15628d8bd0ecd91fb6da7654c6bcf60c",
+    "scenes/plane_25.xml": "421d6a49ea1a4fa7d6fb220fa417891ec70a17f461f83bff4574a23b10da953b",
+    "scenes/plane_30.xml": "451166b4277440420762efa58bd1265cfea8ed574de2833bd3edd2db8800438c",
+    "scenes/plane_35.xml": "c1f1bb1e4e3216dc9302e8355ae52b15c82c62ece187d8fb257950f125f5b108",
+    "scenes/plane_40.xml": "0a1f9f09f45864cd86c87a40cc0756879220411a6b3fa3f6c9eb465e9880b046",
+    "scenes/single_bump.xml": "b6226a018d33902edae17c69045acbe7c30cd39c19ce7f7247e8a36843d527c1",
+    "scenes/ski_pair.xml": "322a852c1a6901d5dc68becc6c0ffc01a2abeae9bbf95e2530ea848d2b181289",
+    "scenes/ski_single.xml": "40e208dbaa0b6a55e9b8542c90897738357a70be014626f91334c8bfc6e2c478",
+    "scenes/tabletop_medium.xml": "bf70a29786f99417f9d2b088dba6637210b91e89ddddf14f518d8e7ed06867dd",
+    "scenes/tabletop_small.xml": "2405ac2d74c8fa9685bb9e4038e17a684353de25defdc3e7e6a9a0aadef4df22",
+    "scenes/tabletop_steep.xml": "8499690430c2a6d2850073f0f8056d806df88cb76098dafa788e056e907cf0bc",
+    "meshes/ski_base_0_0.obj": "bf7aa3f646ad9049c0eed8c41498e7e239aa87d013af0b9cd2cdd64911738ab6",
+    "meshes/ski_base_0_1.obj": "c096bdcc22fc01b7fb10115db66577f759ff49a1afc660317f9eeae38a3370f4",
+    "meshes/ski_base_1_0.obj": "e512a3e6e30b48f1cf54d361a1c520e0b8b71d8b1143e339747bb1cd0d023698",
+    "meshes/ski_base_1_1.obj": "1bf799de83db58b08fa77969afb8e19b7363492ed172b24532c0bc51c78a7bd9",
+    "meshes/ski_base_2_0.obj": "4225abb4ba82dea73d0430ed75d21bcc5d3913dcb45ccd55e28e669b01578840",
+    "meshes/ski_base_2_1.obj": "c4f20994812af780ce57d9936d4c3e33025a36ca91bc864715ae717e0ab6cf3f",
+    "meshes/ski_base_3_0.obj": "3c563b7ef594e012e34ac5bd06f7dac528386d295af5f69deff1cb92665c8c63",
+    "meshes/ski_base_3_1.obj": "f7b9628bd9f0df80fcc1248d8b83e0bdbf04aeb4a7a7391d264c5407da2bccdc",
+    "meshes/ski_base_4_0.obj": "cfac9fe3e3da8f7e220c2159beb38c0bc51bfdadf58b04f4795f3bda2ebc432a",
+    "meshes/ski_base_4_1.obj": "1e12e1da4b495dee57dfd0f3375928b8e3ed133e7e6adf73188efc35137ca12b",
+    "meshes/ski_base_5_0.obj": "64728aea0f82df341c350518e1ca09502d513a0dfa88af11f5ca284bed0b89aa",
+    "meshes/ski_base_5_1.obj": "d7400851791d95bb4ab9c05ca45fac8e307bf0fffeb91c16f6d40d95a51efeda",
+    "meshes/ski_base_6_0.obj": "0cbd388f1d2c5ef183414e5d650a12bce0037d6122cc2c59c77cde3685b2d87a",
+    "meshes/ski_base_6_1.obj": "ec8fce2e07f4ecdced503cc75617cf9e9788d9d07a0034ac7c3b9e81845d0665",
+    "meshes/ski_complete_rest.obj": "fc3fc10e9483388dfb714ec8ac27ea7ae005a716c576cbdbe8711b32a26da046",
+    "meshes/ski_visual_0.obj": "c4fe81cb9e7f095200ebbde97a2d119da5ca5915ba43c83e1c752821c4a1f419",
+    "meshes/ski_visual_1.obj": "3c858a35641b38e5446373a909d01dee7ea2d75c80c4542baca032f518b2b37a",
+    "meshes/ski_visual_2.obj": "8156150f50d69cf8f1ceac52a37f592f9f68e82f2f8a5dcd2b8a4981b75a6e20",
+    "meshes/ski_visual_3.obj": "6fc5bd22f04bea91142ddbfc2b7f20bb27bb81ddc14627ed6da069512fd382da",
+    "meshes/ski_visual_4.obj": "ec0e751dd6b92fb682266629ccbe892b53e1421a781e5cac483c8fa36423d367",
+    "meshes/ski_visual_5.obj": "7c4d86f8be86e4271fe5b5ad501f2405f1cc0bb88aca09cd859c3d58d694fee4",
+    "meshes/ski_visual_6.obj": "0a00ff4fd1e35c32fcb9a14ff31248080f081c80e573df90079b976cd57390a4",
+    "terrain/bump_row.bin": "7918508f1316b76d274d8ed12a573dfe30dba39ec825ebcbd6773d9053d2c8d3",
+    "terrain/bump_row.json": "b499221c3b07c09ab85abcbff3e0cbf45558bd3c1d58f2019608ef2ce2054dc7",
+    "terrain/bump_row.npz": "6dfdb9e16724efe90577183cd0954783d22f9cd7a805bb4819b9b570d9e13f61",
+    "terrain/carving_gates.bin": "ce66fba9652f6d543f158a97e1337b4c10cbabd19be0dec4fa098558562cbe00",
+    "terrain/carving_gates.json": "ff70c74c90a7d63bafb4121885f455928fe7429b041068cc83f26c3eb02bca49",
+    "terrain/carving_gates.npz": "5ae445185e3f82978b253fa5bafbfa9b5ec9001a732104986151fb5491436b5c",
+    "terrain/cross_slope.bin": "344a9f0e004187eb2d71489d900c1aa7bddeed844e3cac1a5319c6dde76c9f79",
+    "terrain/cross_slope.json": "a732ba83d0f444dcd092fcfe924ec2edbbd7cfd6bc6cf42ecb3c55f8c2224513",
+    "terrain/cross_slope.npz": "ea27d31d78d319cb73992e52aa8aa4cc27f1d757fe2c1b5aec387ffd01d9831a",
+    "terrain/moguls_regular.bin": "3bef527d6967a8d4194e4fe988a9d916c497d09081ebd781bd8050989af55860",
+    "terrain/moguls_regular.json": "3a7b79b1347e79f87bf8d4de10a97bc87bd828ca72cfddd878c1877e9f7bb349",
+    "terrain/moguls_regular.npz": "714e869dcea6733db9f6d9e5b7fee000ec91d5d7f6e0f496af1a1c0e40bc55d8",
+    "terrain/moguls_seeded.bin": "76d9364cb797941427dd73dd654c0889bba895ef948fb6f88133001d6e34cf37",
+    "terrain/moguls_seeded.json": "252d3d8602cb99c112a1f462858f54e8069ac13f6b5241d6a97d80773d5b8387",
+    "terrain/moguls_seeded.npz": "6c6efe4cb5fd46616d29288b948032dcabb12234d5175c013f31a0129c216752",
+    "terrain/piste_high.bin": "cb2e84ae005ac1ae78aeb4410c6897342bdfd252c75b3589731df60043b108ac",
+    "terrain/piste_high.json": "afdb59b675ac63e6ffe18b671c89a446cae306cb5bab301df76d0d17210bd7a6",
+    "terrain/piste_high.npz": "9ef55ed7ec0d716e4983e8f1e6cc167be26374be7b4baeeff1aaa20a4ccb3c33",
+    "terrain/piste_low.bin": "8fd7e366a20bb3dc6107714b36e341188dfaad499fbef33156280150c1aa5b3d",
+    "terrain/piste_low.json": "cf7629553cec75da2d77e94cedf3faad939477f63732d4aa2417a604fb459f6c",
+    "terrain/piste_low.npz": "2acfb00d838a7eccfd0fea8fc718aa8186788231e9c26454dd78bb220ea35cf0",
+    "terrain/plane_00.json": "aca7cad130a2c1a6cdd687d315e3a254e0a1c8e412dafcfab9a249957140c654",
+    "terrain/plane_05.json": "aa981bf700cc22727d038745decd18a31458a00eace7a9d66dc70fec736665b5",
+    "terrain/plane_10.json": "9f4b31e39667fdd50003a717e6208681df3109bbc74fe9705070c045aa98a8a5",
+    "terrain/plane_15.json": "dfc256c6dbd1acae45b301df20db2a977fde06cecadb725cf9d7ca8da3e75260",
+    "terrain/plane_20.json": "bac69420fb698987cc668a74d6bcf912de25fcc3c6d5764ca977be0f84d9aaba",
+    "terrain/plane_25.json": "6fcceccad50e53956201c443ac5f10ed0e279a8c1f3d1cc8d044ea79d1f9fd23",
+    "terrain/plane_30.json": "d22236e4022bf45bc344548eed29cd7f75942fa7428dd4941f0975c73b428b22",
+    "terrain/plane_35.json": "ae60b34ff0fbdb522fab2460c02893e978b614c3521b896a6c71d10a43a21679",
+    "terrain/plane_40.json": "6b0cc7c5ed0028af83aacdff112002c1ab5fd42e39c3879b4223a1553dd4d81a",
+    "terrain/single_bump.bin": "4dd5b86948e1fab4f0f812826c70242f942706873bd94115d6399bd686596c02",
+    "terrain/single_bump.json": "abc8dd37b38e7dcb0b840bdce3b3093567e5c6c5233e85e4678da12f5420d4b3",
+    "terrain/single_bump.npz": "d2d45e891e2db23e8b3974bbe8ec799ccf06b955a17a1686cb9f241dc2aae366",
+    "terrain/tabletop_medium.bin": "d14a15df173ed4e09545c2f05a29460da5077b99e8c6cbba5f0a962b755de9ce",
+    "terrain/tabletop_medium.json": "41f410b1c94d04f11da70e910ba96cc7882a2afbaeec5c73170cef6811b2308f",
+    "terrain/tabletop_medium.npz": "fb86455ae39a21a878b97a9cdd3cdc8ca9c7727ee0edee482eb68020f9da6868",
+    "terrain/tabletop_small.bin": "691870ad4599a4bbc961f75b14111132c8d9e7d5acb830897d8421fdbcd44863",
+    "terrain/tabletop_small.json": "326546e039e7ca41ff3de1027ef3acf47af5f6f4512d930cd8e5b44d8406230f",
+    "terrain/tabletop_small.npz": "e32eb1873fa78fc470966a2b9692cc38454bed44508f99d2afb4100d5f48b63b",
+    "terrain/tabletop_steep.bin": "86c6d515fab8a15ba3445a0be42fc9ebc9e1132071f08274766d08ca0eec42ee",
+    "terrain/tabletop_steep.json": "b9fa1c8f39068483805be0d6ebd28dbcd8a0dc5413ddfe839ade5ee3c59df5df",
+    "terrain/tabletop_steep.npz": "0c95aa6ec75577c527b6d91ef23bad4724677b0f2bda49b85e26f35d0e3cf6f6",
+    "configs/curriculum.json": "601ea9ffb6f95053cd058cd6871d75561c5de9085089aee36029902fc8530076",
+    "configs/design.json": "2faa6e40c4e4b49e13e143b33763b43e7bc0e277e8ebb016dfd009534e1fe7c5",
+    "configs/g1_contacts.json": "445ba30f73eac45b914ebc41cedcf88319abacf1342eb8183a78aa786978547c",
+    "configs/ski_pair_contacts.json": "5a2bad72222549cb45ef8110f727422cceb37ed532328184b5cd0bc0e9611b41",
+    "configs/ski_single_contacts.json": "49aadeabeaf1ca5cf16a0d7145a839a83862076f0cc73d41e8dcb4fdfcd2396c"
+  },
+  "production_assets_modified": false,
+  "training_ready": false
+}

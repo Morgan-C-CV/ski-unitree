@@ -1,0 +1,215 @@
+{
+  "name": "piste_high",
+  "kind": "piste",
+  "angle": 28,
+  "length": 100,
+  "width": 32,
+  "dx": 0.5,
+  "dy": 2,
+  "slope_profile": [
+    [
+      0,
+      22
+    ],
+    [
+      20,
+      32
+    ],
+    [
+      40,
+      25
+    ],
+    [
+      60,
+      38
+    ],
+    [
+      82,
+      24
+    ],
+    [
+      92,
+      0
+    ],
+    [
+      100,
+      0
+    ]
+  ],
+  "slope_group": "high",
+  "slope_group_range_deg": [
+    20,
+    40
+  ],
+  "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+  "z_origin": -41.39445958121573,
+  "height_scale": 49.39445958121573,
+  "rows": 17,
+  "columns": 201,
+  "triangles": 6400,
+  "gates": [
+    {
+      "id": 0,
+      "center": [
+        16,
+        3,
+        0.17872022003778826
+      ],
+      "width": 5,
+      "pass_direction": [
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1,
+      "center": [
+        24,
+        -3,
+        -4.765600301181527
+      ],
+      "width": 5,
+      "pass_direction": [
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "center": [
+        32,
+        3,
+        -9.30789743844368
+      ],
+      "width": 5,
+      "pass_direction": [
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 3,
+      "center": [
+        40,
+        -3,
+        -13.200725878088102
+      ],
+      "width": 5,
+      "pass_direction": [
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "center": [
+        48,
+        3,
+        -17.253724582920253
+      ],
+      "width": 5,
+      "pass_direction": [
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "center": [
+        56,
+        -3,
+        -22.596873046121043
+      ],
+      "width": 5,
+      "pass_direction": [
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 6,
+      "center": [
+        64,
+        3,
+        -28.761403702113267
+      ],
+      "width": 5,
+      "pass_direction": [
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 7,
+      "center": [
+        72,
+        -3,
+        -34.1794996246184
+      ],
+      "width": 5,
+      "pass_direction": [
+        1,
+        0
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "material_id": "packed_snow_v1",
+  "spawn_xy": [
+    2,
+    0
+  ],
+  "finish_x": 97,
+  "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+  "region_intervals": [
+    [
+      0,
+      82,
+      "approach"
+    ],
+    [
+      82,
+      100,
+      "runout"
+    ]
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "bump_row",
+  "kind": "row",
+  "angle": 25,
+  "length": 48,
+  "width": 16,
+  "dx": 0.125,
+  "dy": 0.125,
+  "amplitude": 0.16,
+  "rx": 1.4,
+  "ry": 1.15,
+  "row_spacing": 3.5,
+  "column_spacing": 3.2,
+  "stagger": 1.6,
+  "seed": 20260908,
+  "slope_profile": [
+    [
+      0,
+      25
+    ],
+    [
+      12,
+      23
+    ],
+    [
+      24,
+      27
+    ],
+    [
+      30,
+      24
+    ],
+    [
+      40,
+      0
+    ],
+    [
+      48,
+      0
+    ]
+  ],
+  "slope_group": "high",
+  "slope_group_range_deg": [
+    20,
+    40
+  ],
+  "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+  "z_origin": -8.039102271363397,
+  "height_scale": 16.039102271363397,
+  "rows": 129,
+  "columns": 385,
+  "triangles": 98304,
+  "gates": [],
+  "material_id": "packed_snow_v1",
+  "spawn_xy": [
+    2,
+    0
+  ],
+  "finish_x": 45,
+  "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+  "region_intervals": [
+    [
+      0,
+      6,
+      "approach"
+    ],
+    [
+      6,
+      32,
+      "moguls"
+    ],
+    [
+      32,
+      48,
+      "runout"
+    ]
+  ]
+}

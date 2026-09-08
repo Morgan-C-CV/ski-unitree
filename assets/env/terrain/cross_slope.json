@@ -1,0 +1,66 @@
+{
+  "name": "cross_slope",
+  "kind": "cross",
+  "angle": 16,
+  "length": 60,
+  "width": 24,
+  "dx": 0.25,
+  "dy": 0.5,
+  "slope_profile": [
+    [
+      0,
+      13
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      30,
+      15
+    ],
+    [
+      42,
+      12
+    ],
+    [
+      52,
+      0
+    ],
+    [
+      60,
+      0
+    ]
+  ],
+  "slope_group": "medium",
+  "slope_group_range_deg": [
+    10,
+    20
+  ],
+  "slope_group_basis": "base piste / approach slope; bump faces, kicker upturn and runout are explicit local exceptions",
+  "z_origin": -4.5422026524729375,
+  "height_scale": 12.542202652472938,
+  "rows": 49,
+  "columns": 241,
+  "triangles": 23040,
+  "gates": [],
+  "material_id": "packed_snow_v1",
+  "spawn_xy": [
+    2,
+    0
+  ],
+  "finish_x": 57,
+  "boundary_policy": "terminate on finite XY domain exit; no walls; planes have logical bounds only",
+  "region_intervals": [
+    [
+      0,
+      42,
+      "approach"
+    ],
+    [
+      42,
+      60,
+      "runout"
+    ]
+  ]
+}

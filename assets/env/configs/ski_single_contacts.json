@@ -1,0 +1,464 @@
+[
+  {
+    "geom": "ski0_base_3_0",
+    "body": "ski0_segment_3",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_3_0_R",
+    "body": "ski0_segment_3",
+    "kind": "edge",
+    "axis": [
+      0.9999955852020805,
+      0.002857130243434509,
+      0.0008163229266955789
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_3_0_L",
+    "body": "ski0_segment_3",
+    "kind": "edge",
+    "axis": [
+      0.9999955852020805,
+      -0.002857130243434509,
+      0.0008163229266955789
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_3_1",
+    "body": "ski0_segment_3",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_3_1_R",
+    "body": "ski0_segment_3",
+    "kind": "edge",
+    "axis": [
+      0.9999936485403121,
+      -0.0034693657194255594,
+      -0.0008163213457471966
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_3_1_L",
+    "body": "ski0_segment_3",
+    "kind": "edge",
+    "axis": [
+      0.9999936485403121,
+      0.0034693657194255594,
+      -0.0008163213457471966
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_4_0",
+    "body": "ski0_segment_4",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_4_0_R",
+    "body": "ski0_segment_4",
+    "kind": "edge",
+    "axis": [
+      0.9999428412192636,
+      -0.0104075683473842,
+      -0.002448839611149213
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_4_0_L",
+    "body": "ski0_segment_4",
+    "kind": "edge",
+    "axis": [
+      0.9999428412192636,
+      0.0104075683473842,
+      -0.002448839611149213
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_4_1",
+    "body": "ski0_segment_4",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_4_1_R",
+    "body": "ski0_segment_4",
+    "kind": "edge",
+    "axis": [
+      0.9998412498054416,
+      -0.017344184945604597,
+      -0.0040809846930834354
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_4_1_L",
+    "body": "ski0_segment_4",
+    "kind": "edge",
+    "axis": [
+      0.9998412498054416,
+      0.017344184945604597,
+      -0.0040809846930834354
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_5_0",
+    "body": "ski0_segment_5",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_5_0_R",
+    "body": "ski0_segment_5",
+    "kind": "edge",
+    "axis": [
+      0.9996889207259061,
+      -0.024278159503343413,
+      -0.005712508118433749
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_5_0_L",
+    "body": "ski0_segment_5",
+    "kind": "edge",
+    "axis": [
+      0.9996889207259061,
+      0.024278159503343413,
+      -0.005712508118433749
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_5_1",
+    "body": "ski0_segment_5",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_5_1_R",
+    "body": "ski0_segment_5",
+    "kind": "edge",
+    "axis": [
+      0.9994904987840004,
+      -0.0312085808803984,
+      -0.006690838508119553
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_5_1_L",
+    "body": "ski0_segment_5",
+    "kind": "edge",
+    "axis": [
+      0.9994904987840004,
+      0.0312085808803984,
+      -0.006690838508119553
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_6_0",
+    "body": "ski0_segment_6",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_6_0_R",
+    "body": "ski0_segment_6",
+    "kind": "edge",
+    "axis": [
+      0.9448995114256024,
+      -0.036060450742160806,
+      0.32536834080766097
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_6_0_L",
+    "body": "ski0_segment_6",
+    "kind": "edge",
+    "axis": [
+      0.9448995114256024,
+      0.036060450742160806,
+      0.32536834080766097
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_6_1",
+    "body": "ski0_segment_6",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_6_1_R",
+    "body": "ski0_segment_6",
+    "kind": "edge",
+    "axis": [
+      0.9606971566423571,
+      -0.0433294023710124,
+      0.2741961635571541
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_6_1_L",
+    "body": "ski0_segment_6",
+    "kind": "edge",
+    "axis": [
+      0.9606971566423571,
+      0.0433294023710124,
+      0.2741961635571541
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_2_0",
+    "body": "ski0_segment_2",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_2_0_R",
+    "body": "ski0_segment_2",
+    "kind": "edge",
+    "axis": [
+      0.9998896475902856,
+      0.014284137822718401,
+      0.004081182235062392
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_2_0_L",
+    "body": "ski0_segment_2",
+    "kind": "edge",
+    "axis": [
+      0.9998896475902856,
+      -0.014284137822718401,
+      0.004081182235062392
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_2_1",
+    "body": "ski0_segment_2",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_2_1_R",
+    "body": "ski0_segment_2",
+    "kind": "edge",
+    "axis": [
+      0.9999602689235649,
+      0.00857108801934482,
+      0.0024488822912413794
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_2_1_L",
+    "body": "ski0_segment_2",
+    "kind": "edge",
+    "axis": [
+      0.9999602689235649,
+      -0.00857108801934482,
+      0.0024488822912413794
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_1_0",
+    "body": "ski0_segment_1",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_1_0_R",
+    "body": "ski0_segment_1",
+    "kind": "edge",
+    "axis": [
+      0.9996461495370097,
+      0.025705186702380256,
+      0.006842447838769914
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_1_0_L",
+    "body": "ski0_segment_1",
+    "kind": "edge",
+    "axis": [
+      0.9996461495370097,
+      -0.025705186702380256,
+      0.006842447838769914
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_1_1",
+    "body": "ski0_segment_1",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_1_1_R",
+    "body": "ski0_segment_1",
+    "kind": "edge",
+    "axis": [
+      0.9997837436398403,
+      0.01999567487279676,
+      0.00571304996365623
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_1_1_L",
+    "body": "ski0_segment_1",
+    "kind": "edge",
+    "axis": [
+      0.9997837436398403,
+      -0.01999567487279676,
+      0.00571304996365623
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_0_0",
+    "body": "ski0_segment_0",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_0_0_R",
+    "body": "ski0_segment_0",
+    "kind": "edge",
+    "axis": [
+      0.9765922932806179,
+      0.03627342803613722,
+      -0.21201823299756728
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_0_0_L",
+    "body": "ski0_segment_0",
+    "kind": "edge",
+    "axis": [
+      0.9765922932806179,
+      -0.03627342803613722,
+      -0.21201823299756728
+    ],
+    "side": 1
+  },
+  {
+    "geom": "ski0_base_0_1",
+    "body": "ski0_segment_0",
+    "kind": "base",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "side": 0
+  },
+  {
+    "geom": "ski0_edge_0_1_R",
+    "body": "ski0_segment_0",
+    "kind": "edge",
+    "axis": [
+      0.966711746273821,
+      0.030382369168605865,
+      -0.2540576927784756
+    ],
+    "side": -1
+  },
+  {
+    "geom": "ski0_edge_0_1_L",
+    "body": "ski0_segment_0",
+    "kind": "edge",
+    "axis": [
+      0.966711746273821,
+      -0.030382369168605865,
+      -0.2540576927784756
+    ],
+    "side": 1
+  }
+]

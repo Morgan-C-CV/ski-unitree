@@ -1,0 +1,40 @@
+<mujoco model="cross_slope">
+  <compiler angle="radian" autolimits="true" />
+  <option timestep="0.001" gravity="0 0 -9.81" integrator="implicitfast" solver="Newton" cone="elliptic" iterations="80" tolerance="1e-09" />
+  <visual>
+    <global offwidth="1400" offheight="1000" />
+    <headlight ambient=".32 .34 .36" diffuse=".38 .38 .38" specular=".05 .05 .05" />
+    <quality shadowsize="2048" />
+  </visual>
+  <asset>
+    <texture name="sky" type="skybox" builtin="gradient" rgb1=".30 .52 .73" rgb2=".86 .92 .97" width="128" height="768" />
+    <material name="snow" rgba=".84 .91 .97 1" specular=".18" shininess=".2" />
+    <material name="ski_blue" rgba=".02 .25 .46 1" specular=".18" shininess=".2" />
+    <material name="ski_orange" rgba="1 .32 .055 1" specular=".18" shininess=".2" />
+    <material name="edge" rgba=".25 .32 .37 1" specular=".18" shininess=".2" />
+    <material name="binding" rgba=".08 .10 .13 1" specular=".18" shininess=".2" />
+    <material name="red" rgba=".95 .09 .12 1" specular=".18" shininess=".2" />
+    <material name="blue" rgba=".04 .3 .85 1" specular=".18" shininess=".2" />
+    <hfield name="terrain" file="../terrain/cross_slope.bin" size="30 12 12.54220265 0.5" />
+  </asset>
+  <worldbody>
+    <light directional="true" pos="0 0 30" dir=".2 1 -.45" diffuse=".95 .94 .92" />
+    <geom name="snow_surface" type="hfield" hfield="terrain" pos="30 0 -4.542202652" material="snow" contype="1" conaffinity="6" condim="3" friction=".05 .0 .0" solref="0.012 1" solimp="0.9 0.95 0.002" margin="0" gap="0" />
+    <geom type="capsule" fromto="2 -11.7 7.535508203 2 -11.7 8.185508203" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="2 11.7 7.535508203 2 11.7 8.185508203" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="10 -11.7 5.384237387 10 -11.7 6.034237387" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="10 11.7 5.49323934 10 11.7 6.14323934" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="18 -11.7 2.379516741 18 -11.7 3.029516741" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="18 11.7 3.432516741 18 11.7 4.082516741" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="26 -11.7 -0.03514345252 26 -11.7 0.6148565475" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="26 11.7 1.017856547 26 11.7 1.667856547" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="34 -11.7 -2.1741663 34 -11.7 -1.5241663" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="34 11.7 -1.1211663 34 11.7 -0.4711663001" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="42 -11.7 -3.487871352 42 -11.7 -2.837871352" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="42 11.7 -3.470968337 42 11.7 -2.820968337" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="50 -11.7 -4.52689858 50 -11.7 -3.87689858" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="50 11.7 -4.52689858 50 11.7 -3.87689858" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="58 -11.7 -4.542202652 58 -11.7 -3.892202652" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+    <geom type="capsule" fromto="58 11.7 -4.542202652 58 11.7 -3.892202652" size=".018" material="blue" contype="0" conaffinity="0" group="2" />
+  </worldbody>
+</mujoco>
