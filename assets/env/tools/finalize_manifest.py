@@ -9,6 +9,12 @@ def main():
     manifest['official_robot_source']='robots/unitree_g1/source.json'
     manifest['validation_report']='reports/validation.json'
     manifest['exploratory_course_report']='reports/course_probes.json'
+    if (ROOT/'reports/dynamics_audit/verdict.json').exists():
+        manifest['dynamics_acceptance_report']='reports/dynamics_audit/verdict.json'
+        manifest['dynamics_acceptance_status']=json.loads((ROOT/'reports/dynamics_audit/verdict.json').read_text())['overall']
+    if (ROOT/'reports/repairs_v1_2/verdict.json').exists():
+        manifest['dynamics_acceptance_report']='reports/repairs_v1_2/verdict.json'
+        manifest['dynamics_acceptance_status']=json.loads((ROOT/'reports/repairs_v1_2/verdict.json').read_text())['overall']
     manifest['training_ready']=False
     path.write_text(json.dumps(manifest,indent=2)+'\n')
     print(f'Finalized {len(manifest["files"])} file hashes')

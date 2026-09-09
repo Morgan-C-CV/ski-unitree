@@ -1,0 +1,209 @@
+{
+  "collision_masks": {
+    "robot_self_collision": [
+      {
+        "model": "official",
+        "pair": [
+          "left_knee_link",
+          "right_knee_link"
+        ],
+        "masks": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "pair_allowed_by_masks": true,
+        "explicit_contact_pairs": 0
+      },
+      {
+        "model": "ski_assembly",
+        "pair": [
+          "left_knee_link",
+          "right_knee_link"
+        ],
+        "masks": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "pair_allowed_by_masks": false,
+        "explicit_contact_pairs": 0
+      }
+    ],
+    "crossed_skis_contacts": [
+      {
+        "geoms": [
+          "ski0_base_3_0",
+          "ski1_base_3_0"
+        ],
+        "distance": -0.012028567406274426
+      },
+      {
+        "geoms": [
+          "ski0_base_3_0",
+          "ski1_base_3_1"
+        ],
+        "distance": -0.01202856723349769
+      },
+      {
+        "geoms": [
+          "ski0_edge_3_0_R",
+          "ski1_base_3_0"
+        ],
+        "distance": -0.004030203313639742
+      },
+      {
+        "geoms": [
+          "ski0_edge_3_0_R",
+          "ski1_edge_3_0_L"
+        ],
+        "distance": -0.003999999999999981
+      },
+      {
+        "geoms": [
+          "ski0_edge_3_0_L",
+          "ski1_base_3_1"
+        ],
+        "distance": -0.00402986990641967
+      },
+      {
+        "geoms": [
+          "ski0_edge_3_0_L",
+          "ski1_edge_3_1_L"
+        ],
+        "distance": -0.003999981507534006
+      },
+      {
+        "geoms": [
+          "ski0_base_3_1",
+          "ski1_base_3_0"
+        ],
+        "distance": -0.012028567233497692
+      },
+      {
+        "geoms": [
+          "ski0_base_3_1",
+          "ski1_base_3_1"
+        ],
+        "distance": -0.012028567407465246
+      },
+      {
+        "geoms": [
+          "ski0_edge_3_1_R",
+          "ski1_base_3_0"
+        ],
+        "distance": -0.004030108961598245
+      },
+      {
+        "geoms": [
+          "ski0_edge_3_1_R",
+          "ski1_edge_3_0_R"
+        ],
+        "distance": -0.003999981507534006
+      },
+      {
+        "geoms": [
+          "ski0_edge_3_1_L",
+          "ski1_base_3_1"
+        ],
+        "distance": -0.004030045092325977
+      },
+      {
+        "geoms": [
+          "ski0_edge_3_1_L",
+          "ski1_edge_3_1_R"
+        ],
+        "distance": -0.004
+      },
+      {
+        "geoms": [
+          "ski1_edge_3_0_R",
+          "ski0_base_3_1"
+        ],
+        "distance": -0.0040300450630365815
+      },
+      {
+        "geoms": [
+          "ski1_edge_3_0_L",
+          "ski0_base_3_0"
+        ],
+        "distance": -0.004030108978976945
+      },
+      {
+        "geoms": [
+          "ski1_edge_3_1_R",
+          "ski0_base_3_1"
+        ],
+        "distance": -0.004029869907224916
+      },
+      {
+        "geoms": [
+          "ski1_edge_3_1_L",
+          "ski0_base_3_0"
+        ],
+        "distance": -0.004030203313916511
+      }
+    ],
+    "robot_self_collision_preserved": false
+  },
+  "elastic_load_unload": [
+    {
+      "external_tip_load_N": 5,
+      "deflection_m": 0.005394596002227775,
+      "discrete_small_angle_prediction_m": 0.005384615384615384,
+      "relative_error": 0.0018535432708725453,
+      "loaded_joint_qpos_rad": [
+        0.0076995566518764874,
+        0.0046227512737467774,
+        0.0015460830205988683,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_max_joint_deflection_rad": 1.5486986394424648e-10,
+      "fixture": "central mount fixed, gravity/contact disabled, force at front outer segment COM x=0.6m; 3 joints at x=0.1,0.3,0.5m. This checks configured discrete stiffness, not real ski EI calibration."
+    },
+    {
+      "external_tip_load_N": 10,
+      "deflection_m": 0.010807349527068716,
+      "discrete_small_angle_prediction_m": 0.010769230769230769,
+      "relative_error": 0.003539598942095087,
+      "loaded_joint_qpos_rad": [
+        0.015411870014038655,
+        0.009258806823021482,
+        0.0031068750790998793,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_max_joint_deflection_rad": 3.1007140962591767e-10,
+      "fixture": "central mount fixed, gravity/contact disabled, force at front outer segment COM x=0.6m; 3 joints at x=0.1,0.3,0.5m. This checks configured discrete stiffness, not real ski EI calibration."
+    },
+    {
+      "external_tip_load_N": 20,
+      "deflection_m": 0.021675822308614617,
+      "discrete_small_angle_prediction_m": 0.021538461538461538,
+      "relative_error": 0.006377464328535846,
+      "loaded_joint_qpos_rad": [
+        0.030863472136334637,
+        0.018561742544306314,
+        0.006269161246446568,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_max_joint_deflection_rad": 6.212223393868932e-10,
+      "fixture": "central mount fixed, gravity/contact disabled, force at front outer segment COM x=0.6m; 3 joints at x=0.1,0.3,0.5m. This checks configured discrete stiffness, not real ski EI calibration."
+    }
+  ]
+}

@@ -100,7 +100,7 @@ def dynamics():
     report['dynamics']['slides']=slides
     # Unforced flight, then a real drop of a loaded flexible board; dt comparison.
     results=[]
-    for dt in [.001,.0005]:
+    for dt in [CFG['physics']['timestep'],CFG['physics']['timestep']/2]:
         m,d,s=fixture(load=18);m.opt.timestep=dt;d.qpos[2]=.3
         s.prepare(d);check(f'flight_zero_contacts_{dt}',d.ncon==0)
         info=run(m,d,s,1.5);info.update(dt=dt,final_z=float(d.qpos[2]),final_speed=float(np.linalg.norm(d.qvel)),flex=d.qpos[7:].tolist());results.append(info)
@@ -110,7 +110,7 @@ def dynamics():
     report['dynamics']['loaded_drop']=results
     # Gravity-only uniform slope: board points downslope with no root-force assistance.
     velocities=[]
-    for dt in [.001,.0005]:
+    for dt in [CFG['physics']['timestep'],CFG['physics']['timestep']/2]:
         m,d,s=fixture('plane_10');m.opt.timestep=dt;a=np.deg2rad(10);d.qpos[3:7]=[np.cos(a/2),0,np.sin(a/2),0]
         run(m,d,s,.5);v0=d.qvel[:3].copy();result=run(m,d,s,1);a_measured=float((d.qvel[:3]-v0)@np.array([np.cos(a),0,-np.sin(a)]));expected=9.81*(np.sin(a)-.05*np.cos(a));velocities.append(a_measured)
         check(f'slope_acceleration_{dt}',abs(a_measured-expected)<.15,measured=a_measured,expected=expected)
@@ -123,15 +123,16 @@ def dynamics():
     report['dynamics']['static_load']=deflections
     # Energy accounting includes gravity and passive springs; no control/external work.
     m,d,s=fixture();run(m,d,s,.8);d.qvel[0]=2;s.prepare(d);e0=energy(m,d);es=[]
-    for _ in range(1000): s.step(d);es.append(energy(m,d))
+    for _ in range(round(1/m.opt.timestep)): s.step(d);es.append(energy(m,d))
     check('unforced_energy_dissipation',es[-1]<e0 and max(es)<e0+.05,initial=e0,final=es[-1],max=max(es))
     report['dynamics']['energy']={'initial':e0,'final':es[-1],'maximum':max(es),'applied_work':0}
     # Contact-frame orientation and smooth finite edge coefficients at prescribed roll.
     m,d,s=fixture();values=[]
     for angle in np.linspace(-.65,.65,27):
         mujoco.mj_resetData(m,d);d.qpos[2]=-.002;d.qpos[3:7]=[np.cos(angle/2),np.sin(angle/2),0,0];s.prepare(d)
-        values.append(max([c.friction[1] for c in d.contact[:d.ncon]] or [0]))
+        values.append(max([c.friction[1] for c in d.contact[:d.ncon] if not c.exclude] or [0]))
         for c in d.contact[:d.ncon]:
+            if c.exclude:continue
             frame=c.frame.reshape(3,3);check('contact_frame_orthonormal',np.max(np.abs(frame@frame.T-np.eye(3)))<1e-9)
     check('edge_left_right_symmetry',np.max(np.abs(np.array(values)-values[::-1]))<1e-8,coefficients=values)
     check('edge_finite_activation',max(values)<=CFG['physics']['mu_edge']+1e-9 and min(values)>=CFG['physics']['mu_flat']-1e-9 and max(values)>.5)
@@ -139,6 +140,8 @@ def dynamics():
 def robot_checks():
     source=ROOT/'robots/unitree_g1'
     lock=json.loads((source/'source.json').read_text())
+    from audit_structure_and_flex import masks
+    check('g1_self_collision_preserved',masks()['robot_self_collision_preserved'])
     check('official_g1_files_unchanged',all(hashlib.sha256((source/name).read_bytes()).hexdigest()==digest for name,digest in lock['sha256'].items()))
     original=mujoco.MjModel.from_xml_path(str(source/'g1.xml'))
     for p in sorted((ROOT/'scenes').glob('g1_*.xml')):

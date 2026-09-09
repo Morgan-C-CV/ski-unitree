@@ -1,0 +1,207 @@
+{
+  "checks": [
+    {
+      "name": "grip_0_5",
+      "passed": true,
+      "final_vy": 3.0047181439859015e-06,
+      "work_J": 5.9683231987017505e-06
+    },
+    {
+      "name": "grip_0_25",
+      "passed": true,
+      "final_vy": 0.2055511570059585,
+      "work_J": 1.0276800471434648
+    },
+    {
+      "name": "grip_35_25",
+      "passed": true,
+      "final_vy": 3.080768869346903e-06,
+      "work_J": 5.3151132602034747e-05
+    },
+    {
+      "name": "grip_35_100",
+      "passed": true,
+      "final_vy": 0.26733014497284535,
+      "work_J": 5.242475641308533
+    },
+    {
+      "name": "grip_35_150",
+      "passed": true,
+      "final_vy": 1.2559523585684216,
+      "work_J": 36.85881720210376
+    },
+    {
+      "name": "flat_normals_False",
+      "passed": true,
+      "normal_error_deg": 0,
+      "max_Fy_N": 1.7180448470127674e-11
+    },
+    {
+      "name": "flat_normals_True",
+      "passed": true,
+      "normal_error_deg": 0,
+      "max_Fy_N": 1.7180448470127674e-11
+    },
+    {
+      "name": "inverted_starts_clear",
+      "passed": true
+    },
+    {
+      "name": "inverted_upper_skin",
+      "passed": true,
+      "sink_m": -0.0028135486050783953,
+      "max_mu": 0.08
+    },
+    {
+      "name": "airborne_zero_force",
+      "passed": true
+    },
+    {
+      "name": "pitch_does_not_activate_edge",
+      "passed": true
+    },
+    {
+      "name": "edge_transfer_0.00025",
+      "passed": true,
+      "dt": 0.00025,
+      "duration": 2,
+      "applied_fixture_work_J": 0.8879259832083662,
+      "maximum_energy_above_initial_plus_work_J": 7.541078872540079e-11,
+      "max_force_vector_change_per_step_N": 380.9904840992534,
+      "min_distance_m": -0.00035532868035137574,
+      "max_tracking_error_deg": 4.88474690212263,
+      "final_position": [
+        3.66604577383059e-05,
+        0.00033026388404786716,
+        0.0044135611935852736
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fixture": "XYZ and yaw free; explicit bounded roll motor, torque/work recorded. Not a robot controller."
+    },
+    {
+      "name": "edge_transfer_0.000125",
+      "passed": true,
+      "dt": 0.000125,
+      "duration": 2,
+      "applied_fixture_work_J": 0.8813687717013211,
+      "maximum_energy_above_initial_plus_work_J": 4.966693723311684e-12,
+      "max_force_vector_change_per_step_N": 371.92462300720524,
+      "min_distance_m": -0.00035211741480852183,
+      "max_tracking_error_deg": 4.88407033240081,
+      "final_position": [
+        3.645760989937431e-05,
+        0.000332814148417726,
+        0.004413476267039423
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fixture": "XYZ and yaw free; explicit bounded roll motor, torque/work recorded. Not a robot controller."
+    }
+  ],
+  "measurements": {
+    "release": {
+      "airborne": [
+        {
+          "pitch_deg": 0,
+          "roll_deg": 0,
+          "no_contact_steps": 80,
+          "steps": 80,
+          "force_peak": 0.0
+        },
+        {
+          "pitch_deg": 25,
+          "roll_deg": 0,
+          "no_contact_steps": 80,
+          "steps": 80,
+          "force_peak": 0.0
+        },
+        {
+          "pitch_deg": 0,
+          "roll_deg": 35,
+          "no_contact_steps": 80,
+          "steps": 80,
+          "force_peak": 0.0
+        },
+        {
+          "pitch_deg": 180,
+          "roll_deg": 0,
+          "no_contact_steps": 80,
+          "steps": 80,
+          "force_peak": 0.0
+        }
+      ],
+      "pure_pitch_max_mu_lateral": 0.08,
+      "pure_pitch_contacts": 50
+    },
+    "transfer": [
+      {
+        "dt": 0.00025,
+        "duration": 2,
+        "applied_fixture_work_J": 0.8879259832083662,
+        "maximum_energy_above_initial_plus_work_J": 7.541078872540079e-11,
+        "max_force_vector_change_per_step_N": 380.9904840992534,
+        "min_distance_m": -0.00035532868035137574,
+        "max_tracking_error_deg": 4.88474690212263,
+        "final_position": [
+          3.66604577383059e-05,
+          0.00033026388404786716,
+          0.0044135611935852736
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "fixture": "XYZ and yaw free; explicit bounded roll motor, torque/work recorded. Not a robot controller."
+      },
+      {
+        "dt": 0.000125,
+        "duration": 2,
+        "applied_fixture_work_J": 0.8813687717013211,
+        "maximum_energy_above_initial_plus_work_J": 4.966693723311684e-12,
+        "max_force_vector_change_per_step_N": 371.92462300720524,
+        "min_distance_m": -0.00035211741480852183,
+        "max_tracking_error_deg": 4.88407033240081,
+        "final_position": [
+          3.645760989937431e-05,
+          0.000332814148417726,
+          0.004413476267039423
+        ],
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "fixture": "XYZ and yaw free; explicit bounded roll motor, torque/work recorded. Not a robot controller."
+      }
+    ]
+  },
+  "passed": true
+}

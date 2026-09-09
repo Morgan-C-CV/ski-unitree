@@ -1,0 +1,101 @@
+{
+  "overall": "NOT_ACCEPTED_FOR_FORMAL_RL",
+  "training_ready": false,
+  "production_physics_modified": false,
+  "categories": [
+    {
+      "id": "geometry",
+      "status": "passed_limited",
+      "evidence": "42 MJCF files compile, source geometry/inertia available; earlier random terrain height/query tests pass. This does not certify collision normals."
+    },
+    {
+      "id": "base_static",
+      "status": "passed_fixture",
+      "evidence": "Static support balances 188.85 N; base ~50%, edges ~25% each when flat."
+    },
+    {
+      "id": "elasticity",
+      "status": "passed_discrete_model",
+      "evidence": "5/10/20 N cantilever loads within 0.64% of configured small-angle discrete stiffness; unload residual <1e-9 rad. Real EI not calibrated."
+    },
+    {
+      "id": "edge_static",
+      "status": "passed_fixture",
+      "evidence": "At 35deg loaded edge carries support; 100N transverse force held, 150N slips; pure pitch does not activate edging."
+    },
+    {
+      "id": "edge_dynamic",
+      "status": "partial",
+      "evidence": "Slow controlled transfer has small energy residual after recorded actuator work, but ~262N one-step force changes; high-speed transfer unvalidated."
+    },
+    {
+      "id": "heightfield_collision",
+      "status": "failed",
+      "evidence": "Flat heightfield normal errors reach 89.96deg and speed differs 7.31% from plane; finer grid does not converge."
+    },
+    {
+      "id": "carving",
+      "status": "failed_convergence",
+      "evidence": "35deg roll, 4m/s initial speed, zero yaw drive: speed differs 26.51% after ~1s between 1ms and 0.5ms; trajectories diverge."
+    },
+    {
+      "id": "g1_self_collision",
+      "status": "failed",
+      "evidence": "Assembly contype=4/conaffinity=3 blocks robot-robot pairs; no explicit pairs restore them."
+    },
+    {
+      "id": "flat_impact",
+      "status": "passed_limited",
+      "evidence": "First-contact 80ms impulse window converges across 1/0.5/0.25ms, but this is flat, orientation-clamped, non-robot landing."
+    },
+    {
+      "id": "high_course_dynamics",
+      "status": "failed_or_unverified",
+      "evidence": "Mogul probes retain centimetre penetration after payload-inertia correction; jump trajectories remain step-sensitive. No full G1 course closure."
+    },
+    {
+      "id": "RL_wrapper",
+      "status": "incomplete",
+      "evidence": "CPU stepping and terrain query adapters exist; reset/observation/action/phase/reward/termination schema and batch backend integration are not completed."
+    }
+  ],
+  "flat_heightfield_speed_relative_error": 0.07307672582793598,
+  "carve_speed_dt_relative_error": 0.26511287590316984,
+  "carve_comparison_at_one_second": [
+    {
+      "dt": 0.001,
+      "sample_time_s": 1.7999999999999126,
+      "elapsed_glide_s": 0.9999999999999125,
+      "speed_m_s": 1.1342866408058347,
+      "motion_direction_deg": -79.07232327967687,
+      "position_xy_m": [
+        2.592519275813043,
+        -0.9945657638841165
+      ]
+    },
+    {
+      "dt": 0.0005,
+      "sample_time_s": 1.7999999999998573,
+      "elapsed_glide_s": 0.9999999999998572,
+      "speed_m_s": 1.5434841673132633,
+      "motion_direction_deg": 10.530316867990054,
+      "position_xy_m": [
+        2.8896288544626096,
+        -0.6145771631234815
+      ]
+    }
+  ],
+  "blocking_ids": [
+    "heightfield_collision",
+    "carving",
+    "g1_self_collision",
+    "high_course_dynamics"
+  ],
+  "priority_order": [
+    "Restore and test original G1 self-collision filtering.",
+    "Redesign/validate the base proxy-heightfield collision combination; edge-only ablation is diagnostic, not a replacement ski.",
+    "Repeat fixed-roll/free-yaw tests across dt, segment count, contact density, load and speed before claiming carving.",
+    "Validate high-terrain impact/flight/recontact with well-defined fixtures, then G1 closed-loop tasks.",
+    "Complete reset/observations/commands/reward/termination/phase and backend-specific RL integration."
+  ]
+}

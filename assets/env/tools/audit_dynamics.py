@@ -24,7 +24,7 @@ def xml_assets_absolute(root):
     for item in root.find('asset'):
         if 'file' in item.attrib:item.set('file',str((ROOT/'scenes'/item.get('file')).resolve()))
 
-def make(roll=0,pitch=0,yaw=0,load=18,dt=.001,free=False,course=None,flat_hfield=False,payload_inertia=False):
+def make(roll=0,pitch=0,yaw=0,load=18,dt=None,free=False,course=None,flat_hfield=False,payload_inertia=False,grid=.125,roll_motor=False,contact_mode='all'):
     root=ET.parse(ROOT/'scenes/ski_single.xml').getroot();xml_assets_absolute(root)
     ski=root.find("worldbody/body[@name='ski0_mount']");world=root.find('worldbody');world.remove(ski)
     ski.set('pos','0 0 0');ski.remove(ski.find('freejoint'))
@@ -39,6 +39,9 @@ def make(roll=0,pitch=0,yaw=0,load=18,dt=.001,free=False,course=None,flat_hfield
         ET.SubElement(carrier,'joint',name='yaw',type='hinge',axis='0 0 1',damping='0')
     # yaw is a world-Z generalized coordinate; tilt is fixed beneath it.
     tilt=ET.SubElement(carrier,'body',name='tilt',euler=f'{math.radians(roll)} {math.radians(pitch)} 0')
+    if roll_motor:
+        ET.SubElement(tilt,'joint',name='fixture_roll',type='hinge',axis='1 0 0',damping='0',range='-.8 .8')
+        act=ET.SubElement(root,'actuator');ET.SubElement(act,'position',name='fixture_roll_motor',joint='fixture_roll',kp='500',kv='20',forcerange='-100 100',ctrlrange='-.7 .7')
     tilt.append(ski)
     if course:
         terrainroot=ET.parse(ROOT/'scenes'/f'{course}.xml').getroot();xml_assets_absolute(terrainroot)
@@ -46,19 +49,24 @@ def make(roll=0,pitch=0,yaw=0,load=18,dt=.001,free=False,course=None,flat_hfield
         snow=world.find("geom[@name='snow_surface']");world.remove(snow)
         world.append(copy.deepcopy(terrainroot.find("worldbody/geom[@name='snow_surface']")))
     if flat_hfield:
-        h=ET.SubElement(root.find('asset'),'hfield',name='audit_flat',nrow='33',ncol='321',size='20 2 .01 .5')
+        h=ET.SubElement(root.find('asset'),'hfield',name='audit_flat',nrow=str(round(4/grid)+1),ncol=str(round(40/grid)+1),size='20 2 .01 .5')
         snow=world.find("geom[@name='snow_surface']");snow.set('type','hfield');snow.set('hfield','audit_flat');snow.attrib.pop('size',None)
-    m=mujoco.MjModel.from_xml_string(ET.tostring(root,encoding='unicode'));m.opt.timestep=dt
+    m=mujoco.MjModel.from_xml_string(ET.tostring(root,encoding='unicode'));m.opt.timestep=PHYS["timestep"] if dt is None else dt
     d=mujoco.MjData(m)
     if free:d.qpos[2]=.04
     else:d.qpos[2]=.04;d.qpos[3]=math.radians(yaw)
     s=SnowStepper(m,json.loads((ROOT/'configs/ski_single_contacts.json').read_text()))
+    if contact_mode!='all':
+        for gid,item in s.items.items():
+            if item['kind']!=contact_mode:m.geom_contype[gid]=0;m.geom_conaffinity[gid]=0
     return m,d,s
 
 def snapshot(m,d,s):
     total=np.zeros(3);loads={'base':0.,'edge_L':0.,'edge_R':0.};min_dist=0.;pointloads=[]
     for i in range(d.ncon):
-        c=d.contact[i];g1,g2=map(int,c.geom)
+        c=d.contact[i]
+        if c.exclude:continue
+        g1,g2=map(int,c.geom)
         if s.snow not in [g1,g2]:continue
         gid=g2 if g1==s.snow else g1
         if gid not in s.items:continue
@@ -76,15 +84,15 @@ def run(m,d,s,seconds,force=None,trace=None):
         if force is not None:d.xfrc_applied[cid,:3]=force
         s.prepare(d)
         # Read consistent qpos/qvel/kinematics BEFORE integration.
-        mujoco.mj_energyPos(m,d);mujoco.mj_energyVel(m,d);en=float(d.energy.sum())
+        mujoco.mj_energyPos(m,d);mujoco.mj_energyVel(m,d);en=float(d.energy.sum());prepos=d.qpos.copy();prevel=d.qvel.copy();pretime=float(d.time)
         max_energy=max(max_energy,en);energies.append(en)
         mujoco.mj_step2(m,d)
         f,loads,dist,pts=snapshot(m,d,s);sink=min(sink,dist);impulse+=f*m.opt.timestep
         if not pts:no_contact+=1
         if np.linalg.norm(f)>peak:
-            peak=float(np.linalg.norm(f));peak_state={'time':float(d.time),'force':f.tolist(),'position':d.qpos[:3].tolist(),'distance':dist,'loads':loads,'qvel_norm':float(np.linalg.norm(d.qvel))}
-        if force is not None:work+=float(np.dot(force,d.qvel[:3]))*m.opt.timestep
-        if k%10==0:rows.append([float(d.time),*d.qpos[:3].tolist(),*d.qvel[:3].tolist(),*f.tolist(),dist,en,*loads.values()])
+            peak=float(np.linalg.norm(f));peak_state={'time':pretime,'force':f.tolist(),'position':prepos[:3].tolist(),'distance':dist,'loads':loads,'qvel_norm':float(np.linalg.norm(prevel))}
+        if force is not None:work+=float(np.dot(force,.5*(prevel[:3]+d.qvel[:3])))*m.opt.timestep
+        if k%10==0:rows.append([pretime,*prepos[:3].tolist(),*prevel[:3].tolist(),*f.tolist(),dist,en,*loads.values()])
     if trace:
         np.savetxt(OUT/f'{trace}.csv',np.asarray(rows),delimiter=',',header='time,x,y,z,vx,vy,vz,Fx,Fy,Fz,min_contact_distance,mechanical_energy,base_load,left_edge_load,right_edge_load',comments='')
     return {'peak_force_N':peak,'minimum_contact_distance_m':sink,'impulse_world_Ns':impulse.tolist(),'applied_work_J':work,'initial_energy_J':energies[0],'final_energy_J':energies[-1],'maximum_energy_J':max_energy,'no_contact_steps':no_contact,'peak_state':peak_state,'final_qpos':d.qpos.tolist(),'final_qvel':d.qvel.tolist(),'warnings':d.warning.number.tolist(),'steps_per_second_including_diagnostics':round(seconds/m.opt.timestep/(time.perf_counter()-start))}

@@ -64,17 +64,25 @@ class SnowStepper:
         self.items={model.geom(item['geom']).id:item for item in metadata}
         self.snow=model.geom('snow_surface').id
         self.degenerate_count=0
+        self.surface=None
+        if self.p.get('contact_backend')=='surface_samples':
+            from surface_contacts import SurfaceContacts
+            design=json.loads((ROOT/'configs/design.json').read_text())
+            self.surface=SurfaceContacts(model,metadata,design,self.p.get('surface_stations_per_segment',32))
 
     def prepare(self,d):
         m=self.m; mujoco.mj_step1(m,d)
+        if self.surface is not None:self.surface.build(d)
         for k in range(d.ncon):
             c=d.contact[k]; g1,g2=map(int,c.geom)
+            if c.exclude:continue
             if self.snow not in [g1,g2]: continue
             gid=g2 if g1==self.snow else g1
             item=self.items.get(gid)
             if item is None: continue
             R=d.xmat[m.geom_bodyid[gid]].reshape(3,3)
-            n=c.frame[:3].copy(); axis=R@np.asarray(item['axis']); t=axis-n*np.dot(axis,n); length=np.linalg.norm(t)
+            local_axis=self.surface.added_axes[k] if self.surface is not None and k in self.surface.added_axes else np.asarray(item['axis'])
+            n=c.frame[:3].copy(); axis=R@local_axis; t=axis-n*np.dot(axis,n); length=np.linalg.norm(t)
             if length<1e-8:
                 self.degenerate_count+=1
                 basis=np.eye(3)[np.argmin(np.abs(n))]; t=basis-n*np.dot(basis,n); length=np.linalg.norm(t)
@@ -99,6 +107,7 @@ class SnowStepper:
         result=[]
         for i in range(d.ncon):
             c=d.contact[i]
+            if c.exclude:continue
             if self.snow not in c.geom: continue
             f=np.zeros(6); mujoco.mj_contactForce(self.m,d,i,f)
             result.append(dict(geom=[int(g) for g in c.geom],position=c.pos.copy().tolist(),frame=c.frame.copy().tolist(),force_contact_frame=f.tolist(),distance=float(c.dist)))

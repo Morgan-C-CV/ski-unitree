@@ -1,5 +1,5 @@
 {
-  "version": "env-v1.1-slope-groups",
+  "version": "env-v1.2-surface-manifold",
   "group_boundary_ownership": "10 degrees belongs to low, 20 degrees belongs to medium; no duplicate sampling at boundaries",
   "groups": {
     "low": [
@@ -31,7 +31,7 @@
   },
   "special_terrain_rule": "single bump, bump row, moguls and tabletop scenes occur only in high group",
   "control_rates_hz": {
-    "physics": 1000,
+    "physics": 4000,
     "LLC": 100,
     "HLC": 10
   },

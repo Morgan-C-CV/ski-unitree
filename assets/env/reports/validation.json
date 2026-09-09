@@ -535,22 +535,22 @@
     {
       "name": "slide_0.000_along",
       "passed": true,
-      "speed_after_half_second": 1.7574156758529802
+      "speed_after_half_second": 1.7539221197177264
     },
     {
       "name": "slide_0.000_across",
       "passed": true,
-      "speed_after_half_second": 1.5873738169166471
+      "speed_after_half_second": 1.60648576879579
     },
     {
       "name": "slide_1.571_along",
       "passed": true,
-      "speed_after_half_second": 1.7574156758529744
+      "speed_after_half_second": 1.7539221197177297
     },
     {
       "name": "slide_1.571_across",
       "passed": true,
-      "speed_after_half_second": 1.5873738169166427
+      "speed_after_half_second": 1.6064857687957905
     },
     {
       "name": "90_degree_covariance",
@@ -561,17 +561,17 @@
       "passed": true
     },
     {
-      "name": "flight_zero_contacts_0.001",
+      "name": "flight_zero_contacts_0.00025",
       "passed": true
     },
     {
-      "name": "loaded_drop_0.001",
+      "name": "loaded_drop_0.00025",
       "passed": true,
-      "min_contact_distance": -0.010689238603272824,
-      "peak_normal_force": 8038.567150630208,
-      "normal_impulse": 283.26374722930564,
-      "max_contacts": 78,
-      "steps_per_second": 1430,
+      "min_contact_distance": -0.005349018420290088,
+      "peak_normal_force": 15933.990131746381,
+      "normal_impulse": 283.2637495219117,
+      "max_contacts": 60,
+      "steps_per_second": 1075,
       "warnings": [
         0,
         0,
@@ -582,30 +582,30 @@
         0,
         0
       ],
-      "dt": 0.001,
-      "final_z": 0.0020155561736943926,
-      "final_speed": 1.7532720487553232e-15,
+      "dt": 0.00025,
+      "final_z": 0.002068420489976773,
+      "final_speed": 2.0458870274895566e-15,
       "flex": [
-        -0.0037725617387360352,
-        -0.002102393852964788,
-        0.00043022836133133904,
-        0.003801870199293282,
-        0.002116955970973251,
-        -0.0004304096728005162
+        -0.003828451128319224,
+        -0.002067173561729938,
+        0.00043034316393008,
+        0.003829897345257252,
+        0.002067786652654953,
+        -0.00043053540243693134
       ]
     },
     {
-      "name": "flight_zero_contacts_0.0005",
+      "name": "flight_zero_contacts_0.000125",
       "passed": true
     },
     {
-      "name": "loaded_drop_0.0005",
+      "name": "loaded_drop_0.000125",
       "passed": true,
-      "min_contact_distance": -0.010106892647500844,
-      "peak_normal_force": 8171.885116459041,
-      "normal_impulse": 283.2637489805097,
-      "max_contacts": 78,
-      "steps_per_second": 1402,
+      "min_contact_distance": -0.00521713195634358,
+      "peak_normal_force": 15830.26195939439,
+      "normal_impulse": 283.2637497865493,
+      "max_contacts": 60,
+      "steps_per_second": 1115,
       "warnings": [
         0,
         0,
@@ -616,33 +616,33 @@
         0,
         0
       ],
-      "dt": 0.0005,
-      "final_z": 0.0020155561736943887,
-      "final_speed": 1.4427154801358252e-15,
+      "dt": 0.000125,
+      "final_z": 0.0020684204899767676,
+      "final_speed": 1.6736832744643897e-15,
       "flex": [
-        -0.003772561738736037,
-        -0.002102393852964799,
-        0.00043022836133133703,
-        0.0038018701992932886,
-        0.0021169559709732556,
-        -0.00043040967280051634
+        -0.0038284511283192242,
+        -0.0020671735617299406,
+        0.00043034316393008004,
+        0.003829897345257259,
+        0.0020677866526549547,
+        -0.0004305354024369322
       ]
     },
     {
       "name": "drop_dt_impulse_convergence",
       "passed": true,
-      "relative_difference": 6.182238594258623e-09
+      "relative_difference": 9.342445203472923e-10
     },
     {
-      "name": "slope_acceleration_0.001",
+      "name": "slope_acceleration_0.00025",
       "passed": true,
-      "measured": 1.2209816808863532,
+      "measured": 1.2206571219968634,
       "expected": 1.2204404200600987
     },
     {
-      "name": "slope_acceleration_0.0005",
+      "name": "slope_acceleration_0.000125",
       "passed": true,
-      "measured": 1.2177584742283996,
+      "measured": 1.2206614038514767,
       "expected": 1.2204404200600987
     },
     {
@@ -655,38 +655,38 @@
       "measurements": [
         {
           "load_kg": 0,
-          "center_z": 0.0020826346698487688,
+          "center_z": 0.002206097591989159,
           "flex": [
-            -0.0036393729827114705,
-            -0.00203584854303681,
-            0.00043026646042506776,
-            0.0036483497637253537,
-            0.0020402486772762452,
-            -0.0004304422045467052
+            -0.0035445544284116955,
+            -0.0019275424949957284,
+            0.00043041513380380416,
+            0.0035445184248330095,
+            0.0019274347857242329,
+            -0.00043059237993347253
           ]
         },
         {
           "load_kg": 9,
-          "center_z": 0.00204366884357297,
+          "center_z": 0.0020740659479692473,
           "flex": [
-            -0.0037160856709458805,
-            -0.0020741784915975377,
-            0.00043024444145111404,
-            0.003745686447396893,
-            0.0020888889660091955,
-            -0.00043042282624061664
+            -0.0038166831307432174,
+            -0.0020614041884098613,
+            0.0004303459553119145,
+            0.003818212875176326,
+            0.0020620589535870803,
+            -0.0004305375735058277
           ]
         },
         {
           "load_kg": 18,
-          "center_z": 0.0020155561736943913,
+          "center_z": 0.0020684204899767745,
           "flex": [
-            -0.003772561738736064,
-            -0.0021023938529648057,
-            0.0004302283613313392,
-            0.0038018701992932292,
-            0.002116955970973225,
-            -0.00043040967280051564
+            -0.0038284511283192286,
+            -0.0020671735617299415,
+            0.0004303431639300793,
+            0.0038298973452572478,
+            0.0020677866526549495,
+            -0.0004305354024369339
           ]
         }
       ]
@@ -694,1493 +694,9 @@
     {
       "name": "unforced_energy_dissipation",
       "passed": true,
-      "initial": 2.7181239863934823,
-      "final": 1.641520202049779,
-      "max": 2.71636934266084
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
-    },
-    {
-      "name": "contact_frame_orthonormal",
-      "passed": true
+      "initial": 2.718886164521715,
+      "final": 1.642913648721517,
+      "max": 2.7184379980595192
     },
     {
       "name": "contact_frame_orthonormal",
@@ -6660,6 +5176,10 @@
       "passed": true
     },
     {
+      "name": "g1_self_collision_preserved",
+      "passed": true
+    },
+    {
       "name": "official_g1_files_unchanged",
       "passed": true
     },
@@ -7285,18 +5805,18 @@
   },
   "dynamics": {
     "slides": {
-      "0.000_along": 1.7574156758529802,
-      "0.000_across": 1.5873738169166471,
-      "1.571_along": 1.7574156758529744,
-      "1.571_across": 1.5873738169166427
+      "0.000_along": 1.7539221197177264,
+      "0.000_across": 1.60648576879579,
+      "1.571_along": 1.7539221197177297,
+      "1.571_across": 1.6064857687957905
     },
     "loaded_drop": [
       {
-        "min_contact_distance": -0.010689238603272824,
-        "peak_normal_force": 8038.567150630208,
-        "normal_impulse": 283.26374722930564,
-        "max_contacts": 78,
-        "steps_per_second": 1430,
+        "min_contact_distance": -0.005349018420290088,
+        "peak_normal_force": 15933.990131746381,
+        "normal_impulse": 283.2637495219117,
+        "max_contacts": 60,
+        "steps_per_second": 1075,
         "warnings": [
           0,
           0,
@@ -7307,24 +5827,24 @@
           0,
           0
         ],
-        "dt": 0.001,
-        "final_z": 0.0020155561736943926,
-        "final_speed": 1.7532720487553232e-15,
+        "dt": 0.00025,
+        "final_z": 0.002068420489976773,
+        "final_speed": 2.0458870274895566e-15,
         "flex": [
-          -0.0037725617387360352,
-          -0.002102393852964788,
-          0.00043022836133133904,
-          0.003801870199293282,
-          0.002116955970973251,
-          -0.0004304096728005162
+          -0.003828451128319224,
+          -0.002067173561729938,
+          0.00043034316393008,
+          0.003829897345257252,
+          0.002067786652654953,
+          -0.00043053540243693134
         ]
       },
       {
-        "min_contact_distance": -0.010106892647500844,
-        "peak_normal_force": 8171.885116459041,
-        "normal_impulse": 283.2637489805097,
-        "max_contacts": 78,
-        "steps_per_second": 1402,
+        "min_contact_distance": -0.00521713195634358,
+        "peak_normal_force": 15830.26195939439,
+        "normal_impulse": 283.2637497865493,
+        "max_contacts": 60,
+        "steps_per_second": 1115,
         "warnings": [
           0,
           0,
@@ -7335,69 +5855,69 @@
           0,
           0
         ],
-        "dt": 0.0005,
-        "final_z": 0.0020155561736943887,
-        "final_speed": 1.4427154801358252e-15,
+        "dt": 0.000125,
+        "final_z": 0.0020684204899767676,
+        "final_speed": 1.6736832744643897e-15,
         "flex": [
-          -0.003772561738736037,
-          -0.002102393852964799,
-          0.00043022836133133703,
-          0.0038018701992932886,
-          0.0021169559709732556,
-          -0.00043040967280051634
+          -0.0038284511283192242,
+          -0.0020671735617299406,
+          0.00043034316393008004,
+          0.003829897345257259,
+          0.0020677866526549547,
+          -0.0004305354024369322
         ]
       }
     ],
     "static_load": [
       {
         "load_kg": 0,
-        "center_z": 0.0020826346698487688,
+        "center_z": 0.002206097591989159,
         "flex": [
-          -0.0036393729827114705,
-          -0.00203584854303681,
-          0.00043026646042506776,
-          0.0036483497637253537,
-          0.0020402486772762452,
-          -0.0004304422045467052
+          -0.0035445544284116955,
+          -0.0019275424949957284,
+          0.00043041513380380416,
+          0.0035445184248330095,
+          0.0019274347857242329,
+          -0.00043059237993347253
         ]
       },
       {
         "load_kg": 9,
-        "center_z": 0.00204366884357297,
+        "center_z": 0.0020740659479692473,
         "flex": [
-          -0.0037160856709458805,
-          -0.0020741784915975377,
-          0.00043024444145111404,
-          0.003745686447396893,
-          0.0020888889660091955,
-          -0.00043042282624061664
+          -0.0038166831307432174,
+          -0.0020614041884098613,
+          0.0004303459553119145,
+          0.003818212875176326,
+          0.0020620589535870803,
+          -0.0004305375735058277
         ]
       },
       {
         "load_kg": 18,
-        "center_z": 0.0020155561736943913,
+        "center_z": 0.0020684204899767745,
         "flex": [
-          -0.003772561738736064,
-          -0.0021023938529648057,
-          0.0004302283613313392,
-          0.0038018701992932292,
-          0.002116955970973225,
-          -0.00043040967280051564
+          -0.0038284511283192286,
+          -0.0020671735617299415,
+          0.0004303431639300793,
+          0.0038298973452572478,
+          0.0020677866526549495,
+          -0.0004305354024369339
         ]
       }
     ],
     "energy": {
-      "initial": 2.7181239863934823,
-      "final": 1.641520202049779,
-      "maximum": 2.71636934266084,
+      "initial": 2.718886164521715,
+      "final": 1.642913648721517,
+      "maximum": 2.7184379980595192,
       "applied_work": 0
     },
     "g1_250ms_smoke": {
-      "min_contact_distance": -0.0018529241867382008,
-      "peak_normal_force": 2955.629128456456,
-      "normal_impulse": 87.9007053339939,
-      "max_contacts": 156,
-      "steps_per_second": 389,
+      "min_contact_distance": -0.0009816144690901253,
+      "peak_normal_force": 5448.526041462127,
+      "normal_impulse": 87.90052060573551,
+      "max_contacts": 120,
+      "steps_per_second": 467,
       "warnings": [
         0,
         0,
@@ -7507,48 +6027,48 @@
   "training_ready": false,
   "summary": "Asset and CPU probe checks only; full M0 physics gate remains open.",
   "files_sha256": {
-    "scenes/bump_row.xml": "a431c4747c4497fa07dd9c5a38d7631482af4eb18b979943c6011db729d8d5c7",
-    "scenes/carving_gates.xml": "a5de5af471ab416d3186a89701209c1bcccb77f5b5f7ad3d09c914d71d8ce0f7",
-    "scenes/cross_slope.xml": "837f60432e78d7196cb4139808b391851cdd9de0d2116dd9b1dcfc2cfc4282cd",
-    "scenes/g1_bump_row.xml": "ffff4a62eb61b8455441d6d18231fe75278b5388b2b769b87fd86ddbbbb8ee07",
-    "scenes/g1_carving_gates.xml": "1da82ea353a1d38820626548f4b110bdcd7d685e661f0272a02b7915b580455c",
-    "scenes/g1_cross_slope.xml": "811f9af2ab28dd7c4862d8ea0c9c0ac7b3052cd2dde7093cc3f890e6d7f4d71e",
-    "scenes/g1_moguls_regular.xml": "d73c23994afc900fd0cfbc3df6bf37d524ee2a76e2bc3e6bf493fb72c538871c",
-    "scenes/g1_moguls_seeded.xml": "e8af62d8bac52dbf859ec3e4cab0b19ca44f76bb4d758774c06d9b4d57190b9a",
-    "scenes/g1_piste_high.xml": "528619a3f6c9efa2c534fa48f07bff89a5da7093964bdab33a72b6bce754c819",
-    "scenes/g1_piste_low.xml": "5d58c11b3e9c9e63ff107f46d3048842303f8bf4049bf03b52bbcba633b950f2",
-    "scenes/g1_plane_00.xml": "d892ba41766624760bff2804cdc62e2c759f8f0ab98e1255b6ee33ecc1f2a507",
-    "scenes/g1_plane_05.xml": "9a646ca8cb5a5fab0b7a92618d43a1fab787097759b86f4bc557ce7c077f7fe6",
-    "scenes/g1_plane_10.xml": "719870ef9576053c3fee03ac5277c048827861cfafa857fc89943031f1d84ae0",
-    "scenes/g1_plane_15.xml": "52bc4e12813c5e383180f99a805033816de534091c5f88b5d61d3c880f1d338b",
-    "scenes/g1_plane_20.xml": "5eb24a02c1089e6eeff0d60b5a2238da13b2a34feb65a7f0b428d51e702e3cfe",
-    "scenes/g1_plane_25.xml": "76efad64e44761e6f0d6e5f932e81ae291613e2b639c5caa84714420cef95e11",
-    "scenes/g1_plane_30.xml": "fc01e9c61efcb00eefeb328399d992dcc841f589730a86722ada4478d8b076e2",
-    "scenes/g1_plane_35.xml": "5270e80e17ee60dc4987876fe7ee49728c02d7837edf9fc7a6413be534f64bf2",
-    "scenes/g1_plane_40.xml": "4e1bcf79653b2c26cd13b12677e280f3b732da1893e061374a3bd55ae4fcea36",
-    "scenes/g1_single_bump.xml": "91e5af6731623c7d77905a89aa6ed589f394caabd9522be8f8f04ba392ec3ada",
-    "scenes/g1_tabletop_medium.xml": "80282f66dc3e06ec90912f31d5ccfec8829b2843753df748175d8dc568215e52",
-    "scenes/g1_tabletop_small.xml": "e798c8939fcfdaef22211e76e9fd74e730c4e00635a6ae5a31af84a1feddbaed",
-    "scenes/g1_tabletop_steep.xml": "403eec9201b7848e4d0dcea8401b887d4205de70560a39037e48be5776cf3eaf",
-    "scenes/moguls_regular.xml": "6b7b232837dbec010e191cc3cf26d85fea228a2ceba3bb5721a56b4aaf24ccae",
-    "scenes/moguls_seeded.xml": "f532955958e3b5cf14f839218fedfc0adb6fa8a146d65ac4a277799fe709679f",
-    "scenes/piste_high.xml": "f89b61a8b8f25416774cfdb47299cbdc7bbeeeb4428e5c06b73bdb2bfa1e4431",
-    "scenes/piste_low.xml": "0b8ad3765851089d970a83088778a35474319b8006a5e007089ae33bc13ed637",
-    "scenes/plane_00.xml": "f7d695291ce8aff4da79ad8147c2bc8aff2e74a7b698e2da3f0ba70f38b7f670",
-    "scenes/plane_05.xml": "1139b78d6c7aeef9673a95d6dad1ba78ddce2e1dbf8be4d9693976d814fb0d2f",
-    "scenes/plane_10.xml": "dcd81c69ddf26626e29cb7aac2863fc0a818aea155de2015640c9dd8f00dbd12",
-    "scenes/plane_15.xml": "2980a530374b1207a8ab43f6023af56b85ef4aa04f2aaa804259d1d6e0c06a54",
-    "scenes/plane_20.xml": "fb154db27001d76d250cb739a1cf6f5b15628d8bd0ecd91fb6da7654c6bcf60c",
-    "scenes/plane_25.xml": "421d6a49ea1a4fa7d6fb220fa417891ec70a17f461f83bff4574a23b10da953b",
-    "scenes/plane_30.xml": "451166b4277440420762efa58bd1265cfea8ed574de2833bd3edd2db8800438c",
-    "scenes/plane_35.xml": "c1f1bb1e4e3216dc9302e8355ae52b15c82c62ece187d8fb257950f125f5b108",
-    "scenes/plane_40.xml": "0a1f9f09f45864cd86c87a40cc0756879220411a6b3fa3f6c9eb465e9880b046",
-    "scenes/single_bump.xml": "b6226a018d33902edae17c69045acbe7c30cd39c19ce7f7247e8a36843d527c1",
-    "scenes/ski_pair.xml": "322a852c1a6901d5dc68becc6c0ffc01a2abeae9bbf95e2530ea848d2b181289",
-    "scenes/ski_single.xml": "40e208dbaa0b6a55e9b8542c90897738357a70be014626f91334c8bfc6e2c478",
-    "scenes/tabletop_medium.xml": "bf70a29786f99417f9d2b088dba6637210b91e89ddddf14f518d8e7ed06867dd",
-    "scenes/tabletop_small.xml": "2405ac2d74c8fa9685bb9e4038e17a684353de25defdc3e7e6a9a0aadef4df22",
-    "scenes/tabletop_steep.xml": "8499690430c2a6d2850073f0f8056d806df88cb76098dafa788e056e907cf0bc",
+    "scenes/bump_row.xml": "d8cfcf48828ec476b2ef87d663ee66f7f036a9ebfbfcd163f2bba8ca1883d0bd",
+    "scenes/carving_gates.xml": "e28a89bd0f3fa4f5c033b08d0c95772b7d439e19d848b9601eb6b4e7ad0d9264",
+    "scenes/cross_slope.xml": "60798f751874223087ff7138378c5bb1cd53093bbda267f494a99e49d81c4882",
+    "scenes/g1_bump_row.xml": "01d00cf20a40509b28254a7a26a26dd8d6cdc0cd3fd77d15f09f17820f1d44cc",
+    "scenes/g1_carving_gates.xml": "829aa88388fca3e450d031cc160e998b83124d32d604d050475342bd82339fbe",
+    "scenes/g1_cross_slope.xml": "e2838308a40f5d56b6734e50a56315f7fcc57e86d24e241769227e60ee922910",
+    "scenes/g1_moguls_regular.xml": "90354ef223616009e67d3b2eccb56648feebf07ce9bdc51c4dc8bc0eb74681a8",
+    "scenes/g1_moguls_seeded.xml": "3ecb84b3333d22f037485ddcfe64e1ee0ea6e760df9515526807bdb371d1b803",
+    "scenes/g1_piste_high.xml": "e2ba14b36c2816b6d1e8633f42d877eb9fd8bfad345dc475d1c54b1231001ccf",
+    "scenes/g1_piste_low.xml": "53dadaf55e5474e96e0fcdca20e259ef8b506cef493b1a0cd5d4853e9822162c",
+    "scenes/g1_plane_00.xml": "ecc57a4a4598dd751ada74429c2f2442765f46925b7508a8cdc1b363fd07bbb4",
+    "scenes/g1_plane_05.xml": "d743517d49589900ac60877ff3e757b943a3f51a36af3843d84268a763eacb0c",
+    "scenes/g1_plane_10.xml": "ab9939bb53ce3b8609c1eff129f70176086062b5d1db07fe742ac2cce173c0b2",
+    "scenes/g1_plane_15.xml": "4d51f7457df80c34d49330bb8b872228ebf4072a6b14f1b3ef9241ee5b47dfc9",
+    "scenes/g1_plane_20.xml": "79c8a049843712ff306defb4d0b0116e5aa4bc8d5309b1db3816a69a85d2820c",
+    "scenes/g1_plane_25.xml": "87a547639c19429991f4ee2d95d202f7d76993cffeeb4f63b3e1bee2e1c8010d",
+    "scenes/g1_plane_30.xml": "de9fc665de9f8bcef2c9470be621698e562a7d671abf1f143258f89120e9a2cb",
+    "scenes/g1_plane_35.xml": "ebf64ae8e847fd412dddbc601dc4212e00cb4d82335e60db7c57a9b81d81ec9c",
+    "scenes/g1_plane_40.xml": "485487f2ed04e3b8af7894fdb8bf6bd3c9f5266c37e5c97a42fd9585114198ec",
+    "scenes/g1_single_bump.xml": "ae992b91653420eaa6a08eecde2c467e625b58bc16ba1483ef340fd1cd341c8b",
+    "scenes/g1_tabletop_medium.xml": "a8727486b4e4a76233310a7490a07c45021f471d2a9078f420f69450af66e6ed",
+    "scenes/g1_tabletop_small.xml": "bf31faa4de3e41689ccf1d5620efff610bea2b43333aacdb4f981bf15c600886",
+    "scenes/g1_tabletop_steep.xml": "4298a670bd5e7f2e25f915af6461de0bbe128a1821ed580da2911502a0aaa680",
+    "scenes/moguls_regular.xml": "49a8c9fffae32fc21d41fa94bce5c39d13625a096df974146527014069a368e5",
+    "scenes/moguls_seeded.xml": "63531ab0defb1cc379b74cdedf0f38d09bb3d523ea155916add22991f730c558",
+    "scenes/piste_high.xml": "625d5f363011251e82f076143a4670480e58dd104a0c27a2cfe790eaa417113d",
+    "scenes/piste_low.xml": "5db6ab50190127db46941f627098d9326f1d9cb0e8f268cb14078f6ffcbe7011",
+    "scenes/plane_00.xml": "f543dc1f9adfd994a9b0011110527d0311a6e27e8d55bf86d1efe68458e2bc60",
+    "scenes/plane_05.xml": "7163f16e9f411768a29db90c54ee56949f55629b2b887873a68b9391cd27eb0f",
+    "scenes/plane_10.xml": "7c92ab0b2dec1d8a4eda8240aa284651875ded5f5af93ff8d9d9245a5fe8cadf",
+    "scenes/plane_15.xml": "031b6091954fa23b85cf8e847018b218446597bfcf836e79d6f5949913883d12",
+    "scenes/plane_20.xml": "86cb28e48c22a286af1273284e480b956e181336fe5c9dfb98be5fd8cee86fe4",
+    "scenes/plane_25.xml": "ea65fcbfeae9ef3338f66abfdb05a92449841ae0e62849eab159cd47c774178a",
+    "scenes/plane_30.xml": "570c04a8c999a7c4e8ea7fa4660b14de4d1843d143ed4439ac3b53d2e6782b0e",
+    "scenes/plane_35.xml": "d7fc6088ad1586058e6388605b80c1fc1129e2fd8c4a11cafdb1eff1d534d8e7",
+    "scenes/plane_40.xml": "6fed3c14a5253276cf8a4a08626a681db755e6fd0a8c4f16417fc34143d30725",
+    "scenes/single_bump.xml": "8887b8dac7993f771a6b65c768de01b3cf2557ad3b3e62edf8518a7c575b12a3",
+    "scenes/ski_pair.xml": "d26f759358767732f8ae94bc1da40663f1f6e6f252dae3293b68b187e6b42896",
+    "scenes/ski_single.xml": "8a08b54cf674815e6fe791a1ad848eb560f381a315a1cd003c00ab8cfdb084bb",
+    "scenes/tabletop_medium.xml": "a6a922b7165abbd4aa9c2c56334d4562b1a9dc7b15da9e0475f7bd0399a76e3f",
+    "scenes/tabletop_small.xml": "e976f111bb76c872d52553f7927f627f87a949d824b2faa54b32775ce1c5cb8f",
+    "scenes/tabletop_steep.xml": "42ae892d1beb7495e9c3f570742f8a52ba94433069edba7220932b340639b9e0",
     "meshes/ski_base_0_0.obj": "bf7aa3f646ad9049c0eed8c41498e7e239aa87d013af0b9cd2cdd64911738ab6",
     "meshes/ski_base_0_1.obj": "c096bdcc22fc01b7fb10115db66577f759ff49a1afc660317f9eeae38a3370f4",
     "meshes/ski_base_1_0.obj": "e512a3e6e30b48f1cf54d361a1c520e0b8b71d8b1143e339747bb1cd0d023698",
@@ -7613,19 +6133,28 @@
     "terrain/tabletop_steep.bin": "86c6d515fab8a15ba3445a0be42fc9ebc9e1132071f08274766d08ca0eec42ee",
     "terrain/tabletop_steep.json": "b9fa1c8f39068483805be0d6ebd28dbcd8a0dc5413ddfe839ade5ee3c59df5df",
     "terrain/tabletop_steep.npz": "0c95aa6ec75577c527b6d91ef23bad4724677b0f2bda49b85e26f35d0e3cf6f6",
-    "configs/curriculum.json": "601ea9ffb6f95053cd058cd6871d75561c5de9085089aee36029902fc8530076",
-    "configs/design.json": "2faa6e40c4e4b49e13e143b33763b43e7bc0e277e8ebb016dfd009534e1fe7c5",
+    "configs/curriculum.json": "4c5e3e42af256e5ecbf0689a48da5fc0816875669092604fe80399f36518b279",
+    "configs/design.json": "3077e4bb296e3bce4e74c4f63dafc5e5e84e0f02e628309f2346066af61a8ac7",
     "configs/g1_contacts.json": "445ba30f73eac45b914ebc41cedcf88319abacf1342eb8183a78aa786978547c",
     "configs/ski_pair_contacts.json": "5a2bad72222549cb45ef8110f727422cceb37ed532328184b5cd0bc0e9611b41",
     "configs/ski_single_contacts.json": "49aadeabeaf1ca5cf16a0d7145a839a83862076f0cc73d41e8dcb4fdfcd2396c",
-    "tools/attach_g1.py": "4b5d51affe1a8195e4fa7b6032ea787a6aee4e7eb62e7047b9c4aa7d77dc8fa1",
-    "tools/build_assets.py": "e2fdd6fba9a817dd29c02feefb921a657e76f42fddbb7939aa6848dc8ffd6486",
+    "tools/annotate_720.py": "2b220ace9a6108239b7ff14f30aedd13bc55f1b679d7482647116bd5526b8cb1",
+    "tools/attach_g1.py": "c3b85d03b47bb1baccbef95a3367cedd4a9a645b257b5c2f6438b4f300b83293",
+    "tools/audit_contact_details.py": "cb57cb1bd63df96e172b571419e64e12a72a8b2b0a16beec43317a780dbdfd50",
+    "tools/audit_dynamics.py": "ce13bc46c6364b92d3ccc52a00333bddf5da76f4f3a2ac566e85ed43166690c7",
+    "tools/audit_structure_and_flex.py": "988291408c650ce3236c6a35757b8260094788f66cb3c7d0ef8beab036be81a3",
+    "tools/build_assets.py": "eda6fd9a02f5fe2d2084c4cdd05da502ed206649b7abd82de42668dab4393ced",
     "tools/demo.py": "99ca3f8a4772139ceaa30910e135370bb11f5445c43236fc73fa1da343265070",
     "tools/fetch_g1.py": "da13d2fb6faeb73bc16e8dc2883f3849e25e38765369089ac2124984cdf1c52c",
-    "tools/finalize_manifest.py": "3f294b0a54be492684f750a9340bdf58c2de36dd88ee974b4c4eca39f8ed2892",
+    "tools/finalize_manifest.py": "db2207932fda0259b99c3ea32c51ca0311ff432a3ea04160b6ebd8a569fb72be",
     "tools/probe_courses.py": "5be1710fc641d986fbbbe5c3bb31f4121979bd6b1f528d0443af745af19c4b57",
     "tools/render_assets.py": "730459f119e04f3e91c036bf52963a5f17c923b77b96c1ca3e387f5a77ce7571",
-    "tools/runtime.py": "f5e75aa0b4a9a1b1c38719ef91e86630b9a40340b5138a7e7e5a43697b64951f",
-    "tools/validate_assets.py": "ba4e71b699324370e524d7a3a33d5ef9045c3175f37313cecfdb5fd82f4a4b25"
+    "tools/render_docs.py": "ba7f7552577079958fa3d7e76111af8c45b87a1e9b55f3093a0c5917e45acf57",
+    "tools/runtime.py": "a9475f5e47c96c445c38546658e185377f3b6770f0510ad9cb928e7f6dd28352",
+    "tools/surface_contacts.py": "1f925d9d6cdb3ab40b9b1400c4997a5d007d037d4a9c6735a7625315cde331a6",
+    "tools/validate_assets.py": "b487d8ed98d7ead93ae06d4775f8358c0a9285e6b365f048bee933a9946819a9",
+    "tools/verify_contact_modes.py": "908efd2314fb6cb5a7c49f5f9c03b1fd980ced5d751107448c7776229971429c",
+    "tools/verify_repairs.py": "a05be4611fec054eea94bddb1a88891972c162abb70f11bf66e42cf5360478da",
+    "tools/write_audit_verdict.py": "7a91354c51b263f813e62bf1c1792de722b92a9b4c9506d2490044a68102cd51"
   }
 }

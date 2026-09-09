@@ -1,0 +1,313 @@
+{
+  "flat_heightfield_contact_normals": [
+    {
+      "surface": "plane",
+      "grid_m": 0.125,
+      "contact_mode": "all",
+      "y_offset_m": 0,
+      "final_vx": 3.507276036022627,
+      "final_vy": 1.2915515855666349e-05,
+      "max_normal_error_deg": 0.0,
+      "normal_impulse_fraction_more_than_5deg": 0.0,
+      "maximum_abs_Fy_N": 0.003668610410964796,
+      "minimum_distance_m": -0.00017464962804002344,
+      "worst_contact": null
+    },
+    {
+      "surface": "hfield",
+      "grid_m": 0.125,
+      "contact_mode": "all",
+      "y_offset_m": 0,
+      "final_vx": 3.2509757867353115,
+      "final_vy": 0.01742966974536872,
+      "max_normal_error_deg": 89.96152758456502,
+      "normal_impulse_fraction_more_than_5deg": 0.033909359592804195,
+      "maximum_abs_Fy_N": 241.1852339925337,
+      "minimum_distance_m": -0.00052263636593744,
+      "worst_contact": {
+        "time": 1.5899999999999357,
+        "normal": [
+          -0.9999972744666902,
+          0.00223610976202556,
+          0.00067147027007758
+        ],
+        "force_contact": [
+          1584.2145049540036,
+          37.699352626139806,
+          -111.46268605655315,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          2.500003741275063,
+          0.027461350090009023,
+          -3.0370949174302784e-05
+        ],
+        "geom": "ski0_base_0_1",
+        "distance": -7.482570520701186e-06
+      }
+    },
+    {
+      "surface": "hfield",
+      "grid_m": 0.125,
+      "contact_mode": "all",
+      "y_offset_m": 0.03125,
+      "final_vx": 3.3773686810188406,
+      "final_vy": 0.13796106925881216,
+      "max_normal_error_deg": 90.00000000111127,
+      "normal_impulse_fraction_more_than_5deg": 0.026443962992269365,
+      "maximum_abs_Fy_N": 403.55249469925826,
+      "minimum_distance_m": -0.0004653210065008323,
+      "worst_contact": {
+        "time": 1.2409999999999741,
+        "normal": [
+          0.0,
+          1.0,
+          -1.939528836864565e-11
+        ],
+        "force_contact": [
+          261.7423044811138,
+          -13.044596937126924,
+          1.6865211611952093,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          1.5736497633079753,
+          -1.1429861662370092e-05,
+          -4.124097434678911e-05
+        ],
+        "geom": "ski0_base_3_0",
+        "distance": -2.2859723324740188e-05
+      }
+    },
+    {
+      "surface": "hfield",
+      "grid_m": 0.0625,
+      "contact_mode": "all",
+      "y_offset_m": 0,
+      "final_vx": 2.8955018548902545,
+      "final_vy": 0.06746670503304418,
+      "max_normal_error_deg": 90.00753054480714,
+      "normal_impulse_fraction_more_than_5deg": 0.09377563008524466,
+      "maximum_abs_Fy_N": 555.0578221907895,
+      "minimum_distance_m": -0.0004731516569865899,
+      "worst_contact": {
+        "time": 1.5669999999999382,
+        "normal": [
+          -0.9981404136473359,
+          0.060956520318535524,
+          -0.0001314328009750364
+        ],
+        "force_contact": [
+          1857.3205194500888,
+          -30.35031255567769,
+          140.42638892924745,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          3.375003507558109,
+          -0.06250021420687332,
+          -2.4494150058554605e-05
+        ],
+        "geom": "ski0_base_5_1",
+        "distance": -7.028185736083173e-06
+      }
+    },
+    {
+      "surface": "hfield",
+      "grid_m": 0.25,
+      "contact_mode": "all",
+      "y_offset_m": 0,
+      "final_vx": 3.180430397390646,
+      "final_vy": -0.03925488522740658,
+      "max_normal_error_deg": 90.0,
+      "normal_impulse_fraction_more_than_5deg": 0.03689742292411131,
+      "maximum_abs_Fy_N": 807.9849080910406,
+      "minimum_distance_m": -0.001278164789451194,
+      "worst_contact": {
+        "time": 1.5889999999999358,
+        "normal": [
+          -0.7071067811903937,
+          0.7071067811827014,
+          0.0
+        ],
+        "force_contact": [
+          1185.824329899815,
+          -58.21832935684776,
+          17.965262862114304,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          3.280744262183689,
+          -0.21926084061235543,
+          -9.585017723933581e-05
+        ],
+        "geom": "ski0_base_5_1",
+        "distance": -7.216443371902006e-06
+      }
+    },
+    {
+      "surface": "hfield",
+      "grid_m": 0.125,
+      "contact_mode": "base",
+      "y_offset_m": 0,
+      "final_vx": 2.585367126662113,
+      "final_vy": 0.029020516122503975,
+      "max_normal_error_deg": 90.0071490558372,
+      "normal_impulse_fraction_more_than_5deg": 0.08719379096977717,
+      "maximum_abs_Fy_N": 225.58546459034056,
+      "minimum_distance_m": -0.00020675342242374158,
+      "worst_contact": {
+        "time": 0.8010000000000006,
+        "normal": [
+          -0.9999999919157789,
+          2.4489807785583966e-05,
+          -0.00012477456244434524
+        ],
+        "force_contact": [
+          1675.5560364516487,
+          -5.71274555686158,
+          20.37087569133952,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.5000095856000469,
+          0.0257023480031341,
+          -7.147101008389499e-05
+        ],
+        "geom": "ski0_base_5_1",
+        "distance": -1.9171200248931132e-05
+      }
+    },
+    {
+      "surface": "hfield",
+      "grid_m": 0.125,
+      "contact_mode": "edge",
+      "y_offset_m": 0,
+      "final_vx": 3.5024215007352293,
+      "final_vy": -0.0024776500546062428,
+      "max_normal_error_deg": 15.864774375425883,
+      "normal_impulse_fraction_more_than_5deg": 0.001618550644602824,
+      "maximum_abs_Fy_N": 4.901051899183433,
+      "minimum_distance_m": -0.0001398895642251727,
+      "worst_contact": {
+        "time": 1.2299999999999753,
+        "normal": [
+          -0.1933002855153647,
+          0.19330028551544962,
+          0.9619095587628416
+        ],
+        "force_contact": [
+          21.127550833323,
+          -1.0521970562274248,
+          0.15022002340426188,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          1.1710896146251262,
+          0.04608891137886879,
+          -1.749762798925087e-06
+        ],
+        "geom": "ski0_edge_0_1_L",
+        "distance": -3.638102528432611e-06
+      }
+    }
+  ],
+  "dynamic_edge_transfer": [
+    {
+      "dt": 0.001,
+      "duration": 2,
+      "applied_fixture_work_J": 0.9237218828028857,
+      "maximum_energy_above_initial_plus_work_J": 0.003471680008694286,
+      "max_force_vector_change_per_step_N": 261.95518647135515,
+      "min_distance_m": -0.0007616802119574679,
+      "max_tracking_error_deg": 4.886097269844758,
+      "final_position": [
+        9.2224869367272e-07,
+        0.0003222682396239694,
+        0.004361334294043298
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fixture": "XYZ and yaw free; explicit bounded roll motor, torque/work recorded. Not a robot controller."
+    },
+    {
+      "dt": 0.0005,
+      "duration": 2,
+      "applied_fixture_work_J": 0.8954079182757834,
+      "maximum_energy_above_initial_plus_work_J": 0.00027539471785704983,
+      "max_force_vector_change_per_step_N": 261.99093745095223,
+      "min_distance_m": -0.000778235799984853,
+      "max_tracking_error_deg": 4.883152047934687,
+      "final_position": [
+        1.2299602812542868e-06,
+        0.0003427089754707766,
+        0.004361678950657094
+      ],
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fixture": "XYZ and yaw free; explicit bounded roll motor, torque/work recorded. Not a robot controller."
+    }
+  ],
+  "airborne_and_pitch": {
+    "airborne": [
+      {
+        "pitch_deg": 0,
+        "roll_deg": 0,
+        "no_contact_steps": 20,
+        "steps": 20,
+        "force_peak": 0.0
+      },
+      {
+        "pitch_deg": 25,
+        "roll_deg": 0,
+        "no_contact_steps": 20,
+        "steps": 20,
+        "force_peak": 0.0
+      },
+      {
+        "pitch_deg": 0,
+        "roll_deg": 35,
+        "no_contact_steps": 20,
+        "steps": 20,
+        "force_peak": 0.0
+      },
+      {
+        "pitch_deg": 180,
+        "roll_deg": 0,
+        "no_contact_steps": 20,
+        "steps": 20,
+        "force_peak": 0.0
+      }
+    ],
+    "pure_pitch_max_mu_lateral": 0.08,
+    "pure_pitch_contacts": 53
+  }
+}

@@ -25,7 +25,8 @@ def main():
         # so mounting passive masses does not silently retune the 29 actuators.
         default.find(".//default[@class='g1']/position").attrib.pop('dampratio',None)
         default.find(".//default[@class='collision']/geom").set('contype','4')
-        default.find(".//default[@class='collision']/geom").set('conaffinity','3')
+        # Bits: snow=1, ski=2, robot=4. Include robot bit to preserve self-collision.
+        default.find(".//default[@class='collision']/geom").set('conaffinity','7')
         # Installed feet must not also directly support against snow through the blade.
         foot=default.find(".//default[@class='foot']/geom")
         foot.set('contype','0');foot.set('conaffinity','0')

@@ -1,0 +1,20 @@
+{
+  "version": "env-v1.2-surface-manifold",
+  "bounded_cpu_fixture_gates_passed": true,
+  "overall": "BOUNDED_CPU_FIXTURES_PASSED_FORMAL_RL_NOT_CERTIFIED",
+  "training_ready": false,
+  "checks": 1421,
+  "failed_checks": [],
+  "retained_limitations": [
+    "3 s uncontrolled regular-mogul tumbling final speed differs 9.81% across dt; this is still an unresolved long-rollout sensitivity, not silently counted as passing.",
+    "4 m/s fixed-roll probe has appreciable sideslip; only the conservative 2 m/s fixture supports the low-sideslip claim.",
+    "Full G1 takeoff, landing recovery, policy success rates and batch backends remain unverified.",
+    "No real snow or ski material calibration."
+  ],
+  "baseline": "../repair_baseline/",
+  "measurements": [
+    "verification.json",
+    "contact_modes.json",
+    "../validation.json"
+  ]
+}
