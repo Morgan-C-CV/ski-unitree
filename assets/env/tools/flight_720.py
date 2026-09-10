@@ -44,7 +44,7 @@ def flight(Lz=9,T=1.3,dt=.0005,save=True,tilt=(0,0)):
    sx=[d.xmat[m.body(side+'_ski_segment_3').id].reshape(3,3)[:,0] for side in ['left','right']];cross=math.degrees(math.acos(np.clip(sx[0]@sx[1],-1,1)))
    rows.append(dict(time=t,cross_angle_deg=cross,qpos=d.qpos.copy(),qvel=d.qvel.copy(),ctrl=d.ctrl.copy(),com=d.subtree_com[1].copy(),angmom=d.subtree_angmom[1].copy(),yaw=math.atan2(R[1,0],R[0,0]),up=R[2,2],grab_distance=float(np.linalg.norm(p-g))))
   mincon=min(mincon,min([float(c.dist) for c in d.contact[:d.ncon]] or [0]))
-  if k<round(T/dt):mujoco.mj_step(m,d);peakactual=np.maximum(peakactual,abs(d.actuator_force))
+  if k<round(T/dt):mujoco.mj_step(m,d);peakactual=np.maximum(peakactual,abs(d.qfrc_actuator[va]))
  spin=np.degrees(np.unwrap([r['yaw'] for r in rows]));com=np.array([r['com'] for r in rows]);times=np.array([r['time'] for r in rows]);expected=com[0]+times[:,None]*initial_v;expected[:,2]-=.5*9.81*times**2
  report=dict(tilt=list(tilt),final_rpy_deg=Rotation.from_matrix(d.xmat[1].reshape(3,3)).as_euler("xyz",degrees=True).tolist(),Lz=Lz,T=T,dt=dt,spin_deg=float(spin[-1]),min_up=float(min(r['up'] for r in rows)),com_ballistic_error_m=float(np.max(np.linalg.norm(com-expected,axis=1))),angular_momentum_drift=float(np.max(np.linalg.norm(np.array([r['angmom'] for r in rows])-[0,0,Lz],axis=1))),max_joint_tracking_error_rad=maxerr,control_clipped_fraction=clipsteps/(round(T/dt)+1),requested_peak_torques=peakreq.tolist(),actual_peak_torques=peakactual.tolist(),minimum_self_contact_distance=mincon,grab_distance_mid_m=float(rows[len(rows)//2]['grab_distance']),warnings=d.warning.number.tolist())
  if save:

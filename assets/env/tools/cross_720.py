@@ -14,7 +14,9 @@ def grab_points(m,d):
 def solve_cross():
  m,d=model();qa,va,names=ids(m);d.qpos[:3]=[0,0,30];d.qpos[3:7]=[1,0,0,0];nom=np.zeros(29)
  for side,sign in [('left',1),('right',-1)]:
-  for key,value in [('hip_pitch_joint',-1.55),('knee_joint',2.4),('ankle_pitch_joint',-.85),('hip_yaw_joint',sign*.7),('hip_roll_joint',sign*.12),('ankle_roll_joint',-sign*.12),('shoulder_roll_joint',sign*.3),('elbow_joint',.6)]:nom[names.index(side+'_'+key)]=value
+  for key,value in [('hip_pitch_joint',-1.55),('knee_joint',2.4),('ankle_pitch_joint',-.85),('hip_yaw_joint',-sign*.35),('hip_roll_joint',sign*.12),('ankle_roll_joint',-sign*.12),('shoulder_roll_joint',sign*.3),('elbow_joint',.6)]:nom[names.index(side+'_'+key)]=value
+ for side,values in [('left',[-1.0,2.0,-.8]),('right',[-1.5,2.4,-.3])]:
+  for key,value in zip(['hip_pitch_joint','knee_joint','ankle_pitch_joint'],values):nom[names.index(side+'_'+key)]=value
  nom[names.index('right_shoulder_pitch_joint')]=.3;nom[names.index('waist_yaw_joint')]=-.25
  ji=m.actuator_trnid[:,0];lo=m.jnt_range[ji,0]+.025;hi=m.jnt_range[ji,1]-.025
  lo[names.index('waist_pitch_joint')]=-.4;hi[names.index('waist_pitch_joint')]=.4
@@ -23,11 +25,15 @@ def solve_cross():
  # Let the contact target choose a feasible compact crouch, not an arbitrary skeleton.
  variable=[i for i,n in enumerate(names) if not n.startswith('left_shoulder') and not n.startswith('left_elbow') and not n.startswith('left_wrist')]
  ski_ids=[m.body(side+'_ski_segment_3').id for side in ['left','right']]
- desired=[Rotation.from_euler('ZY',[-45,10],degrees=True).as_matrix(),Rotation.from_euler('ZY',[45,35],degrees=True).as_matrix()]
+ desired=[Rotation.from_euler('ZY',[-22.5,10],degrees=True).as_matrix(),Rotation.from_euler('ZY',[22.5,35],degrees=True).as_matrix()]
  def evaluate(x,return_q=False):
   q=nom.copy();q[variable]=x;d.qpos[qa]=q;mujoco.mj_forward(m,d);res=[]
   centers=[d.xpos[b]-d.qpos[:3] for b in ski_ids]
-  ax=[d.xmat[b].reshape(3,3)[:2,0] for b in ski_ids];res.append(float(ax[0]@ax[1]/(np.linalg.norm(ax[0])*np.linalg.norm(ax[1])))*20)
+  axes=[d.xmat[b].reshape(3,3)[:,0] for b in ski_ids];ax=[a[:2] for a in axes];res.append(float(ax[0]@ax[1]/(np.linalg.norm(ax[0])*np.linalg.norm(ax[1]))-np.cos(np.pi/4))*20)
+  ss=np.linalg.lstsq(np.column_stack([ax[0],-ax[1]]),centers[1][:2]-centers[0][:2],rcond=1e-6)[0]
+  cross_z=[centers[i][2]+ss[i]*axes[i][2] for i in range(2)]
+  res.append((cross_z[1]-cross_z[0]-.03)*80)
+  res.extend(np.maximum(.20-ss,0)*50);res.extend(np.maximum(ss-.65,0)*50)
   # Crossing must be ahead of both bindings (+X). Right tail is lifted for the grab.
   for i,b in enumerate(ski_ids):
    R=d.xmat[b].reshape(3,3)

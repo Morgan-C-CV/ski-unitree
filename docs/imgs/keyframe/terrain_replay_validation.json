@@ -1,0 +1,18 @@
+{
+  "timestep_s": 0.00025,
+  "duration_s": 1.3,
+  "max_qpos_difference": 1.4921397450962104e-13,
+  "maximum_airborne_snow_normal_force_N": 0.0,
+  "first_snow_force_time_s": null,
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "passed": true
+}

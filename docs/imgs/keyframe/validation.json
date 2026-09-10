@@ -1,0 +1,210 @@
+{
+  "status": "AIRBORNE_REFERENCE_VALIDATED_GROUND_SKILL_NOT_VALIDATED",
+  "checks": {
+    "at_least_15_frames": true,
+    "front_cross_at_takeoff_and_hold": true,
+    "grab_hold_palm_tail_gap_under_10mm": true,
+    "parallel_before_landing_under_2deg": true,
+    "spin_within_1deg_of_720": true,
+    "airborne_snow_clearance": true,
+    "native_self_penetration_under_1mm": true,
+    "ground_goals_self_penetration_under_1mm": true,
+    "ground_goals_no_snow_penetration": true,
+    "all_keyframe_joint_limits": true,
+    "actual_joint_torque_limits": true,
+    "air_com_ballistic_error_under_5mm": true,
+    "air_angular_momentum_relative_drift_under_1percent": true,
+    "dt_halving_heading_difference_under_0_2deg": true,
+    "air_no_mujoco_warnings": true,
+    "production_snow_backend_replay": true
+  },
+  "airborne_checks_passed": true,
+  "frame_count": 30,
+  "native_dynamic_frames": 23,
+  "training_ready_full_skill": false,
+  "placement": {
+    "initial_speed_m_s": 7.052529779900755,
+    "initial_com_velocity": [
+      6.707354403540238,
+      0,
+      2.1793515553247405
+    ],
+    "launch_root": [
+      22.8,
+      0.0,
+      -3.784704140342048
+    ],
+    "landing_root": [
+      31.537300459538486,
+      -0.07228620160970603,
+      -9.173091760473534
+    ],
+    "minimum_interior_vertical_clearance_m": 0.02465805465941351,
+    "final_vertical_clearance_m": -7.105427357601002e-15,
+    "initial_vertical_clearance_m": 0.0019999999999997797,
+    "T": 1.3
+  },
+  "airborne": {
+    "tilt": [
+      0.19029522695321863,
+      -0.02583092438081944
+    ],
+    "final_rpy_deg": [
+      0.04574251291250286,
+      0.10063815322243044,
+      -0.08891141447879698
+    ],
+    "Lz": 11.046067729846666,
+    "T": 1.3,
+    "dt": 0.00025,
+    "spin_deg": 719.9110885855212,
+    "min_up": 0.8811373292779513,
+    "com_ballistic_error_m": 0.0027325213611444784,
+    "angular_momentum_drift": 0.017963501878626685,
+    "max_joint_tracking_error_rad": 0.19080795435684061,
+    "control_clipped_fraction": 0.0,
+    "requested_peak_torques": [
+      18.121531158439716,
+      23.27001580823915,
+      19.52590521535959,
+      11.496798693281619,
+      9.16298946266898,
+      1.9111080697886,
+      29.58161938536607,
+      19.24173265519261,
+      13.289326847370553,
+      19.18609155228477,
+      13.176123628162399,
+      0.9478339132443271,
+      30.66627654130646,
+      31.271028268409438,
+      29.734836998650227,
+      8.427434592730531,
+      13.274821038644069,
+      4.9592078203815015,
+      4.105427051287832,
+      0.014160802675005356,
+      0.9171411633860537,
+      0.5818564939193862,
+      21.31344879442671,
+      127.74886510593274,
+      11.034759615720443,
+      7.942618995474353,
+      2.4665422623926916,
+      1.5717664589403586,
+      1.835532625979584
+    ],
+    "actual_peak_torques": [
+      18.121531158439666,
+      23.27001580823915,
+      19.52590521535959,
+      11.496798693281676,
+      9.162989462669032,
+      1.9111080697885998,
+      29.581619385366253,
+      19.24173265519261,
+      13.289326847370551,
+      19.18609155228478,
+      13.176123628162372,
+      0.947833913244327,
+      30.66627654130646,
+      31.271028268409435,
+      29.734836998650238,
+      8.427434592730535,
+      13.274821038644063,
+      4.9592078203815015,
+      4.105427051287819,
+      0.014160802675005356,
+      0.9171411633860536,
+      0.5818564939193862,
+      21.313448794426705,
+      25.0,
+      11.034759615720443,
+      7.942618995474277,
+      2.4665422623926894,
+      1.5717664589403455,
+      1.8355326259795675
+    ],
+    "minimum_self_contact_distance": -0.0004945961383279827,
+    "grab_distance_mid_m": 0.003019265860279321,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "dt_halving": {
+    "dt_s": 0.000125,
+    "spin_deg": 719.8673963711555,
+    "heading_difference_deg": 0.043692214365705695
+  },
+  "hold_metrics": {
+    "max_palm_tail_distance_m": 0.003953860000326249,
+    "min_forward_intersection_m": [
+      0.19017055571133426,
+      0.20852043290726732
+    ],
+    "max_forward_intersection_m": [
+      0.19098972636398887,
+      0.20974428535930012
+    ]
+  },
+  "failed_fixed_pose_landing": {
+    "duration_s": 0.5,
+    "minimum_contact_distance_m": -0.02506453699493023,
+    "min_up": 0.22084280685040358,
+    "final_up": 0.4218613223316826,
+    "warning_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual_peak_joint_torque_Nm": [
+      88.0,
+      43.92510945154147,
+      54.231357890426885,
+      139.0,
+      50.0,
+      46.183157907771054,
+      88.0,
+      139.0,
+      48.17525135295997,
+      139.0,
+      50.0,
+      49.83771572276863,
+      88.0,
+      50.0,
+      50.0,
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      6.892604648709884,
+      5.0,
+      5.0,
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      9.85604930560476,
+      5.0,
+      5.0
+    ]
+  },
+  "blockers": [
+    "Ground takeoff has not been dynamically generated; t=0 is an airborne curriculum reset with prescribed angular momentum.",
+    "Official G1 hands are fixed geometry; palm/tail proximity is not a physical grasp.",
+    "Fixed-pose native landing loses balance; ground frames are pose goals, not a successful dynamic demonstration.",
+    "Native right shoulder roll joint saturates at 25 Nm during release; joint tracking is not exact."
+  ]
+}

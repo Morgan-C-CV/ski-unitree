@@ -1,0 +1,22 @@
+{
+  "initial_speed_m_s": 7.052529779900755,
+  "initial_com_velocity": [
+    6.707354403540238,
+    0,
+    2.1793515553247405
+  ],
+  "launch_root": [
+    22.8,
+    0.0,
+    -3.784704140342048
+  ],
+  "landing_root": [
+    31.537300459538486,
+    -0.07228620160970603,
+    -9.173091760473534
+  ],
+  "minimum_interior_vertical_clearance_m": 0.02465805465941351,
+  "final_vertical_clearance_m": -7.105427357601002e-15,
+  "initial_vertical_clearance_m": 0.0019999999999997797,
+  "T": 1.3
+}

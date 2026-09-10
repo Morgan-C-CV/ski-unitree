@@ -1,18 +1,17 @@
 [
   {
-    "file": "jossi_wells.jpg",
-    "athlete": "Jossi Wells",
-    "page": "https://www.snowsports.co.nz/about-us/our-athletes/our-freeskiers/jossi-wells/",
-    "url": "https://www.snowsports.co.nz/assets/Uploads/_resampled/ResizedImage600749-Jossi-Wells-action-shot.jpg",
-    "sha256": "83e27559795aed858b96b0a1a2eb35d41cc92f8189006804b50d6abc56a2fb22",
-    "purpose": "User-requested visual pose reference only; no claim this still demonstrates 720 degrees; source copyright retained."
-  },
-  {
     "file": "noah_morrison.jpg",
     "athlete": "Noah Morrison",
     "page": "https://forecastski.com/blogs/video/noah-morrison-through-sun-and-clouds",
     "url": "https://forecastski.com/cdn/shop/articles/noah_morrison_through_sun_and_clouds.jpg?v=1666117970",
     "sha256": "d2e859f823aaaeab8edc52d4faf07eb625c4d29e48b2b9ac91558c0812d90220",
     "purpose": "User-requested visual pose reference only; no claim this still demonstrates 720 degrees; source copyright retained."
+  },
+  {
+    "file": "irving_article.jpg",
+    "page": "https://www.skyhinews.com/news/irving-siblings-of-winter-park-get-ready-for-aspen-x-games/",
+    "url": "https://swiftmedia.s3.amazonaws.com/mountain.swiftcom.com/images/sites/9/2024/01/21195832/F95980C1-B531-44C4-8DCB-BAAD5453BABC_1_201_a-1-1024x881.jpeg",
+    "sha256": "eb9619a46e0e309b5575d7af9d530b080011d8691b49116a2289c544e34050f8",
+    "purpose": "Visual pose reference from Irving siblings article. No identification of the pictured athlete inferred; no 720 claim from one still. Source copyright retained."
   }
 ]
